@@ -1,19 +1,22 @@
-Current Topic:
+# Active Topic
 
 Knowledge Tracing
 
-Goals:
+## Goal
 
-- Foundational Papers
-- Survey Papers
-- Recent Papers
+Research:
+
+- Foundational papers
+- Survey papers
+- Recent SOTA papers
 - Datasets
 - Benchmarks
-- Open Problems
+- Open problems
 
-Deliverables:
+## Deliverables
 
 - summary.md
 - critique.md
+- architecture_impact.md
 - ADR
 - future_questions.md
