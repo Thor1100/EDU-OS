@@ -83,6 +83,24 @@
 - [[help-seeking]]: Learner behavior of requesting assistance; can indicate either productive self-regulation or help abuse.
 - [[peer-tutoring]]: Collaborative learning arrangement where learners tutor each other, often orchestrated by an ITS.
 
+## Cognitive Architectures
+
+- [[cognitive-architecture]]: Unified theory of cognition specifying fixed mechanisms for perception, memory, learning, reasoning, and action (e.g., ACT-R, SOAR, CLARION, LIDA).
+- [[act-r]]: Adaptive Control of Thought–Rational; production-rule architecture with declarative, procedural, and working memory.
+- [[soar]]: State, Operator, And Result; problem-space architecture with universal subgoaling and chunking.
+- [[clarion]]: Connectionist Learning with Adaptive Rule Induction ON-line; dual-process (implicit/explicit) architecture with motivational and metacognitive subsystems.
+- [[lida]]: Learning Intelligent Distribution Agent; biologically inspired architecture with global workspace theory and multiple memory systems.
+- [[production-rule]]: Condition-action rule (IF condition THEN action) used in symbolic cognitive architectures to model procedural knowledge.
+- [[declarative-memory]]: Memory for facts, concepts, and episodes; corresponds to semantic and episodic memory in cognitive architectures.
+- [[procedural-memory]]: Memory for skills, habits, and condition-action rules; enables automatic, fluent performance.
+- [[working-memory]]: Limited-capacity, fast-decay system holding currently active information for cognitive processing.
+- [[universal-subgoaling]]: SOAR's mechanism of automatically creating subgoals when an impasse is reached during problem solving.
+- [[chunking]]: Learning mechanism in SOAR where solving a subgoal creates a new production rule, speeding future similar problem solving.
+- [[global-workspace-theory]]: Theoretical framework (Baars, Dehaene) implemented in LIDA where multiple processes compete for conscious attention.
+- [[dual-process-theory]]: Theory positing two cognitive systems—fast, automatic, implicit processes and slow, deliberate, explicit processes.
+- [[cognitive-cycle]]: Recurring sequence of perception, attention, understanding, action selection, and motor action in architectures like LIDA.
+- [[model-tracing]]: Diagnosis technique where a system simulates learner problem solving using a cognitive architecture and compares predictions to observed behavior.
+
 ## Data & Evaluation
 
 - [[cold-start-problem]]: Difficulty of providing accurate recommendations/models for new users with minimal data.

@@ -116,6 +116,18 @@ Precise error diagnosis maps incorrect reasoning to known misconception patterns
 - [[affective-tutoring]] → responds-to → [[affective-state]]
 Tutoring behavior adjusts based on detected emotions (frustration, boredom, confusion, flow).
 
+- [[cognitive-architecture]] → informs → [[intelligent-tutoring-system]]
+Unified theories of cognition provide theoretical grounding for tutoring system design (ACT-R → Cognitive Tutors).
+
+- [[declarative-memory]] → compiles-to → [[procedural-memory]]
+In ACT-R, repeated practice transforms declarative knowledge into fluent procedural skills.
+
+- [[working-memory]] → constrains → [[cognitive-load]]
+Limited working memory capacity imposes bounds on what learners can process simultaneously.
+
+- [[cognitive-cycle]] → drives → [[feedback-loop]]
+The recurring sequence of perceive-understand-act-evaluate structures the tutoring interaction loop.
+
 ## Temporal Relationships
 
 - [[assessment]] → updates → [[knowledge-tracing]] → updates → [[learner-model]]
