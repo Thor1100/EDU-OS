@@ -1,11 +1,10 @@
 # Active Topic
 
-Knowledge Tracing
+Assessment Systems
 
 ## Goal
 
 Research:
-
 - Foundational papers
 - Survey papers
 - Recent SOTA papers
