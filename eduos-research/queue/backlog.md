@@ -6,12 +6,12 @@
 - [x] Learner Modeling
 - [x] Educational Knowledge Graphs
 - [x] Intelligent Tutoring Systems
-- [ ] Cognitive Architectures
-- [ ] Assessment Systems
+- [x] Cognitive Architectures
+- [x] Assessment Systems
+- [ ] Educational Agents
 
 ## Advanced Research
 
-- [ ] Educational Agents
 - [ ] Learning Analytics
 - [ ] Misconception Detection
 - [ ] Adaptive Learning

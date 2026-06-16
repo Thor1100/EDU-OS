@@ -546,3 +546,236 @@ Research Cycle Started Tue Jun 16 17:29:12 UTC 2026
 ====================================
 Research Cycle Started Tue Jun 16 20:05:23 UTC 2026
 ====================================
+ ## EduOS Research Iteration: Complete
+
+**Topic Processed:** Educational Knowledge Graphs  
+**Status:** ✅ Topic Completed
+
+### Completion Verification
+
+| Completion Criteria | Status |
+|---|---|
+| summary.md | ✅ (typo "Zeros" fixed to "8.") |
+| critique.md | ✅ |
+| architecture_impact.md | ✅ |
+| future_questions.md | ✅ |
+| Knowledge graph (concepts) | ✅ |
+| Knowledge graph (relationships) | ✅ (added 3 missing EKG relationships) |
+| Knowledge graph (open-problems) | ✅ (added P23-P28) |
+
+### Updates Made
+
+- **summary.md:** Fixed line 72 (typo: `Zeros` → `8.`)
+- **research-graph/relationships.md:** Added 3 EKG-specific relationships:
+  - `[[educational-knowledge-graph]] → constrains → [[adaptive-learning]]`
+  - `[[learner-model]] + [[educational-knowledge-graph]] → [[learner-subgraph]]`
+  - `[[educational-knowledge-graph]] → enables → [[intelligent-tutoring-system]]`
+- **research-graph/open-problems.md:** Added 6 new EKG open problems (P28: Integration & Fairness)
+- **research-program/research_journal.md:** Appended full EKG entry (findings, architecture impact, remaining uncertainty, next direction)
+- **queue files:** 
+  - `active.md` → set to **Intelligent Tutoring Systems**
+  - `backlog.md` → marked EKG as [x]
+  - `completed.md` → added EKG completion record
+
+### Git
+
+- **Branch:** `research-server`
+- **Commit:** `d2a77ce` - `research: complete Educational Knowledge Graphs`
+- **Push:** ✅ Synced to remote `research-server` branch
+
+---
+
+**Next Topic in Queue:** Intelligent Tutoring Systems
+Tue Jun 16 20:14:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Tue Jun 16 20:19:00 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_8ba14c527a0f
+Tue Jun 16 20:25:09 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 20:35:09 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_ae0361612059
+Tue Jun 16 20:36:04 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 20:46:04 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_cafca865c94c
+Tue Jun 16 20:46:57 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 20:56:57 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_260c04f31e01
+Tue Jun 16 20:57:51 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 21:07:51 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_3ae20da1928c
+Tue Jun 16 21:16:06 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 21:26:06 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_80d09d7a9ce4
+Tue Jun 16 21:27:01 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 21:37:01 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_4f08069eaa6e
+Tue Jun 16 21:37:57 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 21:47:57 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_722495c42966
+Tue Jun 16 21:48:50 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 21:58:50 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_67b259721c91
+Tue Jun 16 21:59:43 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 22:09:43 UTC 2026
+====================================
+ 
+Tue Jun 16 22:17:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Tue Jun 16 22:22:20 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_138953449afe
+Tue Jun 16 22:23:40 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 22:33:40 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_dbd83d2543e7
+Tue Jun 16 22:34:33 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 22:44:33 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_e5206dcb90cc
+Tue Jun 16 22:45:39 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 22:55:39 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_857274326fa0
+Tue Jun 16 22:56:33 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 23:06:33 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_982eece018b1
+Tue Jun 16 23:07:25 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 23:17:25 UTC 2026
+====================================

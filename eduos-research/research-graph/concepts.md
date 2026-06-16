@@ -100,8 +100,32 @@
 - [[dual-process-theory]]: Theory positing two cognitive systems—fast, automatic, implicit processes and slow, deliberate, explicit processes.
 - [[cognitive-cycle]]: Recurring sequence of perception, attention, understanding, action selection, and motor action in architectures like LIDA.
 - [[model-tracing]]: Diagnosis technique where a system simulates learner problem solving using a cognitive architecture and compares predictions to observed behavior.
+- [[impasse]]: State in problem solving where no applicable operator exists, triggering subgoaling.
+- [[subgoal]]: A decomposed goal created to resolve an impasse in hierarchical problem solving.
+- [[compilation]]: The process by which declarative knowledge transforms into procedural skill through practice (ACT-R).
+- [[cognitive-cycle]]: Recurring sequence of perception, attention, understanding, action selection, and motor action in architectures like LIDA.
+- [[dual-process-theory]]: Theory positing two cognitive systems—fast, automatic, implicit processes and slow, deliberate, explicit processes.
+- [[global-workspace-theory]]: Theoretical framework (Baars, Dehaene) implemented in LIDA where multiple processes compete for conscious attention.
+- [[activation-based-retrieval]]: Memory retrieval mechanism based on activation levels (recency, frequency, context) rather than direct addressing.
+- [[metacognitive-state]]: Awareness and control of one's own cognitive processes, including planning, monitoring, and evaluation.
+- [[motivational-state]]: Drives, goals, and self-efficacy that modulate cognitive engagement and effort allocation.
 
-## Data & Evaluation
+## Assessment Systems
+
+- [[assessment-system]]: The methods and tools used to evaluate learner knowledge, skills, and competencies. Central to the adaptive learning loop in EduOS.
+- [[classical-test-theory]]: A psychometric theory that posits an observed test score is composed of a true score and an error term.
+- [[item-response-theory]]: A family of models describing the relationship between a latent trait (ability) and the probability of a specific response to an item.
+- [[computerized-adaptive-testing]]: A testing paradigm where the next item is dynamically selected based on the learner's estimated ability, aiming for maximum precision with minimum items.
+- [[diagnostic-assessment]]: Pre-instruction assessment to identify prior knowledge, misconceptions, and learning gaps.
+- [[formative-assessment]]: Ongoing, real-time assessment to provide feedback and adjust instruction during the learning process.
+- [[summative-assessment]]: End-of-unit assessment to certify mastery and evaluate learning outcomes.
+- [[automated-assessment]]: Use of algorithms to score learner responses without human intervention. Includes selected-response, short-answer, essay, and code scoring.
+- [[process-based-assessment]]: Evaluation of learner behavior during a task (e.g., response time, hint use, error patterns) in addition to final outcomes.
+- [[differential-item-functioning]]: A statistical property where items function differently for learners from different groups with the same underlying ability, indicating potential bias.
+- [[assessment-validity]]: The degree to which an assessment measures what it claims to measure (content, construct, predictive, consequential validity).
+- [[assessment-reliability]]: The consistency and stability of assessment scores (internal consistency, test-retest, inter-rater).
+- [[auto-essay-scoring]]: Automated grading of essays using NLP, feature-engineering, or deep learning models.
+- [[auto-code-evaluation]]: Automated assessment of programming solutions using static/dynamic analysis and test-case execution.
 
 - [[cold-start-problem]]: Difficulty of providing accurate recommendations/models for new users with minimal data.
 - [[dataset]]: The ASSISTments, Junyi Academy, Cognitive Tutor, and other public datasets used for KT benchmarking.

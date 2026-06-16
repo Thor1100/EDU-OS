@@ -305,3 +305,139 @@
 ### P22: Multi-Agent Learner State Consensus
 **Applies to:** [[learner-model]], [[intelligent-tutoring-system]]
 **Question:** How do we reconcile conflicting agent assessments of learner state into a canonical model?
+
+---
+
+## Cognitive Architectures
+
+### P39: Hybrid Cognitive-Neural Architectures
+**Status**: No mature theory integrates symbolic cognitive architectures with neural learning systems.
+**Impact**: High — EduOS needs both structure and generalization.
+**Questions**:
+- Can production rules be automatically extracted from neural representations?
+- What are the representational trade-offs between symbolic, neural, and hybrid architectures?
+- How do we maintain interpretability when neural components replace symbolic reasoning?
+
+### P40: Scalable Long-Term Learner Modeling
+**Status**: Cognitive architectures model single tasks or short sessions. Lifelong, multi-domain modeling at scale is unsolved.
+**Impact**: High — EduOS targets years-long learner engagement.
+**Questions**:
+- How can declarative memory scale to millions of chunks across domains?
+- What approximate algorithms preserve activation dynamics while scaling?
+- Can old episodic memories be compressed without losing learner-specific patterns?
+
+### P41: Affective and Motivational Integration
+**Status**: ACT-R and SOAR model affect minimally; CLARION is an exception but lacks operationalization for real-time systems.
+**Impact**: Medium-high — engagement and dropout are critical.
+**Questions**:
+- How do working memory and reasoning change under different affective states?
+- Can CLARION's motivational subsystem be operationalized for real-time learning analytics?
+- How should tutoring strategies adapt when motivation is detected to decline?
+
+### P42: Real-Time Cognitive Architecture
+**Status**: Cognitive architectures are computationally expensive and typically run offline.
+**Impact**: Medium — tutoring requires sub-second response times.
+**Questions**:
+- How can the cognitive cycle be implemented with <100ms latency per cycle?
+- Which approximations preserve cognitive fidelity while meeting real-time constraints?
+- What is the minimum viable cognitive architecture for pedagogically useful predictions?
+
+### P43: Transfer and Cross-Domain Reasoning
+**Status**: Cognitive architectures are domain-specific; cross-domain transfer is poorly modeled.
+**Impact**: Medium — learners engage with multiple domains.
+**Questions**:
+- How can analogical reasoning and structural alignment be implemented in a production-rule architecture?
+- What representation enables skills to activate in structurally analogous domains?
+- Can universal subgoaling naturally support cross-domain problem solving?
+
+### P44: Social and Multi-Agent Cognitive Architectures
+**Status**: Cognitive architectures model isolated individuals; social cognition is underdeveloped.
+**Impact**: Medium — learning is fundamentally social.
+**Questions**:
+- How do multiple cognitive-architecture agents coordinate without cognitive overload?
+- Can distributed cognition frameworks be operationalized within a cognitive architecture?
+- What theory of mind is needed for pedagogical agents to model the learner's mental state?
+
+### P45: Ethical Implications and Bias
+**Status**: Cognitive architectures encode universalist assumptions that may not generalize across cultures or neurotypes.
+**Impact**: Medium — equity is a core requirement for EduOS.
+**Questions**:
+- Do empirically calibrated parameters generalize across cultures and neurodivergent learners?
+- How can architectures accommodate different learning styles without stereotyping?
+- What is the risk of "cognitive determinism" in architecture-driven tutoring?
+
+### P46: Continuous Learning and Knowledge Engineering Reduction
+**Status**: Cognitive architectures require extensive hand-authored rules and chunks.
+**Impact**: High — development cost limits scalability.
+**Questions**:
+- Can production rules and chunks be learned automatically from interaction data?
+- How can transfer learning bootstrap new domains from existing ones?
+- Can LLMs assist in generating and validating production rules for new domains?
+
+### P47: Temporal Dynamics and Long-Term Retention
+**Status**: Forgetting and spacing are modeled in ACT-R but long-term retention over months remains coarse.
+**Impact**: High — lifelong learning requires accurate retention models.
+**Questions**:
+- How well does base-level decay generalize to real-world multi-domain learning?
+- Can sleep and consolidation be meaningfully simulated in a computational architecture?
+- How does retention interact with skill compilation (declarative → procedural)?
+
+---
+
+## Assessment Systems
+
+### P48: Automated Assessment in Open-Ended Domains
+**Status:** Active research area with significant progress in code and essays, but remains unsolved for creative tasks, complex problem solving, and collaborative work.
+**Impact:** High — EduOS must support a wide range of learning activities beyond multiple-choice questions.
+**Questions:**
+- How can LLM-based scoring be made robust against adversarial or "gaming" strategies (e.g., using sophisticated but vacuous language)?
+- What is the role of human-in-the-loop verification for high-stakes, open-ended assessments?
+- Can process data (e.g., keystroke dynamics, version control history for code) improve the reliability of automated assessment in ill-structured domains?
+
+### P49: Real-Time Formative Assessment and the Adaptive Loop
+**Status:** Formative assessment is well-understood in principle but poorly integrated with adaptive systems in practice. Most systems treat it as a separate event rather than a continuous process.
+**Impact:** High — the speed and quality of the adaptive feedback loop is the primary differentiator for an effective learning system.
+**Questions:**
+- How can we minimize the latency from learner action to model update and pedagogical response?
+- What is the optimal granularity of real-time assessment (per-action, per-problem, per-session)?
+- How do we balance the intrusive nature of frequent formative assessment with its diagnostic value?
+
+### P50: Ensuring Fairness and Mitigating Bias in Automated Assessment
+**Status:** A rapidly growing research area, but practical, scalable solutions for production systems are still nascent.
+**Impact:** High — equity is a core requirement for EduOS.
+**Questions:**
+- How can we automatically detect and flag items with high Differential Item Functioning (DIF) before they are used in production?
+- Can we build automated essay scoring systems that are provably fair across different linguistic and cultural backgrounds?
+- What are the best practices for auditing assessment algorithms for bias, and how often should these audits be conducted?
+
+### P51: Integrating Affective and Motivational States into Assessment
+**Status:** Largely unexplored. Most assessment systems treat the learner as a purely cognitive agent.
+**Impact:** Medium-High — a learner's emotional state significantly impacts their performance.
+**Questions:**
+- How can we unobtrusively measure affective state (frustration, anxiety, flow) during an assessment and use it to adjust the assessment or provide support?
+- Should assessments be paused or modified if a learner is detected to be in a highly negative affective state?
+- How can motivational data (e.g., self-efficacy) be used to interpret assessment results (e.g., a low score due to low self-efficacy vs. low ability)?
+
+### P52: Long-Term Retention and Transfer Assessment
+**Status:** Most assessments measure immediate or near-term performance. Measuring durable learning and transfer to novel contexts is expensive and rarely done at scale.
+**Impact:** High — EduOS targets lifelong learning.
+**Questions:**
+- What assessment designs (e.g., spaced retrieval tests, novel problem types) are most effective for measuring long-term retention and transfer?
+- How can we use the knowledge graph to design assessments that specifically test for cross-domain transfer?
+- What is the optimal trade-off between assessment frequency (to measure retention) and learner burden?
+
+### P53: The Role of Assessment in Knowledge Graph Validation
+**Status:** Underexplored. Assessment data is typically used to update the learner model, but not to validate the underlying domain model.
+**Impact:** Medium — a flawed knowledge graph will lead to flawed adaptive recommendations.
+**Questions:**
+- How can we use assessment outcomes to automatically detect and correct errors in the prerequisite structure of the knowledge graph?
+- Can we use counterfactual reasoning (e.g., "what if the learner had been taught skill X before skill Y?") to evaluate the validity of the knowledge graph?
+- What is the optimal balance between using assessments for learner evaluation and for knowledge graph validation?
+
+### P54: Assessment Personalization and the Cold Start Problem
+**Status:** The cold start problem (lack of data for new learners) affects all personalized systems, but is particularly acute for assessments where high-stakes decisions may be made with little data.
+**Impact:** Medium-High — all new learners face this.
+**Questions:**
+- What demographic, psychometric, or prior-knowledge priors can be used to initialize a learner's ability estimate for CAT without introducing bias?
+- Can we use transfer learning from other learners or other domains to bootstrap the assessment process for a new learner?
+- How many items are needed before a CAT engine can reliably estimate a learner's ability in a new domain?

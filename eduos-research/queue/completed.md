@@ -23,9 +23,31 @@
   - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
 
 - **Intelligent Tutoring Systems** — Completed
+  - Foundational and survey papers from Bloom (1984) through LLM-based tutors (2023+) reviewed
+  - ITS architectures: model-tracing, constraint-based, dialog-based, example-tracing, RL-driven, LLM-based
+  - Student-model driven adaptation and effectiveness evidence surveyed
+  - Identified critical gaps: high development cost, narrow domain applicability, limited NLU, superficial strategies, affective blind spots, long-term retention, evaluation gaps
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
+- **Cognitive Architectures** — Completed
+  - Foundational papers on ACT-R, SOAR, CLARION, LIDA, and Kotseruba & Tsotsos survey reviewed
+  - Memory systems, learning mechanisms, and reasoning processes surveyed
+  - Comparison of architectures for EduOS across symbolic reasoning, neural learning, motivation, metacognition, memory diversity, and social cognition
+  - Identified critical gaps: limited affective integration, scalability, temporal dynamics, transfer weakness, symbolic brittleness, knowledge engineering cost
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
   - Foundational papers from Bloom (1984) through LLM-based tutors (2023+) reviewed
   - ITS architectures: model-tracing, constraint-based, dialog-based, example-tracing, RL-driven, LLM-based
   - Student-model driven adaptation and effectiveness evidence surveyed
   - Identified critical gaps: high development cost, narrow domain applicability, limited NLU, superficial strategies, affective blind spots, long-term retention, evaluation gaps
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
+- **Assessment Systems** — Completed
+  - Foundational papers on CTT, IRT, and CAT reviewed
+  - Automated assessment techniques for selected-response, constructed-response, and process-based assessment surveyed
+  - Validity, reliability, and fairness challenges analyzed
+  - Identified critical gaps: automated scoring brittleness, high authoring cost, limited diagnostic granularity, bias in AES, poor formative-assessment integration, neglect of affective states
   - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
   - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md

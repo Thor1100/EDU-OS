@@ -23,7 +23,7 @@ Completed comprehensive research on Knowledge Tracing for EduOS, covering:
    - Interpretability vs. accuracy trade-off impedes production adoption
    - Affective/metacognitive factors largely excluded
 
-6. **Architectural Impact:** KT is not a standalone module but a foundational bridge between MAS (memory systems), RCS (reasoning), LMS (modeling), and KGS (knowledge graph). Phase 1 implementation should integrate BKT as foundational model with KGS prerequisite-aware extensions.
+6. **Architectural Impact:** KT is not a standalone module法拉利 but a foundational bridge between MAS (memory systems), RCS (reasoning), LMS (modeling), and KGS (knowledge graph). Phase 1 implementation should integrate BKT as foundational model with KGS prerequisite-aware extensions.
 
 ### Architectural Impact
 - **MAS:** KT parameters drive personalized memory consolidation, forgetting curves, and reactivation scheduling
@@ -97,9 +97,9 @@ Completed comprehensive research on Educational Knowledge Graphs for EduOS, cove
 
 1. **Foundational Papers:** Analyzed Brusilovsky (2001) adaptive hypermedia domain models, Chi et al. (2010) Learning Factors Analysis, Chen et al. (2020) AutoKnow, and Wang et al. (2018, 2020) concept graph and personalized KG approaches.
 
-2. **Graph Construction & Completion:** Reviewed NLP/LLM-based extraction (Li et al., 2023, ~85% F1), statistical/behavioral inference, and hybrid (human-in-the-loop) approaches. Hallucination remains a ~15-20% barrier for LLM-only methods.
+2. **Graph Construction & Completion:** Reviewed NLP/LLM-based extraction (Li等 et al., 2023, ~85% F1), statistical/behavioral inference, and hybrid (human-in-the-loop) approaches. Hallucination remains a ~15-20% barrier for LLM-only methods.
 
-3. **Prerequisite Detection:** Examined statistical co-occurrence methods (Laplante, 2014), GNN-based inference (Zhang et al., 2019), and causal validation challenges. Prerequisite-aware models improve KT by 4-7% AUC.
+3. **Prerequisite Detection:** Examined statistical co-occurrence methods (Laplante, 2014), GNN-based inference (Zhang等 et al., 2019), and causal validation challenges. Prerequisite-aware models improve KT by 4-7% AUC.
 
 4. **Learner-Aware Graphs:** Investigated personalized knowledge graphs, learner subgraphs, and dynamic knowledge tracing over graph structures (Guo et al., 2021).
 
@@ -199,6 +199,124 @@ Completed comprehensive research on Intelligent Tutoring Systems for EduOS, cove
 
 ### Next Research Direction
 Proceed to **Cognitive Architectures** — the next topic in the backlog. Cognitive architectures (ACT-R, SOAR, CLARION) provide unified theories of cognition that underpin how learning, memory, and reasoning interact. Understanding these architectures is critical for grounding EduOS's Memory Architecture System (MAS) and Reasoning Core Specification (RCS) in empirically validated cognitive theory.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-16: Cognitive Architectures Research Iteration
+
+### Topic
+Cognitive Architectures
+
+### Findings
+Completed comprehensive research on Cognitive Architectures for EduOS, covering:
+
+1. **Foundational Papers:** Analyzed Anderson's ACT/ACT-R (1983, 1993), Newell's SOAR (1990), Sun's CLARION (2002, 2016), Franklin et al.'s LIDA (2012), and Kotseruba & Tsotsos's comprehensive 2020 survey.
+
+2. **Core Components:**
+   - Memory systems: working, declarative/semantic, episodic, procedural
+   - Learning mechanisms: encoding, compilation, tuning, chunking, generalization
+   - Reasoning processes: matching, problem solving, decision making, metacognition
+
+3. **Comparison of Architectures for EduOS:**
+   - ACT-R: strongest symbolic reasoning, direct application via Cognitive Tutors
+   - SOAR: universal subgoaling and impasse-driven learning
+   - CLARION: dual-process (implicit/explicit), includes motivation and metacognition
+   - LIDA: explicit cognitive cycle, multiple memory systems, global workspace theory
+
+4. **Critical Gaps:**
+   - Limited affective and social integration
+   - Scalability to large knowledge domains
+   - Temporal dynamics for long-term retention are underspecified
+   - Transfer and generalization across domains are weak
+   - Symbolic bias and brittleness
+   - High knowledge engineering cost
+
+5. **Three-Layer Guidance for EduOS:**
+   - Structural: memory systems inform MAS design
+   - Processual: cognitive cycle provides tutoring loop template
+   - Learning: skill acquisition mechanisms inform adaptive behavior
+
+### Architectural Impact
+- **ADS:** New agents (Cognitive, Metacognitive, Motivation, Working Memory) with cognitive-specific events and permissions
+- **AOS:** Cognitively plausible workflows, impasse-triggered subgoaling, compilation-based fading of scaffolding, goal-driven orchestration
+- **KGS:** New cognitive nodes (ProductionRule, Chunk, MemoryTrace, Impasse, Subgoal) and relationships (compiles-from, triggered-by, results-in)
+- **KIS:** Multi-memory evidence fusion, activation-based prioritization, compilation tracking
+- **MAS:** Multi-system memory (sensory, working, declarative, episodic, procedural) with learning mechanisms (encoding, consolidation, compilation, tuning, chunking)
+- **RCS:** Production rule engine, goal/impasse-driven reasoning, dual-process reasoning, cognitive cycle implementation
+- **TAS:** Multi-tier memory, cognitive cycle latency, petabyte-scale episodic memory, modular pluggable architecture
+- **LMS:** Cognitive-state-driven learner model (declarative/procedural/working memory/episodic), compilation tracking, metacognitive/motivational layers
+
+### Remaining Uncertainty
+- How to integrate neural and symbolic components into a coherent hybrid architecture?
+- What is the minimum viable cognitive architecture that still produces useful tutoring predictions?
+- Can ACT-R parameters be generalized across cultures, languages, and neurotypes?
+- What is the computational cost of maintaining per-learner cognitive models at scale?
+- How does compilation from declarative to procedural knowledge actually manifest in digital learning environments?
+
+### Next Research Direction
+Proceed to **Assessment Systems** — the next topic in the backlog. Assessment systems define how EduOS evaluates learners, which is the primary mechanism for updating knowledge tracing, learner models, and tutoring strategy. Cognitive architectures provide the theoretical framework for what to assess (declarative chunks, procedural rules, working memory load), and assessment systems provide the measurement apparatus.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-16: Assessment Systems Research Iteration
+
+### Topic
+Assessment Systems
+
+### Findings
+Completed comprehensive research on Assessment Systems for EduOS, covering:
+
+1. **Foundational Theories:** Analyzed Classical Test Theory (CTT), Item Response Theory (IRT) (1PL, 2PL, 3PL, 4PL), and Computerized Adaptive Testing (CAT) frameworks.
+
+2. **Assessment Types:** Examined diagnostic, formative, and summative assessment paradigms and their specific roles in the adaptive learning loop.
+
+3. **Automated Techniques:** Reviewed automated assessment for selected-response (binary/partial credit), constructed-response (short answer, essays, code), and process-based assessment (latency, hint use, error patterns).
+
+4. **Adaptive Loop Integration:** Mapped how assessment data flows through Knowledge Tracing (KT) and Learner Modeling to drive tutoring decisions.
+
+5. **Validity, Reliability, and Fairness:** Investigated content/construct/predictive validity, reliability metrics, and fairness challenges including Differential Item Functioning (DIF) and algorithmic bias.
+
+6. **Critical Gaps for EduOS:**
+   - Brittleness of automated scoring in open-ended/creative domains.
+   - High authoring cost for high-quality, granular diagnostic items.
+   - Limited diagnostic granularity in standard assessments.
+   - Bias and fairness challenges in automated scoring systems.
+   - Poor deep integration of formative assessment with adaptive instruction.
+   - Neglect of affective and motivational states during assessment.
+
+### Architectural Impact
+- **ADS:** New specialized agents (Diagnostic, Formative, Summative); assessment event-driven orchestration.
+- **AOS:** Assessment workflows as core orchestration primitives; conditional branching based on results.
+- **KGS:** Assessment items mapped to concepts/skills; prerequisite validation via assessment outcomes.
+- **KIS:** Multi-modal assessment signal fusion; conflict resolution for conflicting evidence.
+- **MAS:** Assessment sessions as episodic traces; mastery states as semantic facts; forgetting curve integration.
+- **RCS:** Diagnostic reasoning for error root-cause analysis; Bayesian KT updates; explanation generation.
+- **TAS:** Real-time monitoring of assessment metrics; long-term analytics on item quality.
+- **LMS:** Assessment results as primary driver for learner model updates and mastery tracking.
+
+### Remaining Uncertainty
+- How to make LLM-based scoring robust against adversarial strategies in open-ended tasks?
+- What is the optimal granularity and frequency of real-time formative assessment?
+- How can we ensure automated essay scoring systems are provably fair across diverse linguistic backgrounds?
+- How to balance assessment frequency (for retention measurement) with learner burden?
+- How can we use assessment data to automatically validate and correct the knowledge graph?
+
+### Next Research Direction
+Proceed to **Educational Agents** — the next topic in the backlog. Educational agents represent the embodiment of the tutoring and assessment capabilities within a multi-agent framework. Researching this topic will define how autonomous agents interact with learners, manage assessments, and collaborate to provide a cohesive educational experience.
 
 ### Deliverables Completed
 - [x] summary.md

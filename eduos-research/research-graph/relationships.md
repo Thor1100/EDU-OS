@@ -139,6 +139,50 @@ Mastery is dynamic, influenced by time and practice.
 - [[learner-model]] evolves across → [[forgetting-curve]] and → [[spaced-repetition]] cycles
 Long-term learner state is shaped by retention and review patterns.
 
+## Assessment Relationships
+
+- [[assessment]] → updates → [[knowledge-tracing]]
+Assessment outcomes (correctness, confidence, time) are the primary evidence for updating knowledge state models.
+
+- [[assessment]] → informs → [[learner-model]]
+Assessment results update cognitive, affective, and motivational dimensions of the learner model.
+
+- [[diagnostic-assessment]] → seeds → [[learner-model]]
+Pre-instruction assessments initialize the learner's knowledge state and identify prior misconceptions.
+
+- [[formative-assessment]] → drives → [[adaptive-learning]]
+Real-time formative data is the primary input for the system's adaptive decision-making loop.
+
+- [[summative-assessment]] → validates → [[knowledge-graph]]
+End-of-unit assessments can reveal flaws in prerequisite structures or concept mappings.
+
+- [[computerized-adaptive-testing]] → optimizes → [[assessment]]
+CAT tailors item difficulty to learner ability, maximizing information gain per item.
+
+- [[process-based-assessment]] → enriches → [[learner-model]]
+Behavioral data (latency, help-seeking, errors) provides a richer signal than final outcome alone.
+
+- [[automated-assessment]] → feeds → [[knowledge-integration]]
+Multi-modal assessment signals must be fused and normalized by the knowledge integration layer.
+
+- [[assessment-validity]] + [[assessment-reliability]] → constrain → [[adaptive-learning]]
+Only valid and reliable assessments should drive high-stakes adaptive decisions.
+
+- [[differential-item-functioning]] → flags → [[fairness]]
+DIF analysis is a key tool for detecting and mitigating algorithmic bias in assessments.
+
+- [[assessment]] → triggers → [[feedback-loop]]
+Assessment events initiate the core perceive-understand-act-evaluate cycle of adaptive tutoring.
+
+- [[item-response-theory]] → enables → [[computerized-adaptive-testing]]
+IRT provides the mathematical foundation for adaptive item selection in CAT.
+
+- [[auto-essay-scoring]] → risks → [[bias]]
+AES systems can encode biases from training data, penalizing certain linguistic styles.
+
+- [[auto-code-evaluation]] → requires → [[knowledge-graph]]
+Effective code assessment requires mapping problem features to specific skills and concepts.
+
 ## Scale & Implementation Relationships
 
 - [[scalability-challenge]] impacts → [[knowledge-tracing]] in large-concept spaces
@@ -152,3 +196,29 @@ Practical systems often require explainable mastery estimates.
 
 - [[privacy-preservation]] constrains → [[learner-model]] richness
 Richer models require more data, creating tension with privacy goals.
+
+## Cognitive Architecture Relationships
+
+- [[cognitive-architecture]] → informs → [[MAS]]
+Cognitive architectures provide the theoretical blueprint for memory system design (declarative, procedural, episodic, working memory).
+
+- [[cognitive-architecture]] → informs → [[RCS]]
+Production rules, problem spaces, and dual-process reasoning from architectures directly shape the reasoning core.
+
+- [[cognitive-architecture]] → constrains → [[adaptive-learning]]
+Learning adaptations must be cognitively plausible (respect working memory, cognitive load, and skill acquisition stages).
+
+- [[impasse]] → triggers → [[subgoaling]]
+When no operator applies, a subgoal is generated to resolve the impasse.
+
+- [[subgoal-resolution]] → produces → [[chunking]]
+Solving a subgoal creates a new production rule, speeding future similar problem solving.
+
+- [[compilation]] → enables → [[scaffolding-fading]]
+As declarative knowledge compiles into procedural skill, external support can be gradually removed.
+
+- [[working-memory]] → constrains → [[tutoring-presentation]]
+Chunking, step-by-step presentation, and reduced extraneous load are necessary due to limited working memory capacity.
+
+- [[activation-based-retrieval]] → governs → [[knowledge-access]]
+The probability of retrieving a given knowledge chunk depends on its base-level activation (recency, frequency, context).
