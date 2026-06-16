@@ -1,14 +1,14 @@
 Current Topic:
 
-Knowledge Tracing
+Learner Modeling
 
 Goals:
 
 - Foundational Papers
 - Survey Papers
 - Recent Papers
-- Datasets
-- Benchmarks
+- Individual Learner Models
+- Aggregate Population Models
 - Open Problems
 
 Deliverables:

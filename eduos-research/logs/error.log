@@ -1,0 +1,82 @@
+Traceback (most recent call last):
+  File "/home/akash/.local/share/uv/tools/free-claude-code/lib/python3.14/site-packages/cli/entrypoints.py", line 244, in launch_claude
+    return_code = process.wait()
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 1278, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2064, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ~~~~~~~~~~~~~~^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2022, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/akash/.local/bin/fcc-claude", line 10, in <module>
+    sys.exit(launch_claude())
+             ~~~~~~~~~~~~~^^
+  File "/home/akash/.local/share/uv/tools/free-claude-code/lib/python3.14/site-packages/cli/entrypoints.py", line 258, in launch_claude
+    process.wait()
+    ~~~~~~~~~~~~^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 1278, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2064, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ~~~~~~~~~~~~~~^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2022, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/akash/.local/share/uv/tools/free-claude-code/lib/python3.14/site-packages/cli/entrypoints.py", line 244, in launch_claude
+    return_code = process.wait()
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 1278, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2064, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ~~~~~~~~~~~~~~^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2022, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/akash/.local/bin/fcc-claude", line 10, in <module>
+    sys.exit(launch_claude())
+             ~~~~~~~~~~~~~^^
+  File "/home/akash/.local/share/uv/tools/free-claude-code/lib/python3.14/site-packages/cli/entrypoints.py", line 258, in launch_claude
+    process.wait()
+    ~~~~~~~~~~~~^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 1278, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2064, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ~~~~~~~~~~~~~~^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2022, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/akash/.local/bin/fcc-claude", line 10, in <module>
+    sys.exit(launch_claude())
+             ~~~~~~~~~~~~~^^
+  File "/home/akash/.local/share/uv/tools/free-claude-code/lib/python3.14/site-packages/cli/entrypoints.py", line 244, in launch_claude
+    return_code = process.wait()
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 1278, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2064, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ~~~~~~~~~~~~~~^^^
+  File "/home/akash/.local/share/uv/python/cpython-3.14-linux-x86_64-gnu/lib/python3.14/subprocess.py", line 2022, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
