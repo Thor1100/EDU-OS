@@ -21,6 +21,17 @@
 - [[ontology]]: Formal specification of a domain's concepts and relationships; can inform structured knowledge tracing.
 - [[open-learner-model]]: Learner model made visible and editable by the learner to promote metacognition and agency.
 
+## Educational Knowledge Graphs
+
+- [[educational-knowledge-graph]]: Structured representation of domain concepts, skills, and their pedagogical relationships; central to EduOS KGS.
+- [[prerequisite-detection]]: Automated or semi-automated inference of prerequisite relationships between concepts from data or text.
+- [[learner-subgraph]]: Personalized projection of the global EKG enriched with individual learner state (mastery, misconceptions, goals).
+- [[domain-graph]]: Global graph of all concepts and relationships in a subject area, independent of individual learners.
+- [[graph-construction]]: Methods (expert curation, NLP, LLM, statistical) for building educational knowledge graphs.
+- [[graph-reasoning]]: Inference over EKGs for pathfinding, gap detection, and recommendation (symbolic or neural).
+- [[temporal-graph]]: Support for versioning, concept deprecation, and evolution of graph structure over time.
+- [[misconception-graph]]: Graph representation of incorrect concepts and their relationships, supporting targeted remediation.
+
 ## Educational Technology
 
 - [[intelligent-tutoring-system]]: Computer system providing immediate and customized instruction or feedback to learners.

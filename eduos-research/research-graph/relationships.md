@@ -83,6 +83,15 @@ Incorporating emotional states into adaptive learning decisions.
 - [[learner-model]] + [[digital-twin]] → [[lifelong-learning-infrastructure]]
 Continuously updated learner representation enabling seamless education across contexts.
 
+- [[educational-knowledge-graph]] → constrains → [[adaptive-learning]]
+EKG structure (prerequisites, partonomies) constrains what content can be presented next.
+
+- [[learner-model]] + [[educational-knowledge-graph]] → [[learner-subgraph]]
+The learner model is projected onto the domain graph to produce a personalized learner-specific graph.
+
+- [[educational-knowledge-graph]] → enables → [[intelligent-tutoring-system]]
+An ITS reasons over the graph to provide prerequisite-aware, gap-sensitive tutoring.
+
 ## Temporal Relationships
 
 - [[assessment]] → updates → [[knowledge-tracing]] → updates → [[learner-model]]

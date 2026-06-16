@@ -1,14 +1,13 @@
 Current Topic:
 
-Educational Knowledge Graphs
+Intelligent Tutoring Systems
 
 Goals:
 
 - Foundational Papers
-- Graph Construction & Completion
-- Prerequisite Detection
-- Learner-Aware Graphs
-- Reasoning Over Graphs
+- ITS Architectures
+- Student-Model Driven Adaptation
+- ITS Effectiveness
 - Open Problems
 
 Deliverables:

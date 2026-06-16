@@ -108,3 +108,58 @@ Proceed to **Educational Knowledge Graphs** — the next topic in the backlog. T
 - [x] architecture_impact.md
 - [x] future_questions.md
 - [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-16: Educational Knowledge Graphs Research Iteration
+
+### Topic
+Educational Knowledge Graphs
+
+### Findings
+Completed comprehensive research on Educational Knowledge Graphs for EduOS, covering:
+
+1. **Foundational Papers:** Analyzed Brusilovsky (2001) adaptive hypermedia domain models, Chi et al. (2010) Learning Factors Analysis, Chen et al. (2020) AutoKnow, and Wang et al. (2018, 2020) concept graph and personalized KG approaches.
+
+2. **Graph Construction & Completion:** Reviewed NLP/LLM-based extraction (Li et al., 2023, ~85% F1), statistical/behavioral inference, and hybrid (human-in-the-loop) approaches. Hallucination remains a ~15-20% barrier for LLM-only methods.
+
+3. **Prerequisite Detection:** Examined statistical co-occurrence methods (Laplante, 2014), GNN-based inference (Zhang et al., 2019), and causal validation challenges. Prerequisite-aware models improve KT by 4-7% AUC.
+
+4. **Learner-Aware Graphs:** Investigated personalized knowledge graphs, learner subgraphs, and dynamic knowledge tracing over graph structures (Guo et al., 2021).
+
+5. **Reasoning & Personalization:** Studied GNN-based path recommendation, explainable path reasoning, and RAG over EKGs for improved tutoring.
+
+6. **Critical Gaps:**
+   - LLM hallucination in automated construction
+   - No robust automated maintenance for dynamic domains
+   - Causal prerequisite detection remains unsolved
+   - Evaluation focuses on structural metrics, not pedagogical impact
+   - GNN reasoning lacks interpretability
+   - EKG integration with KT, LLM, and cognitive architecture underexplored
+
+### Architectural Impact
+- **ADS:** New agents (Knowledge Graph, Learner Graph, Prerequisite Validation, Curriculum); new events; graph-access permissions
+- **AOS:** Prerequisite-aware context assembly, agent selection, workflow adaptation
+- **KGS:** Canonical EKG store; new node/edge types; temporal reasoning; prerequisite closure; shortest path; misconception propagation
+- **KIS:** Multi-source graph construction; fusion of expert, NLP, and behavioral contexts
+- **MAS:** Semantic memory enriched with EKG; episodic memory linked to concept nodes; graph-based spaced repetition
+- **RCS:** Prerequisite-aware planning; abductive diagnosis; ZPD identification; multi-agent consensus
+- **TAS:** Graph-native database; learner-subgraph sharding; temporal versioning; privacy-preserving queries
+- **LMS:** Learner model as graph overlay; goal feasibility via pathfinding; digital twin with learner subgraph
+
+### Remaining Uncertainty
+- How few labeled examples are needed for reliable prerequisite detection?
+- Which graph database architecture scales to millions of learners?
+- How do we validate that a constructed EKG improves learning outcomes vs. non-EKG tutoring?
+- What is the optimal trade-off between graph complexity and real-time query performance?
+- How should EKGs evolve as domains change (e.g., new AI/ML concepts emerge)?
+
+### Next Research Direction
+Proceed to **Intelligent Tutoring Systems** — the next topic in the backlog. ITS is the natural integration point for the components studied so far: KT (tracks state), learner modeling (represents the learner), and EKG (provides structure). Investigating ITS will clarify how these pieces work together in a unified tutoring system.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)

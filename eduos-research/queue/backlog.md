@@ -4,7 +4,7 @@
 
 - [x] Knowledge Tracing
 - [x] Learner Modeling
-- [ ] Educational Knowledge Graphs
+- [x] Educational Knowledge Graphs
 - [ ] Intelligent Tutoring Systems
 - [ ] Cognitive Architectures
 - [ ] Assessment Systems

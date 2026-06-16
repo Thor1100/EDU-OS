@@ -136,6 +136,58 @@
 
 ---
 
+## Educational Knowledge Graphs
+
+### P23: Automated, Scalable EKG Construction with Low Hallucination
+**Status:** Active research area; LLM extraction reaches ~85% F1 but with 15-20% hallucination.
+**Impact:** High — domain graphs are the foundation of adaptive learning.
+**Questions:**
+- How can we reduce LLM hallucination in educational concept extraction below 5% without sacrificing scalability?
+- What hybrid pipelines (LLM + retrieval + expert validation) offer the best cost-quality trade-off?
+- How do we handle concept obsolescence and emergence in rapidly evolving fields (e.g., AI/ML)?
+
+### P24: Causal Prerequisite Detection and Validation
+**Status:** Statistical methods conflate correlation with causation; true validation is rare.
+**Impact:** High — prerequisite errors propagate to learning paths and assessments.
+**Questions:**
+- How can we distinguish true pedagogical prerequisites from mere curriculum co-occurrence?
+- What experimental designs (A/B tests, controlled curricula) can validate prerequisite edges?
+- How do prerequisite strengths vary by learner population, pedagogical approach, or modality?
+
+### P25: Learner-Aware Graph Representation
+**Status:** Emerging; basic learner subgraphs exist but open questions about granularity and temporal evolution.
+**Impact:** High — bridges domain structure and individual learner state.
+**Questions:**
+- What is the optimal granularity for learner subgraphs? (Concept, subskill, learning objective?)
+- How do learner subgraphs change as the global domain graph evolves over time?
+- What are the privacy implications of increasingly rich learner subgraphs?
+
+### P26: Optimal Reasoning and Personalization Over EKGs
+**Status:** GNN-based path recommendation shows promise but lacks explainability and pedagogical validation.
+**Impact:** High — reasoning over the graph is the primary value proposition of EKGs.
+**Questions:**
+- Beyond shortest path, what objective functions (mastery gain, engagement, retrieval) should guide pathfinding?
+- How can we make complex graph reasoning (GNNs, multi-hop paths) explainable to learners and educators?
+- Can we build graphs of misconceptions and their relationships to support targeted remediation?
+
+### P27: EKG Evaluation and Benchmarks
+**Status:** Most EKG research evaluates structural quality rather than pedagogical impact.
+**Impact:** Medium — lack of standardized evaluation hinders adoption and comparison.
+**Questions:**
+- What standardized downstream tasks (time-to-mastery, retention, transfer) should evaluate EKG quality?
+- Can we create an open, community-curated EKG benchmark with ground-truth prerequisite edges?
+- How do we fairly compare automated EKG construction methods against expert-curated gold standards?
+
+### P28: EKG Integration and Fairness
+**Status:** Underexplored; EKGs are typically treated as standalone artifacts.
+**Impact:** Medium-high — integration with KT, LLMs, and cognitive architectures is critical for EduOS.
+**Questions:**
+- How should KT-derived mastery probabilities be encoded as graph properties or edge weights?
+- How can EKGs best serve as structured retrieval sources for educational LLMs (RAG)?
+- Do EKGs encode cultural, socioeconomic, or linguistic biases (e.g., favoring certain pedagogical traditions)?
+
+---
+
 ## Cross-Cutting Problems
 
 ### P17: Domain Generalization
