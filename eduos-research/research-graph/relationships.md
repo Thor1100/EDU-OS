@@ -92,6 +92,30 @@ The learner model is projected onto the domain graph to produce a personalized l
 - [[educational-knowledge-graph]] → enables → [[intelligent-tutoring-system]]
 An ITS reasons over the graph to provide prerequisite-aware, gap-sensitive tutoring.
 
+- [[intelligent-tutoring-system]] → integrates → [[knowledge-tracing]]
+KT provides real-time mastery estimates that drive problem selection and feedback.
+
+- [[intelligent-tutoring-system]] → integrates → [[learner-model]]
+The learner model provides holistic state (cognitive, affective, motivational) for pedagogical decisions.
+
+- [[intelligent-tutoring-system]] → selects → [[pedagogical-strategy]]
+Strategy selection adapts instruction to learner state, domain, and context.
+
+- [[model-tracing]] → requires → [[cognitive-architecture]]
+Model-tracing tutors ground diagnosis in unified theories of cognition (ACT-R production rules).
+
+- [[scaffolding]] → fades-as → [[mastery]]-increases
+Support is withdrawn gradually as learner competence grows.
+
+- [[socratic-questioning]] → promotes → [[metacognition]]
+Guided questioning encourages reflection on one's own understanding.
+
+- [[error-diagnosis]] → identifies → [[misconception]]
+Precise error diagnosis maps incorrect reasoning to known misconception patterns.
+
+- [[affective-tutoring]] → responds-to → [[affective-state]]
+Tutoring behavior adjusts based on detected emotions (frustration, boredom, confusion, flow).
+
 ## Temporal Relationships
 
 - [[assessment]] → updates → [[knowledge-tracing]] → updates → [[learner-model]]

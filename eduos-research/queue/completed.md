@@ -21,3 +21,11 @@
   - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
   - Identified critical gaps: LLM hallucination, causal prerequisite detection, GNN interpretability, evaluation metrics, integration with KT/LLM
   - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
+- **Intelligent Tutoring Systems** — Completed
+  - Foundational papers from Bloom (1984) through LLM-based tutors (2023+) reviewed
+  - ITS architectures: model-tracing, constraint-based, dialog-based, example-tracing, RL-driven, LLM-based
+  - Student-model driven adaptation and effectiveness evidence surveyed
+  - Identified critical gaps: high development cost, narrow domain applicability, limited NLU, superficial strategies, affective blind spots, long-term retention, evaluation gaps
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md

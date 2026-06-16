@@ -65,6 +65,24 @@
 - [[behavioral-state]]: Interaction patterns, time on task, help-seeking, navigation.
 - [[contextual-state]]: Device, location, time, and social setting of learning.
 
+## Intelligent Tutoring Systems
+
+- [[intelligent-tutoring-system]]: Computer system providing immediate and customized instruction or feedback to learners.
+- [[model-tracing]]: Paradigm where the system maintains a cognitive model of skill execution and matches learner actions against it.
+- [[constraint-based-tutoring]]: Approach modeling constraints that solutions must satisfy; violations indicate errors.
+- [[dialog-based-tutoring]]: Natural language dialogue as the primary tutoring modality for open-ended interaction.
+- [[scaffolding]]: Temporary support structures provided to learners, faded as competence increases.
+- [[socratic-questioning]]: Tutoring technique using guided questions to help learners discover answers independently.
+- [[worked-example]]: Step-by-step demonstration of a solved problem; effective for novices.
+- [[pedagogical-strategy]]: High-level approach to instruction (direct instruction, discovery learning, Socratic, peer tutoring).
+- [[hint-generation]]: Automated production of contextual, graduated hints to guide learners without giving answers.
+- [[error-diagnosis]]: Real-time identification of the specific misconception or mistake underlying a learner's incorrect response.
+- [[cognitive-tutor]]: Model-tracing tutor grounded in ACT-R cognitive architecture (e.g., Carnegie Learning's Cognitive Tutor).
+- [[open-world-tutoring]]: Tutoring that incorporates uncontrolled, external learning experiences beyond a fixed content base.
+- [[affective-tutoring]]: Adaptation of tutoring behavior based on detected learner emotions and engagement states.
+- [[help-seeking]]: Learner behavior of requesting assistance; can indicate either productive self-regulation or help abuse.
+- [[peer-tutoring]]: Collaborative learning arrangement where learners tutor each other, often orchestrated by an ITS.
+
 ## Data & Evaluation
 
 - [[cold-start-problem]]: Difficulty of providing accurate recommendations/models for new users with minimal data.

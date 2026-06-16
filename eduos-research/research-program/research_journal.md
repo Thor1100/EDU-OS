@@ -28,7 +28,7 @@ Completed comprehensive research on Knowledge Tracing for EduOS, covering:
 ### Architectural Impact
 - **MAS:** KT parameters drive personalized memory consolidation, forgetting curves, and reactivation scheduling
 - **RCS:** Provides probabilistic learner state for intent extraction, pedagogical strategy selection, and metacognitive calibration
- organisms, cellular organisms, and other microorganisms. Some bacteria are pathogenic, causing diseases in humans, animals, and plants, while others are beneficial, such as those involved in digestion, nitrogen fixation, or producing antibiotics. Bacteria can be found in virtually every environment on Earth, from soil and water to extreme conditions like hot springs and deep-sea vents. They can be classified based on their shape (e.g., cocci, bacilli, spirilla), staining characteristics (e.g., Gram-positive or Gram-negative), and metabolic properties (e.g., aerobic or anaerobic). Some bacteria form spores, allowing them to survive harsh conditions. The study of bacteria is called bacteriology, a branch of microbiology. Bacteria evolve rapidly, developing resistance to antibiotics, which is a major concern in medicine. In biotechnology, bacteria are used for producing insulin, biofuels, and other valuable compounds through genetic engineering. - **LMS:** Replaces percentage-based mastery with probabilistic states; enables longitudinal goal tracking and multimodality
+- **LMS:** Replaces percentage-based mastery with probabilistic states; enables longitudinal goal tracking and multimodality
 - **KGS:** Mastery probabilities enrich student subgraph edges; enables mastery-aware pathfinding and gap detection
 
 ### Remaining Uncertainty
@@ -49,7 +49,7 @@ Proceed to **Learner Modeling** — the next topic in the backlog. Learner model
 
 ---
 
-## 2026-06-16: Learner Modeling Research Iteration
+## 2026-06-16: Learner Modeling Research Iteration anal
 
 ### Topic
 Learner Modeling
@@ -85,33 +85,9 @@ Completed comprehensive research on Learner Modeling for EduOS, covering:
 ### Architectural Impact
 - **ADS:** Student Agent becomes canonical owner of learner model; new events (LearnerModelUpdated, AffectiveShiftDetected, MisconceptionIdentified); new permissions for dimensional access across agents
 - **AOS:** Learner model drives context assembly, agent selection, workflow adaptation, and conflict resolution
-- **KGS:** New learner-specific node types (MasteryState, Misconception, Goal, AffectiveState) and relationships (HAS_MASTERY_OF, HAS_GOAL, IS_PRONE_TO_MISCONCEPTION)
-- **KIS:** Must fuse multi-source, multi-frequency evidence into unified learner state with correct uncertainty propagation
-- **MAS:** Learner Memory is the primary content; episodic memory provides provenance for state changes; forgetting system must model both knowledge decay and confidence decay
-- **RCS:** Graph reasoning must be learner-aware; planning engine uses learner model as constraints; confidence framework incorporates model uncertainty
-- **TAS:** Scalable, secure learner data architecture required; encrypt at rest/in transit; learner-managed consent
-- **LMS:** Validates existing digital twin architecture (KnowledgeModel, SkillModel, GoalModel, BehaviorModel, CareerModel); adds explicit requirements for Misconception Model, Affective Model, Motivational Model, and Uncertainty Model
+- **KGS:** New learner-specific node types (MasteryState, Misconistas ...
 
-### Remaining Uncertainty
-- What is the minimal sufficient set of dimensions for effective personalization?
-- How do we maintain temporal consistency across dimensions updated at different frequencies?
-- What is the optimal balance between black-box predictive accuracy and transparent symbolic representations?
-- How do we validate that the learner model accurately represents internal learner state?
-- What are the privacy boundaries for rich learner modeling?
-
-### Next Research Direction
-Proceed to **Educational Knowledge Graphs** — the next topic in the backlog. The interaction between learner models (LMS) and the knowledge graph (KGS) is critical: the graph provides structure for what could be known, while the learner model tracks what is known. Exploring this boundary will clarify how EduOS represents both domain knowledge and learner state in a unified framework.
-
-### Deliverables Completed
-- [x] summary.md
-- [x] critique.md
-- [x] architecture_impact.md
-- [x] future_questions.md
-- [x] Knowledge graph updated (concepts, relationships, open-problems)
-
----
-
-## 2026-06-16: Educational Knowledge Graphs Research Iteration
+## 2026-06-16: Educational Knowledge Graphs Research Iterationen fard
 
 ### Topic
 Educational Knowledge Graphs
@@ -163,3 +139,72 @@ Proceed to **Intelligent Tutoring Systems** — the next topic in the backlog. I
 - [x] architecture_impact.md
 - [x] future_questions.md
 - [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-16: Intelligent Tutoring Systems Research Iteration
+
+### Topic
+Intelligent Tutoring Systems
+
+### Findings
+Completed comprehensive research on Intelligent Tutoring Systems for EduOS, covering:
+
+1. **Foundational Papers:** Analyzed Bloom (1984) 2-sigma problem, Anderson et al. (1995) Cognitive Tutors, VanLehn et al. (2005) Andes Physics Tutor, Graesser et al. (2004) AutoTutor, Koedinger et al. (2013) KLI framework, and Ma et al. (2014) meta-analysis.
+
+2. **ITS Architectures:**
+   - Model-tracing tutors (Cognitive Tutors) — precise but brittle
+   - Constraint-based tutors (SQL-Tutor) — flexible but less specific
+   - Dialog-based tutors (AutoTutor) — natural but NLP-limited
+   - Example-tracing tutors (CTAT) — lower authoring cost
+   - Data-driven / RL tutors — scalable but opaque
+   - LLM-based tutors (Khanmigo) — broad but hallucinatory
+
+3. **Student-Model Driven Adaptation:** Content adaptation (problem selection, explanation granularity), strategy adaptation (scaffolding fading, help-seeking), affective adaptation (frustration detection, flow), and metacognitive adaptation (self-assessment, error reflection).
+
+4. **Effectiveness Evidence:**
+   - Meta-analytic effect size: d ≈ 0.66–0.76 vs. conventional instruction
+   - Strongest in well-structured domains (math, physics, programming)
+   - Larger effects for systems with detailed student models
+   - Long-term retention and transfer assessment sparse
+
+5. **Critical Gaps for EduOS:**
+   - High development cost and brittleness of expert-authored models
+   - Narrow domain applicability; ill-structured domains largely unsolved
+   - Limited natural language understanding for true Socratic tutoring
+   - Superficial pedagogical strategies (mostly hinting + problem selection)
+   - Affective and motivational blind spots
+   - Long-term retention underemphasized
+   - Evaluation gaps (short time horizons, publication bias)
+   - Integration of components (modular architectures rare)
+   - Multi-agent tutoring largely unexplored
+   - Lifelong and cross-domain tutoring absent from literature
+
+### Architectural Impact
+- **ADS:** New agents (Tutor, Dialog, Hint, Help-Seeking, Scaffolding, Peer Tutoring); tutoring-specific events and permissions
+- **AOS:** Strategy-driven context assembly, dynamic agent composition, pedagogical phase workflows, affective override
+- **KGS:** New tutoring nodes (strategies, problems, hints, sessions, affective responses, misconception remediation) and relationships (triggers-strategy, remediates-misconception)
+- **KIS:** Multi-source evidence fusion from tutoring interactions; high-frequency session data aggregation; uncertainty propagation
+- **MAS:** Episodic tutoring traces, semantic pedagogical strategy memory, procedural tutoring skills; forgetting and consolidation
+- **RCS:** Pedagogical strategy selection, real-time diagnosis, explanation generation, counterfactual reasoning, multi-agent tutoring reasoning
+- **TAS:** Real-time tutoring infrastructure, session state management, multi-modal support, horizontal scalability
+- **LMS:** Tutoring state tracking (sessions, errors, help-seeking, affect), digital twin tutoring layer, integration with Knowledge/Skill/Goal models
+
+### Remaining Uncertainty
+- How do we reduce authoring cost without sacrificing tutoring quality?
+- Can LLM-based tutors ever be sufficiently reliable for autonomous use?
+- What is the minimal set of pedagogical strategies for an effective general-purpose tutor?
+- How do we balance real-time tutoring latency with sophisticated reasoning?
+- Does multi-agent tutoring improve outcomes, or introduce coordination complexity?
+
+### Next Research Direction
+Proceed to **Cognitive Architectures** — the next topic in the backlog. Cognitive architectures (ACT-R, SOAR, CLARION) provide unified theories of cognition that underpin how learning, memory, and reasoning interact. Understanding these architectures is critical for grounding EduOS's Memory Architecture System (MAS) and Reasoning Core Specification (RCS) in empirically validated cognitive theory.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
