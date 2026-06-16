@@ -3,7 +3,7 @@
 ## Core Research
 
 - [x] Knowledge Tracing
-- [ ] Learner Modeling
+- [x] Learner Modeling
 - [ ] Educational Knowledge Graphs
 - [ ] Intelligent Tutoring Systems
 - [ ] Cognitive Architectures

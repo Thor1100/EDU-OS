@@ -84,24 +84,80 @@
 
 ---
 
+## Learner Modeling
+
+### P11: Unified Multi-Dimensional Representation
+**Status:** No consensus on how to fuse cognitive, affective, and behavioral signals.
+**Impact:** High — EduOS learner model must be holistic.
+**Questions:**
+- What formal representation unifies learner dimensions without loss?
+- How do dimensions interact (e.g., high knowledge + low motivation = ?)
+- Can a single latent space capture all relevant learner variability?
+
+### P12: Temporal Multi-Scale Modeling
+**Status:** Learner models typically operate at one timescale (seconds or days, rarely both).
+**Impact:** High — real-time adaptation and lifelong learning need different temporal resolutions.
+**Questions:**
+- How do we maintain consistent learner state across timescales?
+- What events should trigger immediate update vs. delayed consolidation?
+- How do we handle long-term drift in learner goals and contexts?
+
+### P13: Open Learner Model Design
+**Status:** Early adoption; limited empirical evidence on effectiveness.
+**Impact:** Medium-high — learner agency and trust are core to EduOS.
+**Questions:**
+- What model views do learners find useful vs. overwhelming?
+- How do we prevent learners from distorting their own model?
+- Does open model access actually improve learning outcomes?
+
+### P14: Affective and Motivational Modeling at Scale
+**Status:** Affective sensors are intrusive; self-reports are unreliable.
+**Impact:** Medium — engagement and dropout risk are critical to address.
+**Questions:**
+- What behavioral proxies best indicate affective and motivational state?
+- Can LLM-based sentiment analysis of learner utterances substitute sensors?
+- How do we model motivation without requiring explicit self-report?
+
+### P15: Bias Detection and Mitigation in Learner Models
+**Status:** Fairness in learner modeling is nascent.
+**Impact:** High — learner models inform high-stakes decisions.
+**Questions:**
+- What demographic and contextual variables should be explicitly modeled vs. protected?
+- How do we audit learner models for disparate impact?
+- Can learner models be used to actively remediate inequity?
+
+### P16: Misconception Modeling and Remediation
+**Status:** Misconceptions are often treated as negated knowledge rather than explicitly modeled.
+**Impact:** Medium — targeted remediation requires precise misconception identification.
+**Questions:**
+- Can misconceptions be reliably inferred from error patterns?
+- How do misconceptions interact with correct knowledge (coexistence vs. competition)?
+- What is the optimal remediation strategy once a misconception is identified?
+
+---
+
 ## Cross-Cutting Problems
 
-### P11: Domain Generalization
+### P17: Domain Generalization
 **Applies to:** [[knowledge-tracing]], [[learner-model]], [[adaptive-learning]]
 **Question:** How can models generalize across vastly different domains (math, language, programming, physical skills)?
 
-### P12: Data Sparsity & Privacy
+### P18: Data Sparsity & Privacy
 **Applies to:** All personalized components
 **Question:** How can we learn from limited, high-quality, privacy-preserving data rather than massive centralized datasets?
 
-### P13: Interoperability & Standards
+### P19: Interoperability & Standards
 **Applies to:** Knowledge graphs, assessment systems, learner models
 **Question:** What standards enable EduOS to interoperate with external systems and data?
 
-### P14: Real-Time Learning
+### P20: Real-Time Learning
 **Applies to:** All adaptation subsystems
 **Question:** How do we update models in real time so the system learns from each interaction without latency?
 
-### P15: Transfer of Learning
+### P21: Transfer of Learning
 **Applies to:** [[knowledge-tracing]], [[learner-model]]
 **Question:** How can we explicitly model and leverage positive and negative transfer between related concepts and skills?
+
+### P22: Multi-Agent Learner State Consensus
+**Applies to:** [[learner-model]], [[intelligent-tutoring-system]]
+**Question:** How do we reconcile conflicting agent assessments of learner state into a canonical model?

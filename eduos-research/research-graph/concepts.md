@@ -3,6 +3,7 @@
 ## Cognition & Learning Sciences
 
 - [[knowledge-tracing]]: Probabilistic modeling of learner knowledge states over time; encompasses Bayesian Knowledge Tracing (BKT), Deep Knowledge Tracing (DKT), and advanced variants.
+- [[learner-model]]: Representation of learner characteristics including knowledge state, preferences, behavior, affect, and goals; subsumes knowledge tracing and drives adaptive personalization.
 - [[mastery]]: A learner's demonstrated proficiency in a skill or concept, often represented as a probability or score in adaptive systems.
 - [[forgetting-curve]]: Mathematical model describing the decline of memory retention over time; critical for spaced repetition and retention modeling.
 - [[cognitive-architecture]]: Unified theory of cognition (e.g., ACT-R, SOAR) that specifies how learning, memory, and reasoning interact.
@@ -18,16 +19,18 @@
 - [[misconception]]: Incorrect or incomplete understanding of a concept; important for targeted remediation.
 - [[skill-hierarchy]]: Hierarchical organization of skills from basic to complex, often with prerequisite relationships.
 - [[ontology]]: Formal specification of a domain's concepts and relationships; can inform structured knowledge tracing.
+- [[open-learner-model]]: Learner model made visible and editable by the learner to promote metacognition and agency.
 
 ## Educational Technology
 
 - [[intelligent-tutoring-system]]: Computer system providing immediate and customized instruction or feedback to learners.
 - [[adaptive-learning]]: Educational approach that modifies content presentation based on learner performance and state.
-- Feedback loop: Cycle of interaction (present → respond → assess → adapt) fundamental to adaptive education.
+- [[feedback-loop]]: Cycle of interaction (present → respond → assess → adapt) fundamental to adaptive education.
 - [[learner-model]]: Representation of learner characteristics, including knowledge state, preferences, and behavior; updated via knowledge tracing.
 - [[assessment]]: Process of evaluating learner knowledge; includes formative, summative, and diagnostic types.
 - [[recommendation-system]]: System suggesting learning resources or next steps based on learner state and goals.
 - [[personalization]]: Tailoring content, difficulty, and pacing to individual learner needs.
+- [[digital-twin]]: Real-time digital representation of a learner that synchronizes state across environments.
 
 ## AI & Machine Learning
 
@@ -39,8 +42,17 @@
 - [[multi-modal-learning]]: Integrating data from multiple modalities (text, video, audio, interaction) into a single learning model.
 - [[uncertainty-quantification]]: Providing confidence estimates alongside predictions; critical for risk-aware educational decisions.
 - [[fairness]]: Ensuring AI models do not systematically disadvantage particular learner groups.
-- [[interpretability]]: Making model decisions understandable to users; trade-off with predictive accuracy in KT.
+- [[interpretability]]: Making model-driven learner model decisions understandable to users; trade-off with predictive accuracy.
 - [[ensemble-methods]]: Combining multiple models to improve robustness and generalization.
+- [[affective-computing]]: Detection and response to learner emotions and engagement states.
+
+## Learner Model Dimensions
+
+- [[cognitive-state]]: Knowledge, skills, and conceptual understanding of a learner.
+- [[affective-state]]: Emotional and engagement states (boredom, confusion, frustration, flow).
+- [[motivational-state]]: Goals, self-efficacy, grit, and achievement motivation.
+- [[behavioral-state]]: Interaction patterns, time on task, help-seeking, navigation.
+- [[contextual-state]]: Device, location, time, and social setting of learning.
 
 ## Data & Evaluation
 

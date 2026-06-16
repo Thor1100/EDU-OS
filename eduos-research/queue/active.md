@@ -1,19 +1,19 @@
 Current Topic:
 
-Learner Modeling
+Educational Knowledge Graphs
 
 Goals:
 
 - Foundational Papers
-- Survey Papers
-- Recent Papers
-- Individual Learner Models
-- Aggregate Population Models
+- Graph Construction & Completion
+- Prerequisite Detection
+- Learner-Aware Graphs
+- Reasoning Over Graphs
 - Open Problems
 
 Deliverables:
 
 - summary.md
 - critique.md
-- ADR
+- architecture_impact.md
 - future_questions.md
