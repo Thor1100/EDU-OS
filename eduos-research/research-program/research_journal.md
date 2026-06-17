@@ -628,54 +628,65 @@ Proceed to **Educational AGI** — the next topic in the backlog. Educational AG
 
 ---
 
-
-## 2026-06-17: Educational AGI Research Iteration (In Progress)
+## 2026-06-17: Educational AGI Research Iteration (Completed)
 
 ### Topic
 Educational AGI
 
 ### Findings
-Partially completed comprehensive research on Educational AGI for EduOS. Completed the foundational summary, which covers:
+Completed comprehensive research on Educational AGI for EduOS, covering:
 
-1. **Definitions and Distinctions**: Mapped the spectrum from narrow AI in education through AGI to ASI, establishing four levels (L1 Narrow AI, L2 Cross-Domain AI, L3 Educational AGI, L4 Educational ASI).
+1. **Definitions and Distinctions**: Mapped the spectrum from narrow AI in education through AGI to ASI, establishing four levels (L1 Narrow AI, L2 Cross-Domain AI, L3 Educational AGI, L4 Educational ASI). Argued that "cross-domain adaptive competence" is a more useful engineering target than "AGI."
 
-2. **LLMs as Precursors**: Analyzed capabilities (open-domain knowledge, dialogue, personalization) and limitations (no persistent learner model, hallucination, no grounded pedagogical reasoning) of LLM tutors as stepping stones toward educational AGI.
+2. **LLMs as Precursors**: Analyzed capabilities (open-domain knowledge, dialogue, personalization) and limitations (no persistent learner model, hallucination, no grounded pedagogical reasoning) of LLM tutors. Concluded that LLMs are powerful UI layers but not sufficient for educational AGI.
 
-3. **Architecture Requirements**: Outlined five pillars for educational AGI — memory systems (episodic, semantic, procedural, working, prospective), reasoning and planning (pedagogical, counterfactual, causal, long-horizon, theory of mind), learning and self-improvement (meta-learning, curriculum learning, transfer, self-reflection), social intelligence and embodiment (affective computing, social reasoning, cultural adaptation), and values alignment and safety.
+3. **Architecture Requirements**: Outlined five pillars — memory systems (episodic, semantic, procedural, working, prospective), reasoning and planning (pedagogical, counterfactual, causal, long-horizon, theory of mind), learning and self-improvement (meta-learning, curriculum learning, transfer, self-reflection), social intelligence and embodiment (affective computing, social reasoning, cultural adaptation), and values alignment and safety.
 
-4. **Pedagogical and Ethical Implications**: Examined autonomy vs. control, values imposition, learner dependency, teacher displacement, surveillance risks, and the alignment problem in education. DiscussCollect es equity (democratization vs. exacerbation of inequality).
+4. **Critique**: Identified six core weaknesses in the educational AGI discourse — definitional inflation, LLM misdirection, architecture kitchen-sinking, shallow values alignment, underdeveloped evaluation, and neuro-symbolic deadlock. Advocated abandoning AGI framing in favor of staged cross-domain competence.
 
-5. **Human Teachers**: Documented the augmentation vs. replacement debate and the human-in-the-loop imperative.
+5. **Architecture Impact**: Mapped AGI-driven design principles and architectural provisions across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS), focusing on evolutionary readiness, human-in-the-loop as permanent feature, composability, and staged competence levels (SAE-like L1–L5).
 
-6. **Evaluation Frameworks**: Proposed multi-dimensional effectiveness, safety and robustness, human-centric metrics, and benchmark components (cross-domain mastery, lifelong learning, adversarial teaching, Socratic dialogue).
+6. **Future Questions**: Identified 30 open questions across nine themes: definitional, memory/representation, reasoning/planning, values/alignment/safety, multi-agent/coordination, evaluation/benchmarks, integration/deployment, societal/philosophical, and emerging technical frontiers.
 
-7. **Current Research Frontiers**: Surveyed multi-agent AGI architectures, neuro-symbolic AGI, lifelong learning, and open-ended learning / curiosity.
+7. **Critical Gaps for EduOS**:
+   - No operational metric for "generality" in education
+   - LLMs lack persistent learner models and pedagogical grounding
+   - Multi-agent coordination complexity is understudied at scale
+   - Neuro-symbolic integration remains unsolved after decades
+   - Values alignment is political/philosophical, not merely technical
+   - Evaluation frameworks for educational AGI are unfalsifiable
+   - Safety guarantees for self-improving systems do not exist
+   - Equity risks of an "AGI divide" are underexplored
 
 ### Architectural Impact
-Educational AGI is a long-term horizon that shapes EduOS design principles rather than a near-term subsystem. Key architectural implications include:
-- **Modularity**: Subsystems must support incremental capability growth and not lock in narrow-AI assumptions
-- **Memory architecture (MAS)**: Must eventually support rich, multi-scale memory (episodic, semantic, procedural)
-- **Values alignment**: Safety, fairness, and transparency must be built into the architecture from the ground up
-- **Human oversight**: Every subsystem should preserve meaningful human control as autonomy increases
-- **Standards and interoperability**: Open standards enable future AGI components to integrate
-- **Ethical governance**: Ethical constraints should be encoded at the infrastructure level
+Educational AGI shapes EduOS design as a long-term horizon rather than a near-term subsystem:
+- **ADS**: From fixed roles to emergent roles; runtime role negotiation; recursive delegation
+- **AOS**: From orchestration to self-organization; data-driven generative workflows; value-pluralistic conflict resolution
+- **KGS**: From static curriculum graphs to evolving, self-extending, cross-domain knowledge structures
+- **KIS**: From fusion to epistemic synthesis with adversarial robustness and contradictory evidence handling
+- **MAS**: Rich multi-scale memory (episodic, semantic, procedural, prospective) with lifelong persistence
+- **RCS**: General pedagogical reasoning, theory of mind, counterfactual reasoning, self-modifying reasoning (sandboxed)
+- **TAS**: Unbounded scalability, self-healing infrastructure, massive-scale simulation support
+- **LMS**: From learner model to learner portrait; identity continuity across life stages; predictive modeling
+
+Cross-cutting themes: values pluralism, permanent human-in-the-loop, composability, and staged competence levels.
 
 ### Remaining Uncertainty
-- What is the minimum viable architecture that would allow EduOS to incrementally evolve toward AGI capabilities?
-- How do we design values alignment that generalizes across cultures, pedagogical traditions, and learner neurotypes?
-- What is the realistic timeline for educational AGI, and how should EduOS prioritize near-term vs. long-term investments?
-- Can multi-agent coordination or neuro-symbolic approaches realistically bridge the gap from narrow AI to AGI?
-- What are the specific open research problems that, if solved, would most accelerate progress toward educational AGI?
+- What is the minimum viable architecture that allows incremental evolution toward AGI capabilities?
+- How do we design values alignment generalizing across cultures, pedagogical traditions, and neurotypes?
+- Can multi-agent coordination or neuro-symbolic approaches bridge the gap from narrow AI to AGI?
+- What selective oversight mechanisms scale human oversight as decisions per second grow?
+- How do we prevent an "AGI divide" while pursuing high-capability educational AI?
 
 ### Next Research Direction
-Continue with the Educational AGI research iteration by producing the remaining deliverables: critique.md, architecture_impact.md, and future_questions.md. After completion, move to the next backlog topic.
+Proceed to **Cross-Domain Transfer and Lifelong Learning** — the next topic in the backlog. This topic operationalizes the AGI vision by investigating how knowledge and skills transfer across domains, how learning systems avoid catastrophic forgetting, and how learner identity and knowledge persist across life stages and platforms.
 
 ### Deliverables Completed
 - [x] summary.md
-- [ ] critique.md (pending)
-- [ ] architecture_impact.md (pending)
-- [x] Knowledge graph updated (concepts, relationships)
-- [ ] open-problems.md update (pending)
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
 
 ---
 

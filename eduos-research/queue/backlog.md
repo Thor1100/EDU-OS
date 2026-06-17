@@ -16,10 +16,10 @@
 - [x] Misconception Detection
 - [x] Adaptive Learning
 - [x] Digital Twins
+- [x] Educational AGI
 
 ## Future Research
 
-- [ ] Educational AGI
 - [ ] Cross-Domain Transfer and Lifelong Learning
 - [ ] Real-Time Scalable Adaptive Systems
 - [ ] Fairness and Bias Mitigation in EduOS

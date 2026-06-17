@@ -40,6 +40,17 @@
   - Identified critical gaps: analytics-to-intervention bridge, causal validity, narrow learning proxies, deployment challenges, ethical practice gaps
   - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
 
+- **Educational AGI** — Completed
+  - Foundational definitions mapped: narrow AI, AGI, ASI, and the edu-AGI spectrum (L1–L4)
+  - Capabilities and limitations of LLMs as precursors to educational AGI analyzed (stochastic parrot vs. emergent reasoning debate)
+  - Architecture requirements outlined across five pillars: memory, reasoning/planning, learning, social intelligence, values alignment
+  - Augmentation vs. replacement debate and human-in-the-loop imperative documented
+  - Evaluation frameworks proposed: multi-dimensional effectiveness, safety, human-centric metrics, benchmarks
+  - Research frontiers surveyed: multi-agent AGI, neuro-symbolic AGI, lifelong learning, open-ended learning
+  - Architecture impact mapped across all eight EduOS subsystems with evolutionary readiness principles
+  - Identified critical gaps: definitional inflation, LLM misdirection, architecture kitchen-sinking, shallow values alignment, underdeveloped evaluation, neuro-symbolic deadlock, multi-agent coordination complexity
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md, open-problems updated
+
 ## 2026-06-16
 
 - **Knowledge Tracing** — Completed
@@ -89,5 +100,13 @@
   - Automated assessment techniques for selected-response, constructed-response, and process-based assessment surveyed
   - Validity, reliability, and fairness challenges analyzed
   - Identified critical gaps: automated scoring brittleness, high authoring cost, limited diagnostic granularity, bias in AES, poor formative-assessment integration, neglect of affective states
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
+- **Educational Agents** — Completed
+  - Foundational papers from Wooldridge & Jennings (1995) to LLM-based agents (2023+) reviewed
+  - Agent architectures: single tutor, multi-role, conversational, embodied, teachable, RL-driven, LLM-based
+  - Multi-agent coordination, pedagogical roles, and effectiveness evidence surveyed
+  - Identified critical gaps: scalable multi-agent coordination, persistent learner models, pedagogical soundness, affective realism, cost-effectiveness, cross-domain persistence, human-agent collaboration, evaluation benchmarks
   - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
   - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md

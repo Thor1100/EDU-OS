@@ -779,6 +779,90 @@
 
 ---
 
+## Educational AGI
+
+### P105: Definitional Grounding and Staged Competence
+**Status:** Educational AGI lacks operational definitions; the field conflates aspiration with engineering.
+**Impact:** Very High — without staged, measurable competence levels, progress is unfalsifiable.
+**Questions:**
+- What is the minimum viable definition of "cross-domain adaptive competence" that is falsifiable?
+- Can a competence hierarchy (teach → adapt → invent → evaluate) be operationalized with concrete benchmarks?
+- How do we distinguish multi-domain narrow AI from genuine generality in educational contexts?
+
+### P106: Memory Architecture for Lifelong Learner Modeling
+**Status:** No existing system integrates episodic, semantic, procedural, working, and prospective memory at scale for education.
+**Impact:** Very High — AGI requires persistent, multi-scale memory across decades.
+**Questions:**
+- What storage and retrieval architecture can support petabyte-scale per-learner memory over a lifetime?
+- How do approximate activation-based retrieval mechanisms (ACT-R style) scale to distributed cloud stores?
+- What forgetting and consolidation mechanisms maintain signal-to-noise as memory grows?
+
+### P107: Values Alignment in Pluralistic Educational Contexts
+**Status:** The alignment problem is treated as technical, but in education it is fundamentally political and philosophical.
+**Impact:** Very High — different pedagogical traditions encode irreconcilable values.
+**Questions:**
+- How can a system expose, justify, and allow modification of its embedded pedagogical values?
+- What "value-description language" could formalize pedagogical goals without cultural bias?
+- How do we prevent optimization for proxy metrics (test scores, engagement) from diverting from genuine learning?
+
+### P108: Theory of Mind for Pedagogical Reasoning
+**Status:** AI theory of mind is either brittle symbolic modeling or opaque neural approximation; neither is sufficient for education.
+**Impact:** High — modeling learner beliefs, misconceptions, and intentions is core to teaching.
+**Questions:**
+- What is the minimum viable theory-of-mind depth (first-order, second-order) that produces pedagogical benefits worth the cost?
+- Can neural approximations of theory-of-mind be made robust enough for high-stakes tutoring?
+- How does theory-of-mind modeling interact with learner privacy and agency?
+
+### P109: Multi-Agent vs. Monolithic AGI Architectures
+**Status:** Uncertain whether general intelligence emerges from coordinated specialists or requires a unified model.
+**Impact:** High — this choice shapes the entire EduOS architecture.
+**Questions:**
+- Can a multi-agent system produce emergent generality without a monolithic AGI model?
+- What coordination primitives are necessary and sufficient for coherent multi-agent educational systems?
+- How do we prevent agent conflicts, consensus failures, and cascading errors at scale?
+
+### P110: Neuro-Symbolic Integration for Educational Reasoning
+**Status:** After decades of promise, neural-symbolic integration remains unsolved; no convincing roadmap exists for educational AGI.
+**Impact:** High — education requires both neural flexibility and symbolic interpretability.
+**Questions:**
+- Can production rules be reliably extracted from neural representations without catastrophic information loss?
+- What functional decomposition (neural for perception/language, symbolic for planning/constraints) can work without a unified theory?
+- What specific technical breakthrough would most accelerate neuro-symbolic educational AGI?
+
+### P111: Long-Term Retention and Transfer in Autonomous Tutoring
+**Status:** Most adaptive systems optimize for immediate performance; AGI must optimize for durable, transferable learning.
+**Impact:** High — the true test of education is what persists and transfers.
+**Questions:**
+- How should an autonomous system balance immediate engagement with long-term retention?
+- Can digital twin simulations substitute for expensive long-term empirical studies?
+- What metrics capture "pedagogical creativity" and "pedagogical wisdom" in a way that guides system improvement?
+
+### P112: Safety and Provable Guarantees in Self-Improving Educational Systems
+**Status:** As systems learn and adapt, their behavior may drift from initial safety constraints; no provable safety framework exists.
+**Impact:** Very High — self-improvement without safety guarantees risks learner harm.
+**Questions:**
+- What safety properties can be provably guaranteed in systems that continuously learn from learner interactions?
+- How do we detect and reverse value drift before it harms learners?
+- What sandboxing and human-approval mechanisms are needed for self-modifying reasoning rules?
+
+### P113: Human Oversight as System Autonomy Increases
+**Status:** Human-in-the-loop at current scale may not be feasible at AGI scale (thousands of decisions per second).
+**Impact:** High — meaningful oversight must scale with system capability.
+**Questions:**
+- What selective oversight mechanisms (anomaly-based, risk-weighted, random audit) maintain safety without reviewing every decision?
+- How should human oversight scale from tens of decisions per session to thousands per second?
+- Can we design systems that defer to human judgment precisely when it matters most?
+
+### P114: Equity and the AGI Divide
+**Status:** High-capability educational AI may be expensive, creating a new divide between those with and without access.
+**Impact:** Very High — equity is a core EduOS value.
+**Questions:**
+- How do we prevent an "AGI divide" where only wealthy institutions have access to the best educational AI?
+- Can open-source, cooperative, or federated approaches deliver AGI-level benefits equitably?
+- What architectural choices (e.g., tiered capabilities, model compression, edge deployment) can democratize access?
+
+---
+
 ## Adaptive Learning
 
 ### P86: Cold Start and Rapid Adaptation
