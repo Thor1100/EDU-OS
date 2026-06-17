@@ -20,7 +20,7 @@
 
 ## Future Research
 
-- [ ] Cross-Domain Transfer and Lifelong Learning
+- [x] Cross-Domain Transfer and Lifelong Learning
 - [ ] Real-Time Scalable Adaptive Systems
 - [ ] Fairness and Bias Mitigation in EduOS
 - [ ] LLM Safety and Pedagogical Guardrails

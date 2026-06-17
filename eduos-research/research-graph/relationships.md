@@ -510,3 +510,44 @@ An AGI must autonomously explore teaching strategies, learn from novel learner b
 
 - [[multi-agent-agi]] → is-an-alternative-to → [[monolithic-agi]]
 Educational AGI could emerge from coordinated specialist agents rather than a single omniscient model.
+
+## Cross-Domain Transfer and Lifelong Learning Relationships
+
+- [[transfer-learning]] → connects → [[knowledge-graph]]
+Transfer is enabled by explicit cross-domain edges (prerequisites, analogies) in the knowledge graph.
+
+- [[positive-transfer]] → facilitates → [[adaptive-learning]]
+Adaptive systems can leverage positive transfer to accelerate learning by recognizing and scaffolding cross-domain connections.
+
+- [[negative-transfer]] → interferes-with → [[adaptive-learning]]
+Adaptive systems must detect and mitigate negative transfer where prior knowledge conflicts with new learning.
+
+- [[catastrophic-forgetting]] → threatens → [[learner-model]]
+Continuous model updates risk overwriting prior learner knowledge, necessitating continual learning mechanisms.
+
+- [[continual-learning]] → enables → [[lifelong-learning]]
+Without mechanisms to prevent forgetting, neither human nor machine learning systems can sustain lifelong competence.
+
+- [[dual-memory-system]] → supports → [[lifelong-learning]]
+Separating fast-learning episodic memory from slow-learning semantic memory enables integration of new knowledge without forgetting.
+
+- [[memory-consolidation]] → transforms → [[episodic-memory]] into [[semantic-memory]]
+Consolidation processes gradually transform detailed episodic traces into stable, generalizable semantic knowledge.
+
+- [[cross-domain-prerequisite]] → links → [[knowledge-graph]] across domains
+Cross-domain prerequisites connect otherwise isolated domain structures into a unified learning space.
+
+- [[structural-alignment]] → enables → [[far-transfer]]
+Far transfer depends on recognizing deep structural similarities across domains, not just surface features.
+
+- [[digital-twin]] → provides-persistence-for → [[lifelong-learning]]
+A persistent digital twin is the substrate for maintaining coherent learner state across life stages and domains.
+
+- [[learner-model]] → requires → [[domain-alignment]]
+When crossing domain boundaries, the learner model must reconcile different terminology and conceptual frameworks.
+
+- [[cognitive-architecture]] → informs → [[dual-memory-system]]
+Cognitive architectures (ACT-R, SOAR) provide theoretical grounding for memory system design that supports transfer and lifelong learning.
+
+- [[educational-agi]] → requires → [[transfer-learning]]
+Any claim to general educational intelligence must demonstrate robust cross-domain transfer.

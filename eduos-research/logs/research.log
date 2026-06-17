@@ -2026,3 +2026,77 @@ Sleeping 600 seconds...
 ====================================
 Research Cycle Started Wed Jun 17 19:11:18 UTC 2026
 ====================================
+ ## Research Iteration Complete: Educational AGI
+
+**Status:** Completed and pushed.
+
+**Work done:**
+
+- **Educational AGI** research finalized. All four deliverables verified:
+  - `summary.md` — Foundational definitions, LLM precursor analysis, architecture requirements, evaluation frameworks
+  - `critique.md` — Six core weaknesses identified; recommended abandoning AGI framing in favor of staged cross-domain competence
+  - `architecture_impact.md` — AGI-driven design principles mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - `future_questions.md` — 30 open questions across nine themes
+
+- **Knowledge graph** updated:
+  - Added 10 new open problems (P105–P114) to `research-graph/open-problems.md` for Educational AGI, covering definitional grounding, memory architecture, values alignment, theory of mind, multi-agent vs. monolithic architectures, neuro-symbolic integration, long-term retention, safety guarantees, human oversight scaling, and equity
+
+- **Administrative updates**:
+  - `research-program/research_journal.md` updated with complete findings and deliverables checklist
+  - `queue/completed.md` appended with Educational AGI entry
+  - `queue/backlog.md` marked Educational AGI as complete
+  - `queue/active.md` set to next topic
+
+- **Git:** Committed and pushed (`7f03919`)
+
+**Next topic:** Cross-Domain Transfer and Lifelong Learning
+Wed Jun 17 19:20:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 19:25:32 UTC 2026
+====================================
+ 
+Wed Jun 17 19:43:51 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 19:48:51 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_71b7add2b52e
+Wed Jun 17 19:49:52 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 19:59:52 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d8c4acde5fea
+Wed Jun 17 20:00:52 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 20:10:52 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_fd21a14b311b
+Wed Jun 17 20:11:50 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 20:21:50 UTC 2026
+====================================

@@ -245,3 +245,21 @@
 - [[open-ended-learning]]: Capability of an AI system to autonomously explore, set its own goals, and learn from novel experiences without explicit human programming.
 - [[human-in-the-loop]]: Design principle requiring meaningful human oversight, review, or override capability for high-stakes AI decisions, including education.
 - [[augmentation-vs-replacement]]: Debate over whether AI in education should enhance human teachers (augmentation) or substitute for them (replacement).
+
+## Cross-Domain Transfer and Lifelong Learning
+
+- [[transfer-learning]]: Application of knowledge acquired in one domain or task to a different but related domain or task in educational contexts.
+- [[positive-transfer]]: Situation where learning in one domain facilitates learning in another (e.g., algebra to physics).
+- [[negative-transfer]]: Situation where prior knowledge in one domain interferes with learning in another (e.g., L1 syntax interfering with L2 acquisition).
+- [[near-transfer]]: Transfer between highly similar contexts or tasks; relatively common in education.
+- [[far-transfer]]: Transfer between dissimilar contexts or tasks; rare but highly valuable; requires explicit abstraction and metacognitive support.
+- [[structural-alignment]]: Identification影像学analogical mapping of deep structural correspondences between domains, independent of surface features.
+- [[catastrophic-forgetting]]: Phenomenon where neural networks or learner models lose previously acquired knowledge when learning new information; a central challenge in lifelong learning.
+- [[continual-learning]]: Machine learning paradigm where a system learns a sequence of tasks, ideally leveraging prior knowledge and avoiding forgetting of previous tasks.
+- [[lifelong-learning]]: Capability of an educational system (and the learner it supports) to continuously learn and adapt across extended time horizons and multiple domains without loss of prior competence.
+- [[memory-rehearsal]]: Technique of revisiting and reactivating prior learning experiences to strengthen retention and prevent forgetting.
+- [[memory-consolidation]]: Process by which initially labile episodic memories become stable and integrated into long-term semantic knowledge.
+- [[dual-memory-system]]: Architecture inspired by neuroscience (hippocampus and neocortex) with separate fast-learning episodic memory and slow-learning semantic memory.
+- [[cross-domain-prerequisite]]: A concept or skill in one domain that serves as a prerequisite for learning in another domain.
+- [[domain-alignment]]: Process of reconciling terminology, notation, and conceptual frameworks across different knowledge domains to enable cross-domain reasoning.
+- [[curriculum-learning]]: Training educational systems or learners progressively from easier to harder examples or concepts to improve generalization.

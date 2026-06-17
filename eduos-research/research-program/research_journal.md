@@ -690,3 +690,58 @@ Proceed to **Cross-Domain Transfer and Lifelong Learning** — the next topic in
 
 ---
 
+## 2026-06-17: Cross-Domain Transfer and Lifelong Learning Research Iteration
+
+### Topic
+Cross-Domain Transfer and Lifelong Learning
+
+### Findings
+Completed comprehensive research on Cross-Domain Transfer and Lifelong Learning for什 the EduOS architecture, covering:
+
+1. **Foundational Papers:** Analyzed Thorndike & Woodworth (1901) transfer origins, Gick & Holyoak (1983) schema induction, Perkins & Salomon (1992) low/high-road transfer, Singley & Anderson (1989) production-rule transfer, Pan & Yang (2010) transfer learning taxonomy, and Bengio et al. (2009) curriculum learning.
+
+2. **Transfer Taxonomy:** Mapped positive vs. negative, near vs. far, and forward vs. backward transfer types; identified structural alignment, shared production rules, and metacognitive awareness as core mechanisms.
+
+3. **Continual Learning:** Surveyed catastrophic forgetting mitigation (EWC, SI, rehearsal, progressive networks, dual-memory), continual learning paradigms (task/domain/class-incremental), and emerging federated continual learning approaches.
+
+4. **Memory Architectures:** Investigated complementary learning systems (hippocampus/neocortex), episodic vs. semantic memory, memory replay, and consolidation as biological inspiration for computational lifelong learning systems.
+
+5. **Educational Applications:** Mapped spiral curriculum, interdisciplinary sequencing, analogical reasoning scaffolding, and metacognitive transfer prompts to system design requirements.
+
+6. **Critical Gaps for EduOS:**
+   - Far transfer remains rare and under-supported in educational technology
+   - Catastrophic forgetting is not solved; all mitigation strategies have significant trade-offs
+   - Negative transfer is common but understudied and unaddressed by adaptive systems
+   - Lack of education-specific cross-domain transfer and lifelong learning benchmarks
+   - Semantic domain mismatch (e.g., "function" in math vs. programming vs. biology)
+   - Temporal scale mismatch between research evaluations (hours/days) and lifelong learning (years/decades)
+   - Privacy vs. persistence trade-off for lifelong learner models
+   - Pedagogical implications of transfer (explicit vs. implicit teaching for transfer) underexplored
+
+### Architectural Impact
+- **ADS:** New agents (Transfer Scaffolding, Domain Bridge, Lifelong Learner Identity, Negative Transfer Mitigation, Consolidation Scheduler); cross-domain and identity events
+- **AOS:** Cross-domain context assembly, transfer-aware workflow branching, lifelong session management, episodic→semantic consolidation workflows
+- **KGS:** Cross-domain analogical mapping nodes, transfer probability edges, domain nodes with semantic mappings, cross-domain prerequisite reasoning
+- **KIS:** Multi-domain evidence fusion, cross-domain alignment, ontology reconciliation, transfer probability inference
+- **MAS:** Dual-memory system (episodic/semantic), consolidation service, transfer memory, domain-specific forgetting curves, cross-domain reactivation
+- **RCS:** Analogical reasoning, transfer prediction, negative transfer detection, consolidation reasoning, long-horizon planning across domain boundaries
+- **TAS:** Cross-domain assessment infrastructure, lifelong model storage (time-series/graph), continual learning pipelines, transfer evaluation benchmarks
+- **LMS:** Cross-domain mastery profile, transfer history, metacognitive transfer competence, identity and persistence, consolidation state, age-appropriate temporal modeling
+
+### Remaining Uncertainty
+- Which combination of regularization, rehearsal, and dynamic architecture scales best to realistic educational data?
+- Can LLMs reliably identify structural analogies between domains, or do they rely on superficial similarity?
+- What is the minimum data footprint for a useful lifelong learner model?
+- How much of lifelong learning research in ML (MNIST permutations) transfers to authentic educational settings?
+- What cross-domain prerequisite relationships exist, and can they be discovered automatically from learner performance data?
+- How do we prevent a persistent lifelong learner model from becoming path-dependent and resistant to productive revision?
+
+### Next Research Direction
+Proceed to **Real-Time Scalable Adaptive Systems** — the next topic in the backlog. This will investigate how EduOS achieves sub-second adaptive inference at scale, how streaming and event-driven architectures support real-time learning, and what infrastructure is needed to support millions of concurrent learners with personalized, continuously updated models.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)

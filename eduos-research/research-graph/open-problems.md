@@ -945,3 +945,69 @@
 - Are centralized or distributed adaptive loops more effective for multi-agent, multi-system orchestration?
 - What conflict resolution mechanisms are needed when subsystems disagree?
 
+## Cross-Domain Transfer and Lifelong Learning
+
+### P116: Far Transfer Scaffolding and Detection
+**Status:** Far transfer is rare in both human learning and AI systems; explicit scaffolding mechanisms are underdeveloped.
+**Impact:** High — transfer is the hallmark of genuine learning.
+**Questions:**
+- What automated prompts or interventions improve far transfer, and for which learners?
+- Can LLMs reliably generate pedagogically valid analogies across domains?
+- What signals indicate successful vs. failed transfer in real time?
+
+### P117: Catastrophic Forgetting in Learner Models
+**Status:** No solution fully prevents catastrophic forgetting in neural-network-based learner models without significant trade-offs.
+**Impact:** High — a lifelong system must preserve prior knowledge.
+**Questions:**
+- Which combination of regularization, rehearsal, and dynamic architecture scales best to realistic educational data?
+- How do memory storage costs trade off with forgetting prevention?
+- Can federated continual learning protect privacy while preventing forgetting?
+
+### P118: Negative Transfer Detection and Mitigation
+**Status:** Negative transfer is common in education but rarely addressed by adaptive systems.
+**Impact:** Medium-High — negative transfer can actively harm learning.
+**Questions:**
+- What data or structural analysis predicts negative transfer before it occurs?
+- What are the most effective pedagogical interventions for resolving negative transfer?
+- How should an adaptive system behave when negative transfer is detected?
+
+### P119: Cross-Domain Prerequisite Discovery
+**Status:** Automatically inferring that skill A in domain X is prerequisite for skill B in domain Y is unsolved.
+**Impact:** High — enables unified learning paths across disciplines.
+**Questions:**
+- Can cross-domain prerequisite relationships be inferred from learner performance data?
+- How do prerequisite networks change with learner age, expertise, and culture?
+- What validation methods can confirm inferred cross-domain prerequisites?
+
+### P120: Lifelong Learner Model Persistence and Evolution
+**Status:** Maintaining a coherent learner model across life stages while respecting privacy and agency is largely unsolved.
+**Impact:** High — EduOS targets lifelong learning.
+**Questions:**
+- What learner model components should persist indefinitely, and what should decay or reset?
+- How do we balance model richness with the right to be forgotten?
+- What age-appropriate learner model representations best serve learners from K-12 through professional development?
+
+### P121: Semantic Domain Alignment
+**Status:** Domains encode the same concepts differently (notation, terminology, framing); reconciling this semantically is a hard open problem.
+**Impact:** Medium-High — blocks effective cross-domain reasoning.
+**Questions:**
+- What automated techniques best align concepts across heterogeneous domain knowledge graphs?
+- How do we handle semantic drift (same term, different meanings across domains or time)?
+- What human-in-the-loop validation is needed for automated cross-domain alignment?
+
+### P122: Longitudinal and Cross-Domain Evaluation
+**Status:** Most educational AI evaluations are short-term and single-domain; long-term cross-domain benchmarks are rare.
+**Impact:** Medium — lack of benchmarks hinders progress.
+**Questions:**
+- What standardized benchmarks should exist for cross-domain transfer in education?
+- How should we measure pedagogical utility (not just accuracy) of continual learning methods?
+- What longitudinal study designs are feasible for validating lifelong learning systems?
+
+### P123: Metacognitive Transfer Competence
+**Status:** The ability to recognize and apply transferable knowledge is itself a learnable skill; few systems explicitly model or scaffold it.
+**Impact:** Medium — a high-leverage intervention for lifelong learning.
+**Questions:**
+- Can a system reliably assess a learner's metacognitive transfer competence?
+- What scaffolding strategies improve this competence?
+- How does transfer competence interact with domain expertise and cognitive development?
+
