@@ -810,3 +810,64 @@ Proceed to **Fairness and Bias Mitigation in EduOS** — the next topic in the b
 - [x] future_questions.md
 - [x] Knowledge graph updated (concepts, relationships, open-problems)
 
+---
+
+## 2026-06-17: Fairness and Bias Mitigation in EduOS Research Iteration
+
+### Topic
+Fairness and Bias Mitigation in EduOS
+
+### Findings
+Completed comprehensive research on Fairness and Bias Mitigation for the EduOS architecture, covering:
+
+1. **Foundational Papers:** Analyzed Dwork et al. (2012) individual fairness, Hardt et al. (2016) equalized opportunity, Kleinberg et al. (2016) impossibility theorems, and Mehrabi et al. (2021) comprehensive ML fairness survey. Reviewed educational fairness works by Baker et al. (2020), Reich & Ito (2017), and Sluis et al. (2021).
+
+2. **Sources of Bias:** Cataloged four bias categories affecting adaptive education:
+   - Data bias (historical inequity, representation gaps, measurement bias, technical collection issues)
+   - Algorithmic bias (model accuracy disparities, RL/bandit under-exploration, LLM content generation variation)
+   - Interactional bias (interface accessibility, agent persona mismatch, linguistic discrimination)
+   - Structural bias (resource access, institutional capacity, digital divide)
+
+3. **Fairness Definitions:** Surveyed group fairness (demographic parity, equalized odds, calibration), individual fairness (consistency, counterfactual fairness), procedural vs. distributive fairness, intersectionality, and longitudinal fairness. Noted that standard ML fairness definitions are poorly matched to pedagogical goals.
+
+4. **Bias Propagation:** Mapped the full adaptive system pipeline (data collection → preprocessing → model training → adaptive decision → feedback loop), identifying compounding effects where small initial biases amplify into large trajectory divergences over time.
+
+5. **Auditing and Mitigation:** Reviewed pre-deployment audits, real-time fairness metrics, pre/in/post-processing mitigation techniques, and architectural interventions including fairness audit agents, open learner models, human-in-the-loop review, and differential privacy.
+
+6. **Critical Gaps for EduOS:**
+   - ML fairness definitions assume static prediction tasks; education is temporal, cumulative, and multi-stakeholder
+   - Compounding feedback loop bias is rarely modeled or addressed
+   - Auditing is typically episodic rather than continuous
+   - Pedagogical side effects of fairness interventions are unstudied
+   - Stakeholder voice (learners, educators, families, policymakers) is largely absent from fairness design
+   - Resource and accessibility bias are treated as deployment issues rather than core fairness concerns
+   - Case studies of successful bias mitigation in education are sparse
+
+### Architectural Impact
+- **ADS:** Fairness audit agent, bias dispute agent, culturally responsive agent personas, group-wise evaluation gates
+- **AOS:** Fairness-gated workflow branching, transparent conflict resolution, conservative fallback when fairness checks unavailable
+- **KGS:** Bias-aware graph construction, multi-cultural prerequisite validation, cultural context nodes, versioned provenance
+- **KIS:** Provenance-tagged fusion, group-aware uncertainty, temporal consistency in fusion logic
+- **MAS:** Bias-aware memory encoding, fairness-weighted consolidation, privacy-preserving demographic storage
+- **RCS:** Fairness-first reasoning rules, counterfactual fairness queries, causal bias detection, group-aware explanation generation
+- **TAS:** Latency parity monitoring, fair graceful degradation (no systematic assignment of worse fallback modes), equity-aware cost optimization, fairness metric streaming infrastructure
+- **LMS:** Multi-dimensional fairness in learner model (fairness context, contest history, equity trajectory), fairness-aware updates, open learner model with equity views
+
+### Remaining Uncertainty
+- Which fairness definition (or combination) is pedagogically meaningful in adaptive education?
+- How do we quantify the pedagogical cost of fairness constraints on learning outcomes?
+- Can continuous fairness monitoring be achieved without violating privacy or adding prohibitive latency?
+- What is the minimum viable fairness audit for an early-stage adaptive learning pilot?
+- How do we measure and prevent compounding bias over years of adaptive learning?
+- Can LLM-based adaptive content generation ever be made provably fair?
+
+### Next Research Direction
+Proceed to **LLM Safety and Pedagogical Guardrails** — the next topic in the backlog. As LLMs become the default interface for conversational tutoring, understanding how to prevent hallucination, enforce curriculum alignment, filter harmful content, and maintain pedagogical soundness is critical for EduOS's agent layer (ADS) and orchestration layer (AOS). This topic directly builds on the fairness research by examining how to implement technical guardrails that prevent LLM tutors from generating biased, harmful, or educationally unsound content.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+

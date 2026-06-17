@@ -586,3 +586,64 @@ Consensus protocols enable multiple autonomous agents to agree on shared learner
 
 - [[observability]] → monitors → [[adaptive-learning]]
 Streaming fairness and latency metrics detect inequity and performance degradation in adaptive decision-making before learners are harmed.
+- [[fairness-audit-agent]] → audits → [[adaptive-learning]]
+Continuous monitoring of adaptive decisions for disparate impact across learner populations.
+
+## Fairness and Bias Relationships
+
+- [[bias]] → propagates_through → [[knowledge-tracing]]
+Biased training data or proxy variables in KT produce inequitable mastery estimates that drive downstream adaptive decisions.
+
+- [[bias]] → propagates_through → [[learner-model]]
+Learner models encode demographic and contextual bias when features correlate with protected attributes or when priors reflect historical inequity.
+
+- [[bias]] → propagates_through → [[adaptive-learning]]
+Adaptive sequencing, scaffolding, and content selection may systematically disadvantage certain learner groups if upstream models are biased.
+
+- [[bias]] → propagates_through → [[assessment-system]]
+Differential item functioning, culturally biased items, and algorithmic scoring disparities introduce bias at the assessment layer.
+
+- [[bias]] → propagates_through → [[intelligent-tutoring-system]]
+Tutoring strategies, agent personas, and generated explanations may carry cultural, linguistic, or demographic bias.
+
+- [[bias]] → propagates_through → [[educational-knowledge-graph]]
+Prerequisite structures, concept definitions, and curriculum pathways may encode cultural assumptions that privilege certain learner backgrounds.
+
+- [[feedback-loop-bias]] → amplifies → [[bias]]
+Adaptive decisions shape learner trajectories, which produce biased training data, reinforcing initial disparities over time.
+
+- [[fairness]] → constrains → [[adaptive-learning]]
+Fairness requirements limit the space of acceptable adaptive decisions, requiring multi-objective optimization that balances learning gain and equity.
+
+- [[fairness]] → requires → [[transparency]]
+Procedural fairness demands that adaptive decisions be explainable to learners and educators, especially when outcomes differ by group.
+
+- [[fairness]] → requires → [[observability]]
+Continuous fairness monitoring depends on streaming metrics, disaggregated performance data, and real-time alerting infrastructure.
+
+- [[fairness-audit-agent]] → monitors → [[learner-model]]
+Fairness auditing includes monitoring learner model predictions for group-wise calibration and accuracy disparities.
+
+- [[fairness-audit-agent]] → monitors → [[assessment-system]]
+Automated essay scoring, code evaluation, and adaptive testing are audited for differential item functioning and scoring bias.
+
+- [[fairness-audit-agent]] → monitors → [[educational-agent]]
+Agent behavior, personas, and generated content are evaluated for cultural sensitivity and equitable treatment across learner groups.
+
+- [[proxy-variable]] → encodes → [[bias]]
+Neutral-seeming features (zip code, device type, response latency) can serve as proxies for protected attributes, reviving bias even when demographics are excluded.
+
+- [[intersectionality]] → complicates → [[fairness]]
+Disadvantage at the intersection of multiple identities is not captured by single-attribute fairness metrics, requiring multi-dimensional auditing.
+
+- [[temporal-fairness]] → evaluates → [[feedback-loop-bias]]
+Longitudinal fairness metrics assess whether initial small biases compound into large trajectory divergences over time.
+
+- [[open-learner-model]] → supports → [[procedural-fairness]]
+Learner visibility into and contestation of their model promotes procedural fairness and trust in adaptive systems.
+
+- [[cultural-context-node]] → enriches → [[educational-knowledge-graph]]
+Cultural annotations enable adaptive systems to select culturally relevant examples without privileging dominant cultural norms.
+
+- [[constrained-optimization]] → enables → [[fairness-aware-learning]]
+Embedding fairness constraints into adaptive algorithm objectives produces decisions that trade off learning gain and equity explicitly.

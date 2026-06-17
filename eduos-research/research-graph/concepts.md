@@ -283,3 +283,28 @@
 - [[continual-learning-pipeline]]: Automated infrastructure for incrementally updating deployed models with new data while preventing catastrophic forgetting and enabling A/B testing.
 - [[multi-agent-consensus]]: Protocols enabling multiple autonomous agents to reach agreement on shared learner state or pedagogical actions in real time.
 - [[observability]]: Comprehensive monitoring of latency, throughput, errors, model drift, and fairness in production adaptive systems; includes metrics, logs, and traces.
+
+## Fairness and Bias Mitigation
+
+- [[fairness]]: Ensuring AI-driven educational systems do not systematically disadvantage particular learner groups; a cross-cutting concern spanning algorithmic, data, interaction, and structural dimensions.
+- [[bias]]: Systematic deviation from equity in adaptive systems; includes algorithmic bias (model predictions), data bias (training data), interaction bias (interface/design), and structural bias (resource/institutional).
+- [[demographic-parity]]: Fairness criterion requiring equal positive outcome rates across demographic groups; often too weak in educational contexts where baseline preparation differs.
+- [[equalized-odds]]: Fairness criterion requiring equal true positive and false positive rates across groups; relevant for KT and assessment accuracy parity.
+- [[equal-opportunity]]: Weaker form of equalized odds requiring only equal true positive rates; allows different false positive rates across groups.
+- [[calibration]]: Property that predicted probabilities (e.g., mastery probability from KT) correspond to observed frequencies within each group; essential for trustworthy adaptive decisions.
+- [[individual-fairness]]: Principle that similar individuals by relevant educational features should receive similar adaptive outcomes; requires defining appropriate similarity metrics.
+- [[counterfactual-fairness]]: Principle that outcomes should not change if protected attributes were different; challenging in education where attributes correlate with legitimate differences in preparation.
+- [[distributive-fairness]]: Outcome-oriented fairness focusing on equitable allocation of learning resources, content quality, and outcomes across groups.
+- [[procedural-fairness]]: Process-oriented fairness focusing on transparency, explainability, contestability, and learner voice in adaptive decisions.
+- [[intersectionality]]: Recognition that disadvantage compounds at the intersections of multiple identities (e.g., race × class × language × disability); requires multi-dimensional fairness auditing.
+- [[temporal-fairness]]: Fairness evaluated over time, accounting for accumulated disadvantage and compounding bias in longitudinal adaptive systems.
+- [[fairness-audit]]: Systematic evaluation of an adaptive system for disparate impact across learner groups; can be pre-deployment, periodic, or continuous.
+- [[disparate-impact]]: Pattern where a nominally neutral adaptive policy disproportionately harms a protected group; legally significant in many jurisdictions.
+- [[proxy-variable]]: A feature that is not a protected attribute but correlates with it strongly enough to encode similar biases (e.g., zip code for race, device type for socioeconomic status).
+- [[feedback-loop-bias]]: Phenomenon where adaptive decisions shape learner behavior, which feeds into training data, amplifying initial biases over time.
+- [[adversarial-debiasing]]: Technique using adversarial networks to remove demographic information from learned representations while preserving predictive utility.
+- [[constrained-optimization]]: Approach that embeds fairness constraints directly into the training objective, penalizing group-wise performance disparities.
+- [[fairness-aware-learning]]: Family of algorithms that explicitly optimize for both predictive accuracy and fairness criteria simultaneously.
+- [[open-learner-model]]: Learner model made visible to the learner with contestation affordances; supports procedural fairness and learner agency.
+- [[cultural-context-node]]: Knowledge graph annotation capturing cultural framing of a concept, enabling culturally responsive adaptive content selection.
+- [[fairness-audit-agent]]: Specialized EduOS agent responsible for continuous monitoring, flagging, and reporting of fairness metric violations across all subsystems.

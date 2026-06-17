@@ -2,6 +2,17 @@
 
 ## 2026-06-17
 
+- **Fairness and Bias Mitigation in EduOS** — Completed
+  - Foundational ML fairness papers (Dwork et al. 2012, Hardt et al. 2016, Kleinberg et al. 2016, Mehrabi et al. 2021) and educational fairness works (Baker et al. 2020, Reich & Ito 2017, Sluis et al. 2021) reviewed
+  - Sources of bias cataloged: data bias (historical, representation, measurement, technical), algorithmic bias (model, RL/bandit, content generation), interactional bias (interface, accessibility, agent), and structural bias (resource, institutional)
+  - Fairness definitions surveyed: group fairness (demographic parity, equalized odds, calibration), individual fairness (consistency, counterfactual fairness), procedural vs. distributive fairness, intersectionality, and longitudinal fairness
+  - Bias propagation pipeline mapped: data collection → preprocessing → model training → adaptive decision → feedback loop amplification
+  - Auditing and mitigation techniques surveyed: pre-deployment dataset/model audits, real-time fairness metrics, pre-processing/in-processing/post-processing mitigation, and architectural interventions (fairness audit agents, open learner models, human-in-the-loop)
+  - Stakeholder perspectives (learners, educators, administrators, policymakers, society) analyzed
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS) with dedicated fairness agents, APIs, and continuous fairness pipeline
+  - Identified critical gaps: ML fairness definitions poorly matched to pedagogical goals, compounding feedback loops underestimated, auditing is episodic not continuous, pedagogical side effects of mitigation ignored, stakeholder voice absent, resource/accessibility bias neglected
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md, open-problems updated
+
 - **Real-Time Scalable Adaptive Systems** — Completed
   - Foundational papers on streaming systems (Kleppmann 2017, Akidau et al. 2015, Carbone et al. 2015), model serving (Baylor et al. 2017, Crankshaw et al. 2017, Zhu et al. 2018), and edge computing (Shi et al. 2016) reviewed
   - Core dimensions defined: streaming/event-driven architectures, scalable learner model serving, real-time KT updates, distributed training/continual learning, hot/cold tiered storage, edge vs. cloud trade-offs, load balancing/caching/throttling, multi-agent coordination, observability/graceful degradation
