@@ -551,3 +551,38 @@ Cognitive architectures (ACT-R, SOAR) provide theoretical grounding for memory s
 
 - [[educational-agi]] → requires → [[transfer-learning]]
 Any claim to general educational intelligence must demonstrate robust cross-domain transfer.
+
+## Real-Time Scalable Adaptive Systems Relationships
+
+- [[real-time-scalable-adaptive-system]] → enables → [[adaptive-learning]]
+Real-time infrastructure (streaming, model serving, tiered storage) makes algorithmic adaptive learning responsive at production scale.
+
+- [[event-driven-architecture]] → feeds → [[knowledge-tracing]]
+Continuous event streams supply the data needed for incremental, online KT updates.
+
+- [[feature-store]] → serves → [[learner-model]]
+Low-latency feature stores provide point-in-time learner state required for millisecond-scale adaptive decisions.
+
+- [[model-serving]] → supports → [[intelligent-tutoring-system]]
+Production model-serving tiers deploy KT, learner model, and misconception detection models for real-time ITS inference.
+
+- [[hot-cold-tiered-storage]] → persists → [[digital-twin]]
+Tiered storage provides the infrastructure for synchronizing and archiving digital twin state across hot, warm, and cold tiers.
+
+- [[edge-computing]] → offloads → [[learning-analytics]]
+Edge processing reduces central infrastructure burden for real-time analytics while improving privacy by keeping raw data local.
+
+- [[streaming-processing]] → feeds → [[educational-agent]]
+Real-time event streams enable agents to react to learner state changes and coordinate with other agents via the event bus.
+
+- [[continual-learning-pipeline]] → updates → [[knowledge-graph]]
+Distributed continual learning pipelines incorporate new learner interaction data into global models without catastrophic forgetting.
+
+- [[graceful-degradation]] → protects → [[assessment-system]]
+Fallback heuristics and static sequencing preserve formative assessment continuity when real-time adaptive services fail.
+
+- [[multi-agent-consensus]] → coordinates → [[educational-agent]]
+Consensus protocols enable multiple autonomous agents to agree on shared learner state and pedagogical actions under latency constraints.
+
+- [[observability]] → monitors → [[adaptive-learning]]
+Streaming fairness and latency metrics detect inequity and performance degradation in adaptive decision-making before learners are harmed.

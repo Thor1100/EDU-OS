@@ -263,3 +263,23 @@
 - [[cross-domain-prerequisite]]: A concept or skill in one domain that serves as a prerequisite for learning in another domain.
 - [[domain-alignment]]: Process of reconciling terminology, notation, and conceptual frameworks across different knowledge domains to enable cross-domain reasoning.
 - [[curriculum-learning]]: Training educational systems or learners progressively from easier to harder examples or concepts to improve generalization.
+
+## Real-Time Scalable Adaptive Systems
+
+- [[real-time-scalable-adaptive-system]]: Infrastructure-oriented systems research enabling sub-second adaptive inference and decision-making for millions of concurrent learners.
+- [[event-driven-architecture]]: Design pattern where learner interactions are emitted as immutable events to a distributed log, decoupling producers from consumers and enabling elastic, resilient systems.
+- [[streaming-processing]]: Continuous, low-latency computation over unbounded event streams; key for real-time knowledge tracing and learner model updates.
+- [[model-serving]]: Production infrastructure for deploying ML models with low-latency prediction APIs, including warm pools, A/B testing, and auto-scaling.
+- [[feature-store]]: Centralized repository for storing, versioning, and serving pre-computed features with point-in-time correctness and low-latency reads.
+- [[parameter-server]]: Distributed key-value architecture for serving high-dimensional model parameters or embeddings at scale.
+- [[hot-cold-tiered-storage]]: Storage strategy that places frequently accessed data in fast, expensive tiers (hot) and archives older data in cheap, slow tiers (cold) with intermediate warm tiers.
+- [[edge-computing]]: Processing data near the source (learner device or local server) rather than in a central cloud to reduce latency and improve privacy.
+- [[federated-inference]]: Running model inference on edge devices or local servers while keeping learner data local; pairs with federated learning.
+- [[graceful-degradation]]: System behavior that falls back to simpler, safer alternatives when high-capability services are unavailable or overloaded.
+- [[adaptive-load-balancing]]: Routing and resource allocation strategies tailored to personalized workloads where traffic patterns vary per learner.
+- [[latency-budget]]: Allocated time envelope for each stage of the adaptive loop, ensuring end-to-end response time meets pedagogical requirements.
+- [[circuit-breaker]]: Fault-tolerance pattern that stops forwarding requests to a failing service, allowing it to recover while returning fallback responses.
+- [[personalized-cdn]]: Content delivery strategy that pre-positions or caches adaptive content closer to learners, despite personalization making exact pre-caching infeasible.
+- [[continual-learning-pipeline]]: Automated infrastructure for incrementally updating deployed models with new data while preventing catastrophic forgetting and enabling A/B testing.
+- [[multi-agent-consensus]]: Protocols enabling multiple autonomous agents to reach agreement on shared learner state or pedagogical actions in real time.
+- [[observability]]: Comprehensive monitoring of latency, throughput, errors, model drift, and fairness in production adaptive systems; includes metrics, logs, and traces.

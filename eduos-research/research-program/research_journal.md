@@ -745,3 +745,68 @@ Proceed to **Real-Time Scalable Adaptive Systems** — the next topic in the bac
 - [x] architecture_impact.md
 - [x] future_questions.md
 - [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-17: Real-Time Scalable Adaptive Systems Research Iteration
+
+### Topic
+Real-Time Scalable Adaptive Systems
+
+### Findings
+Completed comprehensive research on Real-Time Scalable Adaptive Systems for the EduOS architecture, covering:
+
+1. **Streaming and Event-Driven Architectures:** Analyzed Kleppmann (2017), Akidau et al. (2015), and Carbone et al. (2015) for event sourcing, CQRS, and stream processing semantics. Established latency budget breakdown for sub-second adaptive loops.
+
+2. **Model Serving and Feature Stores:** Reviewed TensorFlow Serving, Feast/Tecton, and Clipper for low-latency prediction serving. Identified feature store latency as a hidden bottleneck for multi-feature adaptive decisions.
+
+3. **Real-Time Knowledge Tracing and Learner Model Updates:** Surveyed incremental Bayesian updates, online continual learning, and approximation techniques (particle filtering, mean-field). Stale reads with bounded staleness are acceptable for many pedagogical decisions.
+
+4. **Distributed Training and Continual Learning Pipelines:** Examined federated learning (McMahan et al., 2017), distributed training frameworks (Ray, Horovod), and the gap between research algorithms and production deployment.
+
+5. **Hot/Cold Tiered Storage for Lifelong Memory:** Defined hot (in-memory/Redis), warm (TimescaleDB/Cassandra), cold (S3/GCS), and graph tiers for educational memory. Memory consolidation pipelines analogy to hippocampal-neocortical consolidation.
+
+6. **Edge vs. Cloud Processing Trade-offs:** Analyzed latency, bandwidth, and privacy trade-offs. Hybrid edge-cloud architectures with federated inference are promising but have hard consistency challenges.
+
+7. **Multi-Agent Real-Time Coordination:** Event-driven orchestration, low-latency messaging, and CRDT-based conflict resolution for multi-agent systems under sub-second latency constraints.
+
+8. **Graceful Degradation and Observability:** Defined degradation ladder (deep-KT → BKT → rules → static), circuit breakers, and the need for pedagogically sound fallback strategies.
+
+### Critical Gaps for EduOS
+- Education-specific latency-to-learning trade-offs are empirically unstudied
+- Personalized caching is fundamentally hard; cost ceilings for adaptive content delivery are real
+- Real-time continual learning in distributed streaming pipelines is still broken in practice
+- Multi-agent coordination at production scale is unproven in education
+- Graceful degradation strategies must be pedagogically sound, not just technically safe
+- Tiered storage policies for graph-structured semantic knowledge, episodic traces, and procedural models are underspecified
+- Edge-cloud sync for consistent learner models across devices is a hard distributed systems problem
+- Real-time fairness monitoring and observability are immature
+
+### Architectural Impact
+- **ADS**: Transformational — requires model serving, feature stores, edge runtime, and graceful degradation ladders
+- **AOS**: High — event-driven orchestration, async agent consensus, latency-budget-aware workflow branching
+- **KGS**: High — graph-native DB with read-replica scaling, learner subgraph caching, temporal versioning
+- **KIS**: High — streaming fusion with bounded latency, conflict resolution under <100 ms budgets
+- **MAS**: Transformational — hot/warm/cold tiers, memory consolidation pipelines, distributed replay buffers
+- **RCS**: Medium-High — tiered reasoning (background vs. real-time), approximate inference, reasoning caches
+- **TAS**: High — rate-limited LLx content generation, session state management, real-time assessment streaming
+- **LMS**: Transformational — learner model as a service, incremental update APIs, scalable storage with retention policies
+
+### Remaining Uncertainty
+- What is the empirical relationship between adaptive inference latency and learning outcomes?
+- Can cost-optimized personalized caching or approximate caching make adaptive content delivery economically viable at scale?
+- How do we build federated continual learning pipelines that actually work in production?
+- What are the minimal pedagogically sound fallback strategies under infrastructure degradation?
+- How much of the adaptive loop can be offloaded to edge devices without quality loss?
+- What streaming fairness metrics can detect inequity before learners are harmed?
+
+### Next Research Direction
+Proceed to **Fairness and Bias Mitigation in EduOS** — the next topic in the backlog. This topic will investigate how bias enters adaptive systems at scale, what fairness definitions are appropriate for education, and what architectural mechanisms can detect and mitigate inequity in real-time adaptive decision-making.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+

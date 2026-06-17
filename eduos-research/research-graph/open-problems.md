@@ -1011,3 +1011,53 @@
 - What scaffolding strategies improve this competence?
 - How does transfer competence interact with domain expertise and cognitive development?
 
+## Real-Time Scalable Adaptive Systems
+
+### P124: Latency-to-Learning Trade-off
+**Status:** No empirical research maps adaptive inference latency to learning outcomes.
+**Impact:** High — determines infrastructure investment and model selection priorities.
+**Questions:**
+- How much does adaptive inference latency (100 ms vs. 500 ms vs. 1 s) affect engagement and learning gains?
+- What is the pedagogical cost of model staleness (serving from delayed learner model views)?
+- Which adaptive modalities (text, speech, embodied) have the strictest latency requirements?
+
+### P125: Cost-Optimized Personalized Caching
+**Status:** Personalized adaptive content defies generic caching; pre-computation strategies are underexplored.
+**Impact:** Medium-High — cost ceiling for personalized content delivery at scale.
+**Questions:**
+- Can adaptive decisions for common learner states be pre-computed and cached with acceptable hit rates?
+- How do we design cache keys for high-dimensional, continuously updated learner models?
+- Could approximate caching (similar learner states served from cached decisions) maintain quality while reducing compute costs?
+
+### P126: Federated Continual Learning at Scale
+**Status:** Continual learning algorithms exist, but federated deployment with millions of heterogeneous edge devices is unsolved.
+**Impact:** High — privacy-preserving, scalable lifelong learning requires this.
+**Questions:**
+- How do we aggregate model updates from millions of heterogeneous devices with varying compute and connectivity?
+- What privacy guarantees can be provided when model gradients may still leak sensitive information?
+- How do we handle concept drift, model poisoning, and stale gradients in a federated continual learning pipeline?
+
+### P127: Pedagogically Grounded Graceful Degradation
+**Status:** Circuit breakers and fallback heuristics are standard in industry, but pedagogically sound degradation strategies are underexplored.
+**Impact:** High — learner outcomes must be protected even when infrastructure fails.
+**Questions:**
+- What empirically validated fallback strategies minimize learning loss when adaptive services degrade?
+- Can digital twin simulations predict optimal degradation policies before real failures occur?
+- How do we communicate adaptive degradation to learners without undermining trust?
+
+### P128: Real-Time Fairness and Equity Monitoring
+**Status:** Observability systems track latency and errors, but streaming fairness metrics are rarely implemented.
+**Impact:** High — equity is a core requirement for EduOS.
+**Questions:**
+- What streaming metrics reliably detect disparate impact in adaptive latency, content quality, or model accuracy across learner groups?
+- How do we balance fairness constraints with latency and throughput under resource contention?
+- Can throttling and load shedding be designed to favor disadvantaged learners rather than harm them?
+
+### P129: Edge-First and Offline-First Adaptive Architectures
+**Status:** Most adaptive systems assume always-on cloud connectivity; edge-first designs are underexplored.
+**Impact:** Medium-High — connectivity, bandwidth, and privacy constraints demand edge solutions.
+**Questions:**
+- What fraction of the adaptive loop can run entirely on-device without cloud connectivity?
+- How do we reconcile divergent edge-local and cloud-central learner models when connectivity resumes?
+- What is the minimum viable model size (for KT, learner model, and recommendation) that can run on low-end devices?
+
