@@ -222,3 +222,144 @@ Chunking, step-by-step presentation, and reduced extraneous load are necessary d
 
 - [[activation-based-retrieval]] → governs → [[knowledge-access]]
 The probability of retrieving a given knowledge chunk depends on its base-level activation (recency, frequency, context).
+
+## Educational Agent Relationships
+
+- [[educational-agent]] → embodies → [[intelligent-tutoring-system]]
+Educational agents make ITS capabilities concrete through specific persona, role, and interaction design.
+
+- [[pedagogical-agent]] → requires → [[learner-model]]
+Pedagogical agents need accurate, multi-dimensional learner models to personalize instruction.
+
+- [[multi-agent-educational-system]] → coordinates → [[educational-agent]]
+Multi-agent systems require coordination, consensus, and conflict resolution among constituent agents.
+
+- [[conversational-agent]] → uses → [[natural-language-processing]]
+Conversational agents rely on NLP/NLU/NLG (including LLMs) for understanding and generating dialogue.
+
+- [[embodied-agent]] → enhances → [[social-presence]]
+Embodied agents improve engagement and trust through non-verbal cues (gesture, gaze, expression).
+
+- [[teachable-agent]] → promotes → [[learning-by-teaching]]
+Teachable agents leverage the pedagogical benefit of having learners explain concepts to another entity.
+
+- [[peer-agent]] → enables → [[collaborative-learning]]
+Peer agents scaffold collaborative problem-solving and discussion.
+
+- [[mentor-agent]] → provides → [[long-term-guidance]]
+Mentor agents go beyond immediate instruction to support goal-setting and career/academic advising.
+
+- [[companion-agent]] → responds-to → [[affective-state]]
+Companion agents monitor and respond to learner emotions, motivation, and well-being.
+
+- [[metacognitive-agent]] → prompts → [[self-regulated-learning]]
+Metacognitive agents encourage planning, monitoring, and reflection strategies.
+
+- [[assessor-agent]] → updates → [[learner-model]]
+Assessor agents provide evaluative data that feeds into the learner model and knowledge tracing systems.
+
+- [[agent-orchestrator]] → manages → [[multi-agent-educational-system]]
+Orchestration services manage agent lifecycles, role assignment, and conflict resolution.
+
+- [[pedagogical-guardrails]] → constrain → [[llm-based-agent]]
+Guardrails prevent LLM-based agents from producing hallucinations, misconceptions, or unsound pedagogy.
+
+- [[intelligent-tutoring-system]] → integrates → [[educational-agent]]
+ITS architectures increasingly incorporate one or more educational agents as the primary interaction layer.
+
+- [[knowledge-graph]] → guides → [[educational-agent]]
+The knowledge graph constrains and informs what an agent can teach, explain, or assess.
+
+- [[cognitive-architecture]] → informs → [[educational-agent]]
+Cognitive architectures provide theoretical grounding for how agents model and respond to learner cognition.
+
+- [[assessment-system]] → validates → [[educational-agent]]
+Assessment outcomes validate whether agent interventions actually improve learning.
+
+- [[educational-agent]] → generates → [[pedagogical-strategy]]
+Agents select and enact strategies (scaffolding, Socratic questioning, worked examples) based on learner state.
+
+- [[learner-model]] → drives → [[agent-selection]]
+The learner model determines which agent (or combination) is most appropriate at any given moment.
+
+## Learning Analytics Relationships
+
+- [[learning-analytics]] → enables → [[adaptive-learning]]
+Data-driven insights from LA inform content sequencing, difficulty adjustment, and intervention timing.
+
+- [[learning-analytics]] → feeds → [[learner-model]]
+Analytics outputs (engagement, at-risk scores, mastery aggregates) are primary inputs to the learner model.
+
+- [[predictive-analytics]] → triggers → [[early-warning-system]]
+Predicted at-risk or disengagement signals initiate proactive interventions.
+
+- [[predictive-analytics]] → informs → [[adaptive-learning]]
+Forecasts of learner states guide preemptive pedagogical adjustments before problems crystallize.
+
+- [[prescriptive-analytics]] → drives → [[pedagogical-strategy]] selection
+Optimization and RL determine which instructional strategies to deploy based on predicted outcomes.
+
+- [[assessment]] → generates → [[learning-analytics]] data
+Assessment outcomes are among the richest and most reliable data sources for analytics.
+
+- [[knowledge-graph]] → contextualizes → [[learning-analytics]]
+Graph structure enriches analytics with prerequisite, difficulty, and conceptual relationship context.
+
+- [[learning-analytics]] → validates and corrects → [[knowledge-graph]]
+Aggregate analytics reveal structural flaws (e.g., unexpected failure clusters at a prerequisite link) in the knowledge graph.
+
+- [[multimodal-learning-analytics]] → enriches → [[learner-model]]
+Multimodal signals improve affective, behavioral, and engagement estimates beyond interaction logs alone.
+
+- [[diagnostic-analytics]] → identifies → [[misconception]]
+Error pattern analysis and clustering can surface misconceptions that can then be explicitly modeled and remediated.
+
+- [[engagement-analytics]] → detects → [[affective-state]]
+Interaction patterns (pauses, speed changes, help-seeking frequency) serve as behavioral proxies for emotions.
+
+- [[differential-privacy]] + [[federated-learning]] → preserve → [[privacy]]
+Privacy-preserving techniques constrain what analytics can centrally collect while enabling distributed model improvement.
+
+- [[bias-in-learning-analytics]] → undermines → [[fairness]]
+Biased predictions can systematically misdirect interventions, amplifying inequity.
+
+- [[learning-dashboard]] → surfaces → [[open-learner-model]]
+Dashboards make learner model information visible, supporting metacognition and agency.
+
+## Misconception Detection Relationships
+
+- [[misconception-detection]] → feeds → [[learner-model]]
+Detected misconceptions rocking misconceptions enrich the learner model beyond simple mastery tracking.
+
+- [[misconception]] → constrains → [[adaptive-learning]]
+Misconceptions may require remediation before new content is introduced, altering the adaptive path.
+
+- [[assessment]] → reveals → [[misconception]]
+Assessment outcomes, especially error patterns, are primary evidence for misconception detection.
+
+- [[knowledge-tracing]] → can be extended to track → [[misconception]]
+Misconception-aware KT jointly models correct mastery and incorrect understanding over time.
+
+- [[educational-knowledge-graph]] → can include → [[misconception-graph]]
+The knowledge graph can be enriched with misconception nodes and remediation relationships.
+
+- [[intelligent-tutoring-system]] → detects and remediates → [[misconception]]
+ITS effectiveness depends in part on accurate real-time misconception detection.
+
+- [[error-diagnosis]] → identifies → [[misconception]]
+Precise error diagnosis maps incorrect reasoning to known misconception patterns.
+
+- [[remediation-strategy]] → addresses → [[misconception]]
+Remediation strategies are selected based on misconception type, learner state, and domain.
+
+- [[diagnostic-analytics]] → identifies → [[misconception]]
+Error pattern analysis and clustering surface misconceptions for explicit modeling and remediation.
+
+- [[cognitive-diagnosis-model]] → classifies learners into → [[misconception]]
+CDMs probabilistically assign learners to latent misconception categories.
+
+- [[refutation-text]] → targets → [[misconception]]
+Refutation text explicitly confronts and corrects specific misconceptions.
+
+- [[cognitive-architecture]] → informs → [[misconception-detection]]
+Cognitive architectures provide theoretical grounding for how misconceptions form and persist.

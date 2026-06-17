@@ -8,12 +8,12 @@
 - [x] Intelligent Tutoring Systems
 - [x] Cognitive Architectures
 - [x] Assessment Systems
-- [ ] Educational Agents
+- [x] Educational Agents
 
 ## Advanced Research
 
-- [ ] Learning Analytics
-- [ ] Misconception Detection
+- [x] Learning Analytics
+- [x] Misconception Detection
 - [ ] Adaptive Learning
 
 ## Future Research

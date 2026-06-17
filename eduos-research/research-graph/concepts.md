@@ -134,3 +134,61 @@
 - [[temporal-dynamics]]: Modeling how knowledge states change over time, including decay and consolidation.
 - [[long-term-retention]]: Persistence of knowledge over extended periods; a key challenge for KT models.
 - [[knowledge-decay]]: Decline in knowledge availability over time without reinforcement.
+
+## Educational Agents
+
+- [[educational-agent]]: Autonomous or semi-autonomous software entity that interacts with learners to support educational goals; can adopt roles such as tutor, peer, mentor, assessor, or companion.
+- [[pedagogical-agent]]: Agent specifically designed to deliver instruction, provide feedback, or scaffold learning; often embodied or conversational.
+- [[multi-agent-educational-system]]: A system where multiple specialized educational agents coordinate to provide rich, social, and role-diverse learning experiences.
+- [[conversational-agent]]: Agent that uses natural language as its primary interaction modality; may employ NLP, dialog management, or LLM-based generation.
+- [[embodied-agent]]: Animated or visual agent that communicates through gesture, facial expression, and body language as well as speech or text.
+- [[teachable-agent]]: Agent that acts as a novice learner, requiring the human learner to explain, correct, or teach it; leverages the learning-by-teaching effect.
+- [[peer-agent]]: Agent that simulates a peer learner for collaborative problem-solving, discussion, or social learning.
+- [[mentor-agent]]: Agent that provides long-term guidance, goal-setting, career advice, or met Предыдущийcontextual mentoring beyond immediate instruction.
+- [[companion-agent]]: Agent focused on emotional support, motivation, engagement monitoring, and learner well-being.
+- [[metacognitive-agent]]: Agent that prompts and supports self-regulated learning through planning, monitoring, and reflection prompts.
+- [[assessor-agent]]: Agent specializing in formative and summative evaluation, providing diagnostic feedback and adaptive assessment.
+- [[agent-orchestrator]]: Agent (or service) responsible for managing multi-agent coordination, role assignment, turn-taking, and conflict resolution.
+- [[agent-persona]]: The character, role, and communicative style adopted by an educational agent; influences learner trust and engagement.
+- [[persona-effect]]: The phenomenon where learners perform better simply because an animated or personable agent is present, even when tutoring content is identical.
+- [[agent-consensus]]: Agreement among multiple agents on learner state or the next pedagogical action; a core challenge in multi-agent educational systems.
+- [[pedagogical-guardrails]]: Constraints (curriculum, knowledge graph, learning science) that prevent agents (especially LLM-based) from producing unsound or misaligned output.
+- [[learning-by-teaching]]: Educational mechanism where learners deepen understanding by teaching or explaining concepts to others (including agents).
+- [[mixed-initiative-dialogue]]: Dialogue where both the agent and the learner can steer the conversation, requiring flexible dialogue management.
+
+## Learning Analytics
+
+- [[learning-analytics]]: The measurement, collection, analysis, and reporting of data about learners and their contexts to understand and optimize learning and the environments in which it occurs.
+- [[educational-data-mining]]: Application of data mining, machine learning, and statistical methods to educational data; closely related to and overlapping with learning analytics.
+- [[descriptive-analytics]]: What happened? Summarizes past and current learner behavior via dashboards, counts, and summary statistics.
+- [[diagnostic-analytics]]: Why did it happen? Identifies root causes of learning outcomes through correlation, clustering, and error pattern analysis.
+- [[predictive-analytics]]: What will happen? Forecasts future learner states and outcomes using classification, regression, and temporal models.
+- [[prescriptive-analytics]]: What should be done? Recommends or applies optimal actions using reinforcement learning, optimization, and rule-based systems.
+- [[multimodal-learning-analytics]]: Integration of video, audio, physiological, and interaction data for richer learner understanding than interaction logs alone.
+- [[at-risk-prediction]]: Classification of learners likely to fail, dropout, or disengage; a core predictive analytics task.
+- [[dropout-prediction]]: Temporal or static prediction of learner attrition; used for early warning systems.
+- [[engagement-analytics]]: Measurement and modeling of learner engagement patterns, including time-on-task, session frequency, and interaction depth.
+- [[learning-dashboard]]: Visualization interface for learners, educators, or administrators displaying analytics-derived insights.
+- [[bias-in-learning-analytics]]: Systematic unfairness in predictions, recommendations, or insights due to historical data, feature proxies, or model design.
+- [[fairness-in-learning-analytics]]: Ensuring analytics predictions and interventions do not systematically disadvantage particular learner groups.
+- [[differential-privacy]]: Mathematical framework ensuring aggregate statistics do not reveal individual information; used for privacy-preserving analytics.
+- [[federated-learning]]: Distributed training approach where models are updated locally and only summaries are shared, reducing central data collection.
+
+## Misconception Detection
+
+- [[misconception-detection]]: Automated identification of incorrect or incomplete learner understandings from behavior, responses, and interaction patterns.
+- [[misconception]]: A robust, systematically incorrect understanding of a concept; distinct from slips or guesses.
+- [[bug-library]]: Curated collection of known procedural errors and their underlying misconceptions in a domain.
+- [[procedural-misconception]]: Systematic error in executing a multi-step process (e.g., carrying in addition, order of operations).
+- [[conceptual-misconception]]: Fundamental misunderstanding of a domain concept (e.g., heavier objects fall faster).
+- [[ontological-misconception]]: Incorrect categorization of entities or processes (e.g., heat as a substance rather than a process).
+- [[preconception]]: Misconception rooted in everyday experience rather than formal instruction.
+- [[error-pattern-analysis]]: Clustering and classification of learner errors to surface recurring systematic patterns.
+- [[misconception-graph]]: Graph structure representing misconceptions and their relationships (causal, co-occurrence, prerequisite).
+- [[misconception-aware-knowledge-tracing]]: Extension of KT models to jointly track skill mastery and misconception activation.
+- [[refutation-text]]: Instructional text that explicitly states and then refutes a common misconception.
+- [[predict-observation-explanation]]: Instructional activity where learners predict an outcome, observe the actual outcome, and explain the discrepancy; proven effective for conceptual change.
+- [[slip-vs-misconception]]: The challenge of distinguishing transient errors from persistent incorrect understanding.
+- [[cognitive-diagnosis-model]]: Probabilistic models (DINA, DINO, G-DINA) that classify learners into latent attribute/misconception states.
+- [[rule-space-method]]: Technique mapping learner response patterns to specific knowledge states and misconceptions.
+- [[remediation-strategy]]: Pedagogical approach for addressing a detected misconception (feedback, re-teaching, POE, Socratic dialogue, analogy).

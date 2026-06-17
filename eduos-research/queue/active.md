@@ -1,14 +1,16 @@
 Current Topic:
 
-Educational Agents
+Adaptive Learning
 
 Goals:
 
-- Foundational Papers on Educational Agents and Multi-Agent Systems in Education
-- Agent Architectures for Tutoring, Mentoring, and Peer Learning
-- Multi-Agent Coordination and Communication Protocols
-- Agent-Learner Interaction Models and Pedagogical Roles
-- Scalability, Fairness, and Ethical Considerations for Educational Agents
+- Foundational papers and frameworks on adaptive learning (adaptive systems, adaptive courseware, adaptive testing integration)
+- Personalization mechanisms: content, sequencing, scaffolding, feedback, strategy selection
+- Relationship between adaptive learning, learner modeling, knowledge tracing, and intelligent tutoring
+- Theoretical foundations: zone of proximal development, mastery learning, adaptive hypermedia
+- Machine learning approaches to adaptation (reinforcement learning, multi-armed bandits, Bayesian optimization)
+- Evaluation of adaptive learning systems: effectiveness, learner outcomes, engagement
+- Architectural implications for EduOS adaptive loops across all subsystems
 
 Deliverables:
 

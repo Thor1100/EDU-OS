@@ -679,3 +679,565 @@ INFO:     127.0.0.1:51238 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
 INFO:     127.0.0.1:51238 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
 INFO:     127.0.0.1:51238 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
 INFO:     127.0.0.1:51238 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51238 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46362 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32910 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32924 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:32928 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32928 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32928 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32928 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32928 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32928 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42826 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56602 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56602 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56602 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     52.233.122.179:58752 - "GET / HTTP/1.0" 401 Unauthorized
+INFO:     127.0.0.1:35576 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35578 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53050 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53050 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53050 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53050 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36710 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36722 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:36726 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34698 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34714 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:49704 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45200 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33674 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33680 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:33696 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33696 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33696 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33696 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     104.237.145.228:15794 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:43042 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43046 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:37724 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37724 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37724 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37724 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42224 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42226 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54170 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54170 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54170 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54170 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39974 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34186 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:34198 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34198 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34198 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34198 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44972 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56592 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56602 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56602 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56602 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56602 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35604 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35612 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:35614 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35614 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35614 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35614 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51876 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51890 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:57220 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57220 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57220 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57220 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44440 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50984 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:50992 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50992 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50992 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50992 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51360 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53392 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59556 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59562 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:45126 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45126 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45126 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45126 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58094 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58102 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:35850 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35850 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35850 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35850 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:36956 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52692 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:52700 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52700 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52700 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52700 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55320 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55322 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:58994 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58994 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58994 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58994 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49702 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56136 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55106 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51728 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:51740 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51740 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51740 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51740 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43492 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43496 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56548 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56548 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56548 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41966 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     20.115.83.250:51444 - "GET / HTTP/1.1" 401 Unauthorized
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:38016 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54946 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54958 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54958 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54958 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54958 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39328 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39338 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:57898 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57898 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57898 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58642 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     172.236.239.55:60022 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:43840 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43854 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:35464 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35464 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35464 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35464 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57112 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57126 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56904 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34714 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47028 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45964 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:45972 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45972 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45972 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45972 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57838 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57854 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:59332 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59332 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59332 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45550 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49926 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49932 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:46630 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46630 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46630 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46630 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50970 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44720 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:44726 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52494 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52496 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:32936 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32936 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32936 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32936 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:48306 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48320 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:59970 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59970 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59970 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59970 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45738 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37046 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:37058 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37058 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37058 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45178 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47490 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59030 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:59044 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59044 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59044 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59044 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37106 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59624 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:59634 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59634 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59634 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59634 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     3.130.168.2:14158 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     3.130.168.2:28816 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:53728 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53744 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56558 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56558 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56558 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56558 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:47448 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47450 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:47460 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47460 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47460 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47460 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41546 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49544 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:49548 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49548 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49548 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49548 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     172.236.228.222:61772 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58294 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54604 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54604 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54604 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58246 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40678 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40680 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:57068 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39462 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39462 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37400 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44182 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44194 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:34654 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47392 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60696 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47346 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56550 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56566 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56566 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52842 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53368 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42032 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:42038 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34064 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34064 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59788 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47038 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47046 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:52794 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51988 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51988 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35008 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43898 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43900 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:51204 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34820 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34820 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     20.245.31.200:61194 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     20.245.31.200:61194 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     20.245.31.200:61194 - "GET / HTTP/1.1" 401 Unauthorized
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:45872 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45888 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54924 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54924 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54924 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42784 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48936 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34482 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:37052 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37064 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37064 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60802 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43244 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43260 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:40708 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36342 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36342 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39804 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53286 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53294 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:51048 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51048 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51048 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42938 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     5.61.209.92:16668 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58968 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40554 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54248 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54252 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54252 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50632 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59784 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59800 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:37834 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39388 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39388 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57880 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55168 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55178 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:48772 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54366 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54366 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53492 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56884 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:33436 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38088 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38088 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39492 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:42160 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42164 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:37524 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44512 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44512 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38934 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43078 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43094 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:40628 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50744 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50744 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50744 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     128.14.236.30:47396 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     128.14.236.30:47412 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     128.14.236.30:47416 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     128.14.236.30:47422 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     128.14.236.30:47426 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     128.14.236.30:47442 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     128.14.236.30:47444 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41790 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37870 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:39118 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43838 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43838 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34142 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42828 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56458 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:58632 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41612 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41612 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45434 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46654 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45632 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:60116 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52974 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52974 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52974 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52864 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52864 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52864 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52864 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52864 - "POST /v1/messages?beta=true HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56426 - "POST /v1/messages?beta=true HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56434 - "POST /v1/messages?beta=true HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:52864 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52864 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40306 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40306 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38736 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39248 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60014 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58350 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:53502 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45812 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45812 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47522 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35296 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33996 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:40196 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37538 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37538 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55846 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35250 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35262 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:34198 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36570 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36570 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52446 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     91.230.168.141:33245 - "GET / HTTP/1.1" 401 Unauthorized
+INFO:     195.184.76.174:54669 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35336 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56594 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:47346 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60028 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60028 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50232 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58070 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58070 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46818 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33560 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33860 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33860 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33860 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37726 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51354 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33038 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33038 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:38274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38274 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40594 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57696 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54444 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35434 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35434 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40378 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53310 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53316 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:39636 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41076 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41076 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56006 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35658 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35934 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:40088 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55672 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55672 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56362 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47326 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40120 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:46706 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47328 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47328 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44052 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58500 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58500 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47704 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59242 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59242 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59242 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58976 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58992 - "HEAD / HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:39392 - "GET /v1/models?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39676 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39676 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48340 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35862 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35862 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35862 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48570 - "POST /v1/messages/count_tokens?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57930 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57930 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57930 - "POST /v1/messages?beta=true HTTP/1.1" 200 OK

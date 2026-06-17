@@ -779,3 +779,858 @@ Sleeping 600 seconds...
 ====================================
 Research Cycle Started Tue Jun 16 23:17:25 UTC 2026
 ====================================
+ ## Status Summary: Assessment Systems Research Complete ✅
+
+**Iteration Result:** Successfully completed the "Assessment Systems" research topic and advanced the research queue.
+
+**Artifacts Produced:**
+- `research/assessment-systems/summary.md` — CTT, IRT, CAT, automated assessment techniques, and adaptive loop integration
+- `research/assessment-systems/critique.md` — Strengths (mature theory, CAT efficiency) and weaknesses (scoring brittleness, authoring cost, bias)
+- `research/assessment-systems/architecture_impact.md` — Detailed impact on all 8 EduOS subsystems
+- `research/assessment-systems/future_questions.md` — 7 open problems (P48–P54)
+
+**Knowledge Graph Updates:**
+- Added 13 new assessment-related concepts to `concepts.md`
+- Added 14 new relationships to `relationships.md`
+- Added 7 new open problems to `open-problems.md`
+
+**Queue Management:**
+- **Completed:** Assessment Systems
+- **Active:** Educational Agents
+- **Backlog Remaining:** Learning Analytics, Misconception Detection, Adaptive Learning, Digital Twins, Educational AGI
+
+**Git:**
+- Committed as: `research: complete Assessment Systems`
+- Pushed to `research-server` branch (16 files changed, ~1,443 insertions)
+
+**Next Topic:** Educational Agents — foundational multi-agent tutoring architectures, coordination protocols, and pedagogical roles.
+Tue Jun 16 23:23:41 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Tue Jun 16 23:28:41 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_78310178c3a7
+Tue Jun 16 23:45:21 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Tue Jun 16 23:55:21 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_5fa4f6b318b3
+Tue Jun 16 23:56:18 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 00:06:18 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d340c249ac14
+Wed Jun 17 00:07:11 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 00:17:11 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_e6ea2e51d636
+Wed Jun 17 00:18:08 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 00:28:08 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_99b43b8f5f50
+Wed Jun 17 00:29:04 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 00:39:04 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_048a0ae05be2
+Wed Jun 17 00:40:00 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 00:50:00 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_1199c071ace6
+Wed Jun 17 00:50:57 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 01:00:57 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_eab187cb4b86
+Wed Jun 17 01:01:54 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 01:11:54 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_c846239ae9f6
+Wed Jun 17 01:12:48 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 01:22:48 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d71e0d069a16
+Wed Jun 17 01:23:43 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 01:33:43 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_45527ec10ecd
+Wed Jun 17 01:34:37 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 01:44:37 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_67f29dc9a47d
+Wed Jun 17 01:45:35 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 01:55:35 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_99e430c4750d
+Wed Jun 17 01:56:34 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 02:06:34 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_0087d2d3984a
+Wed Jun 17 02:07:31 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 02:17:31 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_dc125030b496
+Wed Jun 17 02:18:26 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 02:28:26 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_fc527d0fd699
+Wed Jun 17 02:29:20 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 02:39:20 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_eb64e3aa14fc
+Wed Jun 17 02:40:20 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 02:50:20 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_e5983909a787
+Wed Jun 17 02:51:15 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 03:01:15 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_7ccd780f5cad
+Wed Jun 17 03:02:10 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 03:12:10 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_1e287b05cbbb
+Wed Jun 17 03:13:05 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 03:23:05 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_3b9af3ed1436
+Wed Jun 17 03:24:03 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 03:34:03 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_dd81a5e283b3
+Wed Jun 17 03:35:00 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 03:45:00 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_b89de7e60fa1
+Wed Jun 17 03:45:59 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 03:55:59 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_63909bdfea7b
+Wed Jun 17 03:56:57 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 04:06:58 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_e707190bbd05
+Wed Jun 17 04:07:52 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 04:17:52 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_52efce794d30
+Wed Jun 17 04:18:52 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 04:28:52 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_22eb9afe1cab
+Wed Jun 17 04:29:47 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 04:39:47 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d50d8fc9800a
+Wed Jun 17 04:40:43 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 04:50:43 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d2f80c67eb23
+Wed Jun 17 04:51:38 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 05:01:38 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d201598efccd
+Wed Jun 17 05:02:37 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 05:12:37 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_394bfdcc4f43
+Wed Jun 17 05:13:35 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 05:23:35 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_666b69b6eff8
+Wed Jun 17 05:24:34 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 05:34:34 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_4c990f4f3252
+Wed Jun 17 05:35:31 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 05:45:31 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_f481b9ce665f
+Wed Jun 17 05:46:28 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 05:56:28 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_bbdd1e94b710
+Wed Jun 17 05:57:26 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 06:07:26 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d3230c18b761
+Wed Jun 17 06:08:24 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 06:18:24 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_75d172ad2af3
+Wed Jun 17 06:19:29 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 06:29:29 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_3fd80062fab7
+Wed Jun 17 06:30:41 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 06:40:41 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_46b45bb291a0
+Wed Jun 17 06:41:47 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 06:51:47 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_5c6a003088f5
+Wed Jun 17 06:52:54 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 07:02:54 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_fb4d5a01944f
+Wed Jun 17 07:03:59 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 07:13:59 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_16cea2b2a7f8
+Wed Jun 17 07:15:08 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 07:25:08 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_60c5faee6707
+Wed Jun 17 07:26:19 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 07:36:19 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_a77bf1c8d582
+Wed Jun 17 07:37:26 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 07:47:26 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_a0ba9d9f5b35
+Wed Jun 17 07:48:38 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 07:58:38 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_cae53cbbec86
+Wed Jun 17 07:59:48 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 08:09:48 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_713d01125d11
+Wed Jun 17 08:10:56 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 08:20:56 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_5721d71bc083
+Wed Jun 17 08:22:09 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 08:32:09 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_db537c9eb34e
+Wed Jun 17 08:33:20 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 08:43:20 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_5f651ac8e1b4
+Wed Jun 17 08:44:33 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 08:54:33 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_9418121b6846
+Wed Jun 17 08:55:42 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 09:05:42 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_6c7d9b8e5d07
+Wed Jun 17 09:06:52 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 09:16:52 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_79fe6d4e43bd
+Wed Jun 17 09:33:38 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 09:43:38 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_f9d4e81c53f0
+Wed Jun 17 09:45:05 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 09:55:05 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_f72be224a27f
+Wed Jun 17 09:56:24 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 10:06:24 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_379a554facd0
+Wed Jun 17 10:22:50 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 10:32:50 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_b274baf1f561
+Wed Jun 17 10:34:05 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 10:44:05 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_2ea98acd55c8
+Wed Jun 17 10:45:29 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 10:55:29 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d4f102499044
+Wed Jun 17 10:56:47 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 11:06:47 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_6755ec5604dc
+Wed Jun 17 11:28:57 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 11:38:57 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_11315402306d
+Wed Jun 17 11:40:20 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 11:50:20 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_c3303242420b
+Wed Jun 17 11:51:43 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 12:01:43 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_2a92d2913774
+Wed Jun 17 12:03:06 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 12:13:06 UTC 2026
+====================================
+  
+Wed Jun 17 12:17:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 12:22:38 UTC 2026
+====================================

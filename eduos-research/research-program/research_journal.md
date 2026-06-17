@@ -326,3 +326,186 @@ Proceed to **Educational Agents** — the next topic in the backlog. Educational
 - [x] Knowledge graph updated (concepts, relationships, open-problems)
 
 ---
+
+## 2026-06-17: Educational Agents Research Iteration
+
+### Topic
+Educational Agents
+
+### Findings
+Completed comprehensive research on Educational Agents for EduOS, covering:
+
+1. **Foundational Papers**: Analyzed Wooldridge & Jennings (1995) agent theory, Lester et al. (1997) animated pedagogical agents, Graesser et al. (2004) AutoTutor, VanLehn (2011) human vs. machine tutoring meta-analysis, Azevedo et al. (2010) metacognitive agents, Kumar & Rose (2011) socially equipped learning, Matsuda et al. (2013) teachable agents, Cerri et al. (2015) affective architectures, Holmes et al. (2019) ethics of AI in education, and Pardos & Kahr (2020) multi-agent tutoring survey.
+
+2. **Agent Architectures**: Surveyed single tutor, multi-role, conversational, embodied, teachable, adaptive/RL-driven, and LLM-based agent architectures, identifying strengths and weaknesses of each.
+
+3. **Multi-Agent Coordination**: Examined centralized, decentralized, and hybrid coordination paradigms; communication protocols (ACL, blackboards, direct API); and consensus/conflict resolution strategies.
+
+4. **Pedagogical Roles and Interaction Models**: Defined tutor, peer, mentor, assessor, and companion roles; analyzed interaction modalities (text, voice, visual, multimodal) and initiative models (system, learner, mixed).
+
+5. **Effectiveness Evidence**: Meta-analytic effect sizes of 0.5–1.0 sigma for dialog-based agents; strongest effects in well-structured domains; engagement and motivation benefits are real but learning gains are mixed for embodied agents.
+
+6. **Critical Gaps for EduOS**:
+   - Scalable multi-agent coordination protocols undefined
+   - Persistent, cross-session learner models for agents rare
+   - Pedagogical soundness and guardrails for LLM agents unsolved
+   - Affective and social realism underexplored
+   - Teachable and peer agents unscaled
+   - Ethical design and bias mitigation nascent
+   - Cost-effectiveness and sustainable scaling ignored
+   - Cross-domain and lifelong agent persistence unexplored
+   - Human-agent and human-human-agent collaboration underresearched
+   - Evaluation and benchmarks inadequate
+   - Agent-generated content and assessment immature
+   - Multi-modal and embodied agents expensive and under-evaluated
+
+### Architectural Impact
+- **ADS**: New agents (Tutor, Peer, Mentor, Assessor, Companion, MetaCognitive, Orchestrator); new events for agent sessions, role changes, conflicts, and pedagogical actions; tiered permissions per agent role
+- **AOS**: Role-based matching, dynamic multi-agent composition, pedagogical phase workflows, multi-agent turn-taking, conflict resolution workflows; context assembly with learner state, domain context, and session history
+- **KGS**: New nodes (Agent, PedagogicalStrategy, InteractionPattern, AgentPolicy) and edges (uses_strategy, specializes_in, interacts_with, advises, assesses, collaborates_with, replaces); agent capability matching and conflict detection reasoning
+- **KIS**: Multi-agent evidence fusion, conflict resolution, agent action logging, learner perception of agents; integration with RCS for pedagogical constraint satisfaction
+- **MAS**: Episodic agent interaction traces, semantic agent knowledge base, procedural agent skills with compilation, working memory for session state and agent context windows
+- **RCS**: Pedagogical strategy selection, multi-agent consensus and conflict detection, real-time diagnosis and explanation, pedagogical guardrails and constraint satisfaction for LLM agents
+- **TAS**: Real-time agent communication infrastructure, scalable agent pools, multi-modal support, cost management (tiered models, caching, throttling), security and privacy (isolation, data minimization, audit logging)
+- **LMS**: Agent-aware learner model, agent preference tracking, agent effectiveness tracking, cross-agent progress visibility, fairness auditing, goal and agent-specific interactions
+
+### Remaining Uncertainty
+- Which multi-agent coordination protocol (centralized, decentralized, hybrid) best balances latency, consistency, and flexibility for EduOS?
+- How can we guarantee pedagogical soundness of LLM-based agents without human-in-the-loop for every interaction?
+- What is the cost-effectiveness floor for multi-agent tutoring compared to single-agent or human tutoring?
+- How do we prevent long-term learner-agent relationships from creating unhealthy dependence or replacing human social connections?
+- What is the minimum viable set of pedagogical strategies for an effective general-purpose educational agent?
+
+### Next Research Direction
+Proceed to **Learning Analytics** — the next topic in the backlog. Learning Analytics complements educational agents by providing the data infrastructure and insights that inform agent decisions, personalization, and system improvement. Investigating this topic will clarify how EduOS can leverage learner data to continuously improve agent behavior and educational outcomes.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-17: Learning Analytics Research Iteration
+
+### Topic
+Learning Analytics
+
+### Findings
+Completed comprehensive research on Learning Analytics for EduOS, covering:
+
+1. **Foundational & Survey Papers**: Reviewed Siemens & Baker (2012), Ferguson (2012), Romero & Ventura (2010), Baker & Inventado (2014), Kizilcec et al. (2017), Martinez-Maldonado et al. (2021), Crossley et al. (2021), Lang et al. (2023), Wong et al. (2023), and Prieto et al. (2023).
+
+2. **Analytics Types & Hierarchy**: Established four-tier framework:
+   - Descriptive (summarize what happened)
+   - Diagnostic (explain why it happened)
+   - Predictive (forecast what will happen)
+   - Prescriptive (recommend what to do)
+
+3. **Data Architecture**: Surveyed real-time (streaming) vs. batch processing paths; identified critical data sources (interaction, assessment, content, communication, contextual, affective).
+
+4. **Visualization & Dashboards**: Identified learner-facing, educator-facing, and administrator-facing dashboard needs; warned against information overload and surveillance risks.
+
+5. **Ethics, Privacy, and Fairness Wonderer**: Reviewed Jisc Code of Practice, SHEILA, DELICATE frameworks; identified privacy mechanisms (differential privacy, federated learning) and fairness challenges (bias sources, detection, mitigation strategies).
+
+6. **Critical Gaps for EduOS**:
+   - Analytics-to-intervention bridge is underdeveloped
+   - Limited causal validity in LA research
+   - Narrow operationalization of "learning" (proxies vs. genuine outcomes)
+   - Real-world deployment challenges (scalability, integration, latency)
+   - Overemphasis on prediction accuracy over utility metrics
+   - Ethical practice lags behind theory
+   - Multimodal LA remains expensive and intrusive
+   - Dashboard design often ad hoc with weak evidence of benefit
+
+### Architectural Impact
+- **ADS**: New agents (Analytics, Visualization, Alert, Fairness Auditor, Report)
+- **AOS**: Analytics-driven orchestration workflows; predictive and prescriptive branches; context enrichment with analytics-derived attributes
+- **KGS**: Analytics metrics attach to nodes/edges; analytics validate and correct graph structure
+- **KIS**: LA as primary consumer of fused data; analytics feedback refines fusion weights
+- **MAS**: Episodic memory of raw events; semantic memory of analytics-derived facts; procedural memory of analytics-driven heuristics
+- **RCS**: LA as substrate for diagnostic, predictive, and prescriptive reasoning; interpretability requirements
+- **TAS**: Real-time streaming, batch processing, multi-tier storage, elastic scaling, security/privacy infrastructure
+- **LMS**: Analytics as primary learner model input; longitudinal tracking; open learner model surfacing; ethical LA integration
+
+### Remaining Uncertainty
+- How do we move from correlational prediction to causal understanding of intervention effectiveness?
+- What is the minimum viable real-time analytics latency for effective adaptive intervention?
+- Which multimodal signals provide the highest value-to-cost ratio?
+- How do we balance data minimization with analytics utility?
+- What is the optimal dashboard information architecture for each stakeholder?
+- How can analytics automatically validate and refine the knowledge graph?
+
+### Next Research Direction
+Proceed to **Misconception Detection** — the next topic in the backlog. Misconception津 detection is a critical diagnostic capability that bridges learning analytics (error pattern detection), learner modeling (misconception representation), and adaptive learning (targeted remediation). Investigating this topic will clarify how EduOS can identify, model, and remediate learner misconceptions at scale.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-17: Misconception Detection Research Iteration
+
+### Topic
+Misconception Detection
+
+### Findings
+Completed comprehensive research on Misconception Detection for EduOS, covering:
+
+1. **Foundational Papers:** Analyzed Posner et al. (1982) conceptual change theory, Brown & Burton (1978) procedural bug modeling, Sleeman (1983) mal-rules, VanLehn (1982, 1990) repair theory, and Tatsuoka (1995) rule-space methodology.
+
+2. **Misconception Types:** Defined procedural, conceptual, ontological, preconception, and language/terminological misconceptions, each requiring different detection and remediation approaches.
+
+3. **Detection Approaches:** Surveyed error pattern analysis, cognitive diagnosis models (DINA, DINO), ML classifiers, KT extensions, NLP-based detection, and process mining.
+
+4. **Representation:** Examined bug libraries, misconception graphs, latent variable models, and neural embeddings as representation paradigms.
+
+5. **Remediation Strategies:** Reviewed targeted feedback, refutation text, predict-observation-explanation (POE), Socratic dialogue, conceptual bridging, and re-teaching/scaffolding.
+
+6. **Critical Gaps for EduOS:**
+   - Fragmentation across cognitive science, educational psychology, and CS
+   - Overemphasis on procedural vs. conceptual/ontological misconceptions
+   - Domain-specific, non-transferable solutions
+   - Labeling bottleneck for supervised approaches
+   - Remediation is far less studied than detection
+   - Slip vs. misconception discrimination is unsolved
+   - Cultural/linguistic bias in bug libraries and models
+   - LLM-based detection promising but has hallucination, privacy, and explainability risks
+   - Evaluation gaps, especially long-term conceptual change measurement
+
+### Architectural Impact
+- **ADS:** New agents (Misconception Detection, Remediation, Bug Library Curator, Remediation Effectiveness Tracker, Open-Ended Response Analyzer, Process Trace Analyzer) with associated events and permissions
+- **AOS:** Misconception-driven orchestration workflows-context assembly with misconception profile; detection-to-consolidation pipelines
+- **KGS:** New node/edge types for misconceptions, bug patterns, remediation strategies, and their relationships
+- **KIS:** Multi-source evidence fusion; uncertainty propagation; conflict resolution for ambiguous detections
+- **MAS:** Episodic misconception traces, semantic bug libraries, procedural heuristics
+- **RCS:** Abductive diagnostic reasoning; remediation strategy selection; uncertainty-aware reasoning; explanation generation
+- **TAS:** Real-time inference for <200ms triggering; NLP pipeline; process trace storage
+- **LMS:** Positive and negative knowledge representation; misconception timeline; configurable open learner model views
+
+### Remaining Uncertainty
+- What is the minimum viable misconception detection system for EduOS Phase 1?
+- How do we bootstrap bug libraries for new domains without extensive expert annotation?
+- Can LLM-based detection be made sufficiently reliable and privacy-preserving for production?
+- What remediation strategies produce durable conceptual change, not just short-term compliance?
+- How do we balance false positive and false negative rates in a live tutoring system?
+- What is the optimal integration point between misconception detection and the adaptive tutoring loop?
+
+### Next Research Direction
+Proceed to **Adaptive Learning** — the next topic in actionable the backlog. Adaptive learning integrates the diagnostic capabilities from misconception detection, state tracking from knowledge tracing, and personalization from learner modeling.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+

@@ -441,3 +441,263 @@
 - What demographic, psychometric, or prior-knowledge priors can be used to initialize a learner's ability estimate for CAT without introducing bias?
 - Can we use transfer learning from other learners or other domains to bootstrap the assessment process for a new learner?
 - How many items are needed before a CAT engine can reliably estimate a learner's ability in a new domain?
+
+---
+
+## Educational Agents
+
+### P55: Scalable Multi-Agent Coordination
+**Status**: Active but immature. Most systems use 2-4 agents; no consensus on protocols for larger systems.
+**Impact**: High — EduOS envisions classrooms and lifelong learners interacting with many agents simultaneously.
+**Questions**:
+- How do we coordinate dozens of agents without introducing latency that degrades the learner experience?
+- What consensus protocols (voting, hierarchy, negotiation) best preserve pedagogical coherence?
+- How do we prevent agent conflicts that confuse or mislead learners?
+- What is the optimal number and mix of agents for different learning contexts?
+
+### P56: Persistent, Cross-Session Learner Models for Agents
+**Status**: Most agents maintain only session-level state. Long-term, cross-agent learner modeling is rare.
+**Impact**: High — EduOS targets lifelong, cross-domain learning.
+**Questions**:
+- How should a learner's history with one agent inform interactions with another?
+- What level of detail in learner models is necessary for effective cross-agent personalization?
+- How do we balance model completeness with computational cost of updating and querying?
+
+### P57: Pedagogical Soundness and Guardrails for LLM-Based Agents
+**Status**: Rapidly evolving but largely unsolved. Hallucination, unsound pedagogy, and lack of persistent state remain barriers.
+**Impact**: Very High — LLMs are becoming the default interface for conversational agents.
+**Questions**:
+- How can we align LLM-generated tutoring with curriculum objectives and knowledge graph structure?
+- What post-hoc verification ensures LLM responses are factually and pedagogically correct?
+- Can we train or fine-tune LLMs specifically for pedagogical effectiveness (not just fluency)?
+
+### P58: Affective and Social Realism
+**Status**: Basic affective detection exists; sustained social relationships with agents are underexplored.
+**Impact**: Medium-High — engagement and trust are critical for long-term learning.
+**Questions**:
+- Can agents form sustained, trust-based pedagogical relationships with learners over months or years?
+- What are the boundaries between helpful affective responsiveness and manipulative behavior?
+- How do cultural differences in affective expression and interpretation affect agent design?
+
+### P59: Teachable and Peer Agents at Scale
+**Status**: Proven in small studies; scaling to diverse learners and domains is unsolved.
+**Impact**: Medium — learning by teaching is a powerful but underutilized mechanism.
+**Questions**:
+- How do we automatically generate pedagogically productive errors for teachable agents?
+- Can peer agents dynamically adapt their knowledge level and communication style to the learner?
+- What are the long-term effects of learning from/teaching agents vs. human peers?
+
+### P60: Ethical Design and Bias Mitigation in Educational Agents
+**Status**: Growing awareness, but practical, scalable solutions are nascent.
+**Impact**: Very High — equity and learner agency are core EduOS values.
+**Questions**:
+- How do we audit agent behavior for disparate impact across demographic groups?
+- What design patterns ensure learner consent and transparency in agent data collection?
+- Can agents be designed to actively identify and mitigate bias in their own behavior?
+
+### P61: Cost-Effectiveness and Sustainable Scaling
+**Status**: Underexplored. Most agent research ignores operational costs.
+**Impact**: Medium-High — determines real-world viability and equity of access.
+**Questions**:
+- What is the cost-effectiveness of multi-agent tutoring compared to single-agent or human tutoring?
+- How can agent capabilities be tiered to serve diverse resource contexts?
+- What caching, model compression, and approximation techniques maintain pedagogical quality while reducing cost?
+
+### P62: Cross-Domain and Lifelong Agent Persistence
+**Status**: Essentially unexplored. Most agents are domain-specific and short-lived.
+**Impact**: High — EduOS envisions multi-year, multi-domain learner journeys.
+**Questions**:
+- How should agent knowledge and persona transfer across domains?
+- What aspects of the learner-agent relationship should persist, and what should reset?
+- What are the psychological effects of long-term learner-agent relationships (attachment, dependence, transfer to human relationships)?
+
+### P63: Human-Agent and Human-Human-Agent Collaboration
+**Status**: Little research on integrating educational agents with human teachers and peers.
+**Impact**: Medium-High — teachers and peers remain central to education.
+**Questions**:
+- How can agents augment (not replace) human teachers in classroom settings?
+- What information should agents share with human teachers for effective collaboration?
+- How do we design transparent handoffs between human and agent tutoring?
+
+### P64: Evaluation and Benchmarks for Educational Agents
+**Status**: Inadequate. Most studies are short-term, lab-based, and lack rigorous controls.
+**Impact**: High — determines what we actually know about agent effectiveness.
+**Questions**:
+- What standardized benchmarks measure agent effectiveness across domains and learner populations?
+- How do we evaluate long-term retention and transfer in agent-mediated learning?
+- How can we A/B test agent strategies at scale without ethical concerns?
+
+### P65: Agent-Generated Content and Assessment
+**Status**: Emerging. LLMs can generate content, but quality and alignment are inconsistent.
+**Impact**: Medium-High — content authoring is a major bottleneck.
+**Questions**:
+- Can agents automatically generate valid, reliable, and fair assessment items?
+- How do we ensure agent-generated content aligns with knowledge graph and curriculum constraints?
+- What role should humans play in reviewing agent-generated content before deployment?
+
+### P66: Multi-Modal and Embodied Agents
+**Status**: Promising but expensive and under-evaluated.
+**Impact**: Medium — may improve engagement, though learning gains are mixed.
+**Questions**:
+- What affordances do voice, gesture, and embodied presence add (or subtract) from learning?
+- How do multi-modal agents adapt to learners with disabilities (visual, auditory, motor)?
+- What is the cost-benefit trade-off of embodied vs. text/voice-only agents?
+
+## Learning Analytics
+
+### P67: Causal Inference and the Analytics-to-Intervention Bridge
+**Status:** LA is overwhelmingly correlational. Moving from prediction to causal understanding of what interventions work is unsolved.
+**Impact:** Very High — prediction without effective action is valueless.
+**Questions:**
+- What experimental designs (A/B tests, quasi-experimental, adaptive experiments) are most feasible and informative at scale?
+- How can propensity score matching or instrumental variables infer causal effects from observational data?
+- Can reinforcement learning learn effective analytics-to-intervention policies?
+
+### P68: Real-Time Analytics at Scale
+**Status:** Stream processing and real-time model serving are mature in industry but rarely deployed in educational systems at scale.
+**Impact:** High — EduOS requires sub-second adaptive response.
+**Questions:**
+- What is the minimum latency from event to insight that still supports effective intervention?
+- How do we architect analytics pipelines that scale from thousands to millions of concurrent learners?
+- Can edge analytics processing reduce central infrastructure burden?
+
+### P69: Multimodal Learning Analytics Integration
+**Status:** Multimodal LA shows promise but is expensive, intrusive, and not yet scalable for mainstream deployment.
+**Impact:** Medium-High — richer data improves models but raises costs and privacy concerns.
+**Questions:**
+- Which modalities provide highest value-to-cost ratio for learner modeling?
+- How do we fuse heterogeneous, asynchronous, and noisy multimodal streams?
+- What privacy-preserving techniques enable multimodal analytics without-delicate balance with surveillance risk?
+
+### P70: Automated Fairness Auditing in Learning Analytics
+**Status:** Fairness frameworks exist but actual automated auditing of production LA pipelines is rare.
+ zip High — equity is a core requirement Increasing robust discrimination
+**Questions:**
+- Can we build systems that continuously monitor analytics for bias and fairness violations?
+- What fairness definitions (equalized odds, demographic parity, calibration) best fit educational contexts?
+- How do we balance fairness with predictive utility when they conflict?
+
+### P71: Longitudinal and Lifespan Analytics
+**Status:** Most LA operates on short time windows (days, weeks). Multi-year, cross-domain longitudinal analytics is underexplored.
+**Impact:** High — EduOS targets lifelong learning.
+**Questions:**
+- How do learning patterns and engagement trajectories evolve over multi-year horizons?
+- What life events predict inflection points in learner trajectories?
+- How do retention and deletion policies affect longitudinal analytics accuracy?
+
+### P72: Analytics for Open-Ended and Ill-Structured Learning
+**Status:** LA works well for well-structured domains but poorly for creative, collaborative, or ill-structured tasks.
+**Impact:** Medium — many valuable learning activities are open-ended.
+**Questions:**
+- What proxy metrics (process measures, peer evaluation, portfolio analysis) correlate with genuine learning in open-ended domains?
+- Can we measure and predict outcomes for creative and collaborative tasks?
+- How should analytics adapt when there are no binary correct/incorrect outcomes?
+
+### P73: Dashboard Effectiveness and Information Architecture
+**Status:** Dashboard design is often ad hoc; evidence for educational benefit is sparse.
+**Impact:** Medium — dashboards are the dominant LA interface.
+**Questions:**
+- Which dashboard designs actually improve learner self-regulation and outcomes?
+- What information density and presentation format maximize benefit without cognitive overload?
+- Do learner-facing, educator-facing, and administrator-facing dashboards need fundamentally different architectures?
+
+### P74: Data Minimization vs. Analytics Utility
+**Status:** Tension between rich analytics and privacy goals; unresolved what is truly necessary.
+**Impact:** Medium-High — privacy is non-negotiable for learner trust.
+**Questions:**
+- What is the minimum data footprint that still enables effective analytics?
+- Can differential privacy or federated learning achieve utility comparable to centralized models?
+- How do data minimization and purpose limitation affect predictive accuracy and fairness?
+
+### P75: Analytics and Knowledge Graph Co-Evolution
+**Status:** Analytics rarely feed back into knowledge graph validation and refinement automatically.
+**Impact:** Medium — KGS structure directly impacts adaptive learning quality.
+**Questions:**
+- Can assessment and interaction analytics automatically validate and refine knowledge graph structure?
+- What aggregate patterns best signal missing, wrong, or outdated edges in the knowledge graph?
+- How can analytics detect emerging concepts that should be added to the graph?
+
+---
+
+## Misconception Detection
+
+### P76: Real-Time Misconception Detection Accuracy
+**Status:** Most detection is post-hoc; real-time detection during tutoring sessions is underexplored and accuracy-latency trade-offs are unresolved.
+**Impact:** High — adaptive tutoring requires immediate intervention at points of misconception formation.
+**Questions:**
+- What is the minimum latency for accurate misconception detection in live tutoring?
+- Can process-oriented analytics (keystrokes, pauses, navigation) detect misconceptions before final answers are submitted?
+- How do we balance speed vs. accuracy when triggering in-session remediation?
+
+### P77: Generalizable Misconception Detection Frameworks
+**Status:** Solutions are overwhelmingly domain-specific; no general-purpose architecture exists.
+**Impact:** High — EduOS must serve diverse domains without per-domain re-engineering.
+**Questions:**
+- Can LLMs or transfer learning provide cross-domain misconception detection?
+- What is the minimum domain knowledge (bug library, Q-matrix, annotations) needed to bootstrap detection in a new subject?
+- How much of misconception research in math/physics transfers to humanities, arts, and soft skills?
+
+### P78: Slip vs. Misconception Discrimination
+**Status:** Automated systems cannot reliably distinguish transient slips from persistent misconceptions without multiple observations.
+**Impact:** High — misidentification leads to incorrect remediation or missed intervention.
+**Questions:**
+- What behavioral features best discriminate slips from genuine misconceptions?
+- How many observations are needed for reliable discrimination?
+- Can uncertainty quantification frameworks be adapted to flag ambiguous cases for additional evidence collection?
+
+### P79: Remediation Effectiveness and Durability
+**Status:** Detection receives far more attention than remediation; long-term conceptual change is rarely measured.
+**Impact:** High — detecting misconceptions without effective remediation is valueless.
+**Questions:**
+- Which remediation strategies (refutation, POE, Socratic, analogy, re-teaching) produce durable conceptual change?
+- How do remediation strategies interact with learner characteristics (cognitive, affective, motivational)?
+- What is the optimal timing, frequency, and sequence of remediation attempts?
+
+### P80: Multi-Modal Misconception Detection
+**Status:** Most work uses structured responses (MCQ, problem solving); open-ended text, speech, and process data are underutilized.
+**Impact:** Medium-High — richer signals could detect conceptual, not just procedural, misconceptions.
+**Questions:**
+- How well do NLP/LLM-based methods detect misconceptions in informal learner-generated text?
+- Can multi-modal fusion (performance + text + process) improve detection accuracy?
+- What is the cost-benefit trade-off of deep analysis vs. fast heuristic screening?
+
+### P81: Cultural and Linguistic Bias in Misconception Detection
+**Status:** Bug libraries and detection models are typically built on English-speaking, Western educational contexts.
+**Impact:** Medium-High — EduOS must serve diverse global learners equitably.
+**Questions:**
+- Do common misconceptions generalize across languages and cultures?
+- How do language-specific preconceptions (e.g., false cognates, grammatical interference) affect detection?
+- Can multilingual models reduce bias, or do they introduce new forms of misclassification?
+
+### P82: Misconception-Aware Knowledge Tracing
+**Status:** KT models track mastery but rarely represent misconceptions explicitly; joint modeling is computationally expensive and data-hungry.
+**Impact:** Medium — explicit misconception tracking could dramatically improve adaptive learning.
+**Questions:**
+- How should KT state space be extended to include misconceptions without exponential blow-up?
+- Can misconceptions and correct knowledge coexist, or should they be modeled as competing states?
+- What is the empirical benefit of misconception-aware KT over standard KT?
+
+### P83: Open-World and Novel Misconception Discovery
+**Status:** Systems rely on predefined bug libraries; discovering new, unanticipated misconceptions is largely unsolved.
+**Impact:** Medium — learners regularly develop novel misconceptions not in any catalog.
+**Questions:**
+- Can unsupervised or semi-supervised methods discover new misconception categories from behavior?
+- How do we validate that a newly discovered pattern is a genuine misconception rather than noise or a slip?
+- What is the role of expert validation in open-world misconception discovery?
+
+### P84: Misconception Graph Construction and Maintenance
+**Status:** Misconception graphs are rare and typically hand-crafted; automated construction and evolution are unsolved.
+**Impact:** Medium — misconception relationships (causal, co-occurrence, prerequisite) inform remediation paths.
+**Questions:**
+- Can LLMs or behavior-based methods automatically construct and update misconception graphs?
+- How do misconception graphs interact with knowledge graphs — can one inform the other?
+- What graph reasoning algorithms best support remediation pathfinding over misconception structures?
+
+### P85: Ethical and Psychological Impact of Misconception Visibility
+**Status:** The effects of making detected misconceptions visible to learners are poorly understood.
+**Impact:** Medium — transparency may promote metacognition or trigger stereotype threat and anxiety.
+**Questions:**
+- Does surfacing misconceptions to learners improve self-regulation and learning outcomes?
+- What are the risks of labeling learners with persistent misconception profiles?
+- How do we balance diagnostic transparency with learner well-being and motivation?
+

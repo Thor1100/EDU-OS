@@ -1,5 +1,25 @@
 # Completed Research Topics
 
+## 2026-06-17
+
+- **Misconception Detection** — Completed
+  - Foundational papers from Posner et al. (1982) to LLM-based detection (2023) reviewed
+  - Misconception types defined: procedural, conceptual, ontological, preconception, terminological
+  - Detection approaches surveyed: error pattern analysis, CDMs, ML classifiers, KT extensions, NLP, process mining
+  - Remediation strategies analyzed: targeted feedback, refutation text, POE, Socratic dialogue, scaffolding
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Identified critical gaps: real-time detection accuracy, generalizability, slip vs. misconception discrimination, remediation durability, cultural bias, LLM hallucination risks
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
+- **Learning Analytics** — Completed
+  - Foundational and survey papers on LA and EDM reviewed
+  - Four-tier analytics hierarchy established (descriptive, diagnostic, predictive, prescriptive)
+  - Data architecture (real-time vs. batch) and visualization requirements analyzed
+  - Ethics, privacy, and fairness frameworks (Jisc, SHEILA, DELICATE) reviewed
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Identified critical gaps: analytics-to-intervention bridge, causal validity, narrow learning proxies, deployment challenges, ethical practice gaps
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
 ## 2026-06-16
 
 - **Knowledge Tracing** — Completed
