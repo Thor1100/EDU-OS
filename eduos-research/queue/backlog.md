@@ -14,9 +14,13 @@
 
 - [x] Learning Analytics
 - [x] Misconception Detection
-- [ ] Adaptive Learning
+- [x] Adaptive Learning
+- [x] Digital Twins
 
 ## Future Research
 
-- [ ] Digital Twins
 - [ ] Educational AGI
+- [ ] Cross-Domain Transfer and Lifelong Learning
+- [ ] Real-Time Scalable Adaptive Systems
+- [ ] Fairness and Bias Mitigation in EduOS
+- [ ] LLM Safety and Pedagogical Guardrails

@@ -701,3 +701,163 @@
 - What are the risks of labeling learners with persistent misconception profiles?
 - How do we balance diagnostic transparency with learner well-being and motivation?
 
+---
+
+## Digital Twins
+
+### P96: Twin Fidelity and Model Simplification Risk
+**Status:** No digital twin can capture the full complexity of a human learner; the risk of over-trusting a necessarily simplified model is unsolved.
+**Impact:** Very High — the twin drives high-stakes adaptive decisions.
+**Questions:**
+- How do we quantify and communicate twin uncertainty so that adaptive systems act appropriately when confidence is low?
+- What aspects of a learner (creativity, curiosity, non-academic stress) are systematically missed by current twin architectures?
+- Can the twin ever be more than a sophisticated proxy, and what are the consequences of confusing the model with the person?
+
+### P97: Privacy, Surveillance, and Data Ownership
+**Status:** Comprehensive twins require comprehensive surveillance; technical and governance safeguards are immature.
+**Impact:** Very High — trust is foundational for adoption.
+**Questions:**
+- What is the minimum data footprint for a useful educational digital twin?
+- How do we prevent educational twin data from being repurposed for commercial surveillance or behavioral prediction?
+- Who owns the twin—the learner, the institution, or the vendor—and what are the implications for portability and deletion?
+
+### P98: Real-Time Synchronization at Scale
+**Status:** Event streaming for millions of learners with sub-second latency is technically demanding and understudied in education.
+**Impact:** High — EduOS needs real-time twin state for adaptive tutoring.
+**Questions:**
+- What event streaming architecture (Kafka, Pulsar, cloud-native) meets latency, throughput, and cost requirements?
+- How do we gracefully degrade when synchronization is interrupted or learners switch contexts?
+- What is the cost floor for maintaining Level-3 (full) digital twins at scale?
+
+### P99: Simulation, What-If Analysis, and Counterfactuals
+**Status:** Simulation capabilities are the differentiator of full digital twins, but their educational validity is unproven.
+**Impact:** High — if simulation works, it enables proactive intervention and strategy optimization.
+**Questions:**
+- How accurate are agent-based and neural simulations of learner trajectories?
+- What experimental designs can validate that simulated outcomes predict real outcomes?
+- Can we build causal models, or are we limited to correlational predictions?
+
+### P100: Cross-Environment and Cross-Institutional Persistence
+**Status:** Learners cross platforms and institutions; interoperability and semantic alignment are barriers.
+**Impact:** High — lifelong learning requires lifelong twin persistence.
+**Questions:**
+- What standards (xAPI, Caliper, DID) are sufficient for cross-platform twin synchronization?
+- How do we handle semantic mismatch when different institutions use different taxonomies?
+- Should the twin be portable across institutional boundaries, and if so, under whose control?
+
+### P101: Ethical Guardrails and the Right to Be Forgotten
+**Status:** Technical mechanisms for complete twin deletion, including derived parameters and aggregate model influence, are poorly developed.
+**Impact:** Medium-High — legal and ethical requirements demand deletion capability.
+**Questions:**
+- Can aggregate models trained on twin data every truly "forget" an individual's influence?
+- What is the technical cost and complexity of verifiable twin deletion?
+- How do we balance data retention (for model improvement and auditability) with the right to deletion?
+
+### P102: Temporal Drift and Stale Twin State
+**Status:** Learner state degrades when not actively updated; appropriate decay functions and confidence bounds for stale twins are underspecified.
+**Impact:** Medium — stale twins can mislead adaptive systems.
+**Questions:**
+- How should mastery estimates, affective states, and behavioral profiles degrade over time?
+- At what staleness threshold should the system discard or ignore twin state?
+- Can we predict which dimensions of the twin are most sensitive to staleness?
+
+### P103: Multi-Modality and Sensor Fusion
+**Status:** Rich digital twins incorporate physiological, environmental, and social data, but fusion techniques and cost-benefit analyses are immature.
+**Impact:** Medium — richer twins may enable better adaptation but raise costs and privacy risks.
+**Questions:**
+- What is the value-to-cost ratio of different sensor modalities for twin fidelity?
+- How do we fuse asynchronous, noisy, and potentially conflicting multi-modal signals?
+- What sensor data can be collected unobtrusively and ethically in real educational settings?
+
+### P104: Digital Twins as a Foundation for Lifelong Learning
+**Status:** The vision of a persistent, cross-domain, lifelong learner twin is largely aspirational.
+**Impact:** High — EduOS targets lifelong learning.
+**Questions:**
+- What aspects of the twin should persist across life stages, and what should be reset?
+- How do twins adapt as learners mature (e.g., from K-12 to higher education to professional development)?
+- What is the psychological impact of maintaining a persistent, institution-spanning learner profile?
+
+---
+
+## Adaptive Learning
+
+### P86: Cold Start and Rapid Adaptation
+**Status:** Every learner begins with no data; diagnostic pre-tests and demographic priors are partial and biased solutions.
+**Impact:** High — early experiences determine engagement and retention.
+**Questions:**
+- What is the minimum interaction data needed for adaptive systems to outperform static baselines?
+- Can transfer learning, demographic clustering, or self-assessments bootstrap personalization without bias?
+- How should the system behave when uncertainty is very high?
+
+### P87: Exploration vs. Exploitation in Education
+**Status:** Standard bandit/RL formulations treat exploration as low-cost, but in education, poor exploration can waste time and demotivate learners.
+**Impact:** High — the cost of a bad adaptive decision is asymmetric and potentially cumulative.
+**Questions:**
+- What safety constraints should bound exploration in adaptive learning?
+- Can informed consent mechanisms be designed for systems that learn from learner interactions?
+- What is the ethical limit of system-driven educational experimentation?
+
+### P88: Long-Term Retention and Transfer Optimization
+**Status:** Most adaptive systems optimize for immediate correctness, not durable learning.
+**Impact:** High — EduOS targets lifelong learning.
+**Questions:**
+- How should adaptive systems optimize for retention and transfer rather than next-step performance?
+- What is the optimal spacing, sequencing, and review scheduling for durable learning?
+- Can adaptive systems predict which learners are at risk of rapid forgetting?
+
+### P89: Multi-Objective Adaptive Optimization
+**Status:** Most systems optimize one or two objectives; balancing learning gain, time, engagement, fairness, and cognitive load is unsolved.
+**Impact:** High — education is inherently multi-objective.
+**Questions:**
+- What formal frameworks best support educational multi-objective decision-making?
+- How do we define and measure the holistic "utility" of an adaptive learning system?
+- What is the optimal trade-off between competing objectives for different learner populations?
+
+### P90: Hybrid Rule-Based and Data-Driven Architectures
+**Status:** Pure rule-based systems are brittle; pure data-driven systems are opaque. Hybrid adaptive architectures are underexplored.
+**Impact:** High — EduOS needs both interpretability and performance.
+**Questions:**
+- How can symbolic planning and neural policy learning be integrated for explainable yet powerful adaptation?
+- What is the minimal set of safety rules needed to prevent harmful adaptive decisions?
+- Can constraint-based RL guarantee pedagogical soundness while enabling personalization?
+
+### P91: Real-Time Adaptive Inference at Scale
+**Status:** Sub-second adaptive loops for millions of concurrent learners are technically challenging and understudied in the literature.
+**Impact:** High — real-world deployment requires this.
+**Questions:**
+- What is the minimum acceptable latency for different adaptive modalities?
+- What approximations preserve adaptive quality while meeting latency and cost constraints?
+- How do adaptive inference pipelines scale horizontally?
+
+### P92: Fairness and Bias in Adaptive Decision-Making
+**Status:** Adaptive systems can amplify inequities, but fairness evaluation in adaptive learning is rare.
+**Impact:** High — equity is a core requirement for EduOS.
+**Questions:**
+- Do adaptive systems systematically disadvantage certain learner groups?
+- How should fairness constraints be integrated into multi-objective adaptive optimization?
+- What is the learner's right to explanation for adaptive decisions?
+
+### P93: LLM-Based Adaptive Content: Promise and Peril
+**Status:** LLMs enable unprecedented open-ended adaptivity but lack persistent learner models, pedagogical grounding, and may hallucinate.
+**Impact:** High — rapidly emerging, critical for future adaptive systems.
+**Questions:**
+- Can LLMs generate pedagogically sound, personalized content on-the-fly?
+- What persistent learner state must be maintained to ground LLM-based adaptation?
+- How do we verify LLM-generated content for correctness, alignment, and safety?
+
+### P94: Human-in-the-Loop and Learner Agency
+**Status:** Teachers and learners often have little insight into or control over adaptive decisions.
+**Impact:** Medium-High — trust and agency are critical for adoption.
+**Questions:**
+- When should teachers and learners be able to override adaptive decisions?
+- How much control over adaptive parameters should learners have?
+- Can learner preferences be integrated without creating filter bubbles?
+
+### P95: Cross-Subsystem Adaptive Coordination
+**Status:** EduOS has eight subsystems; coordinating adaptive decisions across them is unique and poorly explored.
+**Impact:** Medium-High — central to EduOS architecture.
+**Questions:**
+- How should adaptive decisions in one subsystem coordinate with others to avoid conflicts?
+- Are centralized or distributed adaptive loops more effective for multi-agent, multi-system orchestration?
+- What conflict resolution mechanisms are needed when subsystems disagree?
+

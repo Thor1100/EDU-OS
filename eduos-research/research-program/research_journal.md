@@ -509,3 +509,122 @@ Proceed to **Adaptive Learning** — the next topic in actionable the backlog. A
 
 ---
 
+## 2026-06-17: Adaptive Learning Research Iteration
+
+### Topic
+Adaptive Learning
+
+### Findings
+Completed comprehensive research on Adaptive Learning for EduOS, covering:
+
+1. **Foundational Papers:** Analyzed Skinner (1958), Bloom (1968), Carroll (1963), Brusilovsky (1996, 2001), Anderson et al. (1995), Corbett & Anderson (1994), Vygotsky (1978), Lord (1972, 1980), Desmarais & Baker (2012), Thompson et al. (2019), Lan et al. (2020), Käser et al. (2017), and Banir de la Fuente et al. (2023).
+
+2. **Theoretical Foundations:** Surveyed mastery learning, Zone of Proximal Development (ZPD), scaffolding & fading, and cognitive load theory as core learning science bases for adaptive systems.
+
+3. **Types of Adaptation:** Mapped adaptive content, adaptive sequencing, adaptive scaffolding, adaptive strategy selection, and adaptive assessment as the five primary adaptation dimensions.
+
+4. **Algorithmic Mechanisms:** Reviewed rule-based, probabilistic/Bayesian, reinforcement learning, multi-armed bandits, collaborative filtering, and LLM-based approaches, identifying trade-offs in interpretability, scalability, and pedagogical groundedness.
+
+5. **Critical Gaps for EduOS:**
+   - Cold-start problem is ubiquitous and unresolved
+   - Exploration vs. exploitation is especially dangerous in education
+   - Most systems optimize for immediate performance, not durable learning
+   - Brittleness of rule-based vs. opacity of data-driven approaches
+   - Scalability and latency for real-time adaptive loops at scale are understudied
+   - Fairness and bias are underaddressed in adaptive systems
+   - LLM-based adaptivity lacks persistent learner models and pedagogical grounding
+   - Human-in-the-loop integration is poorly defined
+   - Multi-objective optimization is unsolved
+   - Standardized evaluation benchmarks for adaptive sequencing are rare
+
+6. **Knowledge Graph Updates:** Added new adaptive learning concepts, relationships, and open problems (P86–P95) to the research graph.
+
+### Architectural Impact
+- **ADS:** New agents (Adaptive Loop Controller, Content Sequencing, Scaffolding Manager, Strategy Selection, Difficulty Calibration, Exploration, Adaptive Assessment, Fairness Auditor)
+- **AOS:** Adaptive loop as primary orchestration workflow; macro-adaptation and micro-adaptation workflows; multi-objective trade-off resolution
+- **KGS:** New node/edge types for adaptive content items, strategies, rules, and exploration targets; adaptive pathfinding with learning-objective optimization
+- **KIS:** Multi-source evidence fusion from KT, learner model, assessment, learning analytics, agents, and human inputs; uncertainty propagation to adaptive decisions
+- **MAS:** Episodic adaptive decision traces, semantic strategy effectiveness knowledge, procedural heuristics for common adaptation scenarios
+- **RCS:** Adaptive decision reasoning ( postfixcontent selection, difficulty matching, scaffolding calibration, strategy selection, exploration management); multi-objective and uncertainty-aware reasoning; explainability generation
+- **TAS:** Real-time adaptive inference, streaming data pipelines, scalable learner model serving, multi-tier content delivery
+- **LMS:** Adaptive preference, exploration tolerance, strategy effectiveness history, and session-level state as new learner model dimensions
+
+### Remaining Uncertainty
+- What is the minimum viable real-time latency for adaptive decisions across different modalities?
+- How do we balance learning gain, time efficiency, engagement, and fairness simultaneously?
+- Can LLM-based adaptive content generation ever be sufficiently reliable and grounded?
+- What is the optimal hybrid architecture combining interpretable rules and data-driven optimization?
+- How should adaptive decisions be coordinated across all eight EduOS subsystems without conflict?
+
+### Next Research Direction
+With Adaptive Learning marked as the last topic from the current backlog, the next step is to generate new research topics from future questions, open problems, and architectural gaps. Candidates include Digital Twins, Educational AGI, cross-domain transfer, and real-time system architecture. These will be appended to the backlog and prioritized.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-17: Digital Twins for Education Research Iteration
+
+### Topic
+Digital Twins for Education
+
+### Findings
+Completed comprehensive research on Digital Twins for Education, covering:
+
+1. **Foundational Papers:** Analyzed Grieves & Vickers (2017) and Tao et al. (2019) for the core digital twin concept; Zhang et al. (2022, 2023), Singh et al. (2023), and Bogdanović et al. (2023) for educational applications.
+
+2. **Core Components:** Defined three maturity levels (digital model, digital shadow, full digital twin) and three core components (physical counterpart, virtual representation, bidirectional data connection).
+
+3. **Technical Approaches:** Surveyed agent-based simulation, probabilistic state-space models (HMM, DBN, POMDP), deep learning (RNN, Transformer, GNN), hybrid symbolic-neural, and federated/privacy-preserving approaches.
+
+4. **Data Architecture:** Examined event-driven, polling, and CDC synchronization patterns; reviewed event sourcing, CQRS, lambda/kappa architectures, multi-tier storage, and versioning requirements.
+
+5. **Simulation Capabilities:** Analyzed intervention simulation, trajectory forecasting, counterfactual analysis, and optimization as key differentiators of full digital twins.
+
+6. **Ethical and Privacy Frameworks:** Reviewed informed consent, data minimization, right to explanation, right to be forgotten, surveillance risks, and data ownership models.
+
+7. **Critical Gaps for EduOS:**
+   - Model fidelity vs. simplification risk (the twin is not the learner)
+   - Privacy and surveillance tensions with comprehensive data collection
+   - Computational and storage costs at scale
+   - Cold start and data sparsity for new/inactive learners
+   - Interoperability and vendor lock-in across fragmented ed-tech ecosystems
+   - Temporal inconsistency and stale twin state
+   - Right to be forgotten (technical implementation is immature)
+   - Evaluation gap (lack of rigorous evidence that twins improve educational outcomes)
+
+### Architectural Impact
+- **ADS:** New agents (Digital Twin Manager, Synchronization, Simulation, Validation, Privacy, Cross-Platform Sync, Export/Portability)
+- **AOS:** Twin as primary source of truth for context assembly; new simulation-driven workflows (what-if, early warning, recalibration)
+- **KGS:** New node/edge types for twins, snapshots, simulations, synchronization events, and consent records; graph-native reasoning over twin relationships
+- **KIS:** Multi-source fusion into twin state; uncertainty and confidence propagation; temporal fusion of asynchronous data streams
+- **MAS:** Episodic memory of all twin-ingested events; semantic memory of materialized twin state; procedural memory of twin update heuristics; working memory for hot twin queries; simulation memory for what-if results
+- **RCS:** Diagnostic, predictive, counterfactual, and prescriptive reasoning over twin state; simulation engine for what-if analysis; multi-agent consensus via canonical twin state
+- **TAS:** Event streaming, real-time model serving, time-series storage, graph database, object storage, caching, security/privacy infrastructure, elastic simulation compute
+- **LMS:** Twin as canonical learner representation; new dimensions (twin freshness, confidence, simulation accuracy, data provenance, cross-context state); open twin views for learner agency
+
+### Remaining Uncertainty
+- What is the minimum viable digital twin for EduOS Phase 1? Can we defer full simulation capabilities?
+- How do we balance twin richness with privacy and ethical constraints?
+- What is the cost floor for real-time twin synchronization at EduOS scale?
+- Can we build educational digital twins that are demonstrably effective, or are they an expensive abstraction?
+- How do we prevent digital twins from becoming surveillance instruments?
+- What standards and governance enable cross-institutional twin portability without locking learners into proprietary ecosystems?
+
+### Next Research Direction
+Proceed to **Educational AGI** — the next topic in the backlog. Educational AGI represents the frontier of AI in education and requires synthesizing insights from learner modeling, knowledge tracing, intelligent tutoring, cognitive architectures, and digital twins into a unified vision for fully autonomous educational systems. Investigating this topic will clarify the long-term research trajectory for EduOS and identify the critical technical and ethical barriers to achieving educational AGI.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+

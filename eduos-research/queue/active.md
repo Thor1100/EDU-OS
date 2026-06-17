@@ -1,16 +1,16 @@
 Current Topic:
 
-Adaptive Learning
+Educational AGI
 
 Goals:
 
-- Foundational papers and frameworks on adaptive learning (adaptive systems, adaptive courseware, adaptive testing integration)
-- Personalization mechanisms: content, sequencing, scaffolding, feedback, strategy selection
-- Relationship between adaptive learning, learner modeling, knowledge tracing, and intelligent tutoring
-- Theoretical foundations: zone of proximal development, mastery learning, adaptive hypermedia
-- Machine learning approaches to adaptation (reinforcement learning, multi-armed bandits, Bayesian optimization)
-- Evaluation of adaptive learning systems: effectiveness, learner outcomes, engagement
-- Architectural implications for EduOS adaptive loops across all subsystems
+- Foundational definitions and distinctions between AGI, Artificial Superintelligence (ASI), and advanced narrow AI in education
+- Capabilities and limitations of LLMs as precursors to educational AGI
+- Architecture requirements for an educational AGI system (memory, reasoning, planning, social intelligence, embodiment)
+- Pedagogical reasoning and ethical implications of fully autonomous educational systems
+- Relationship between educational AGI and human teachers (augmentation vs. replacement)
+- Evaluation frameworks for educational AGI (what does it mean for an AGI to be "educationally effective"?)
+- Open questions: consciousness, values alignment, scalability, safety, control, and oversight
 
 Deliverables:
 

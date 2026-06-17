@@ -2,6 +2,26 @@
 
 ## 2026-06-17
 
+- **Digital Twins for Education** — Completed
+  - Foundational papers from Grieves & Vickers (2017), Tao et al. (2019), Zhang et al. (2022, 2023), Singh et al. (2023), and Bogdanović et al. (2023) reviewed
+  - Three maturity levels defined: digital model, digital shadow, full digital twin
+  - Core components: physical counterpart, virtual representation, bidirectional data connection
+  - Technical approaches surveyed: agent-based simulation, probabilistic state-space models, deep learning, hybrid symbolic-neural, federated/privacy-preserving
+  - Simulation capabilities: intervention simulation, trajectory forecasting, counterfactual analysis, optimization
+  - Ethical framework: informed consent, data minimization, right to explanation, right to be forgotten, surveillance risks
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Identified critical gaps: model fidelity vs. simplification risk, privacy/surveillance tensions, computational costs, cold start, interoperability, temporal drift, evaluation gap
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
+- **Adaptive Learning** — Completed
+  - Foundational papers from Skinner (1958) and Bloom (1968) through Brusilovsky (1996, 2001), Anderson et al. (1995), Corbett & Anderson (1994), Vygotsky (1978), Lord (1972, 1980), Desmarais & Baker (2012), Thompson et al. (2019), Lan et al. (2020), and modern LLM-based approaches reviewed
+  - Types of adaptation defined: adaptive content, adaptive sequencing, adaptive scaffolding, adaptive strategy selection, adaptive assessment
+  - Algorithmic mechanisms surveyed: rule-based, probabilistic/Bayesian, reinforcement learning, multi-armed bandits, collaborative filtering, LLM-based
+  - Granularity spectrum established: macro-adaptation (course/module level) and micro-adaptation (item/step level)
+  - Architecture impact mapped across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - Identified critical gaps: cold start, exploration-vs-exploitation risk in education, short-term performance optimization, rule-based brittleness vs. data-driven opacity, scalability/latency at scale, fairness and bias, LLM pedagogical ungroundedness, human-in-the-loop integration, multi-objective optimization, standardized evaluation benchmarks
+  - Deliverables: summary.md, critique.md, architecture_impact.md, future_questions.md
+
 - **Misconception Detection** — Completed
   - Foundational papers from Posner et al. (1982) to LLM-based detection (2023) reviewed
   - Misconception types defined: procedural, conceptual, ontological, preconception, terminological

@@ -192,3 +192,39 @@
 - [[cognitive-diagnosis-model]]: Probabilistic models (DINA, DINO, G-DINA) that classify learners into latent attribute/misconception states.
 - [[rule-space-method]]: Technique mapping learner response patterns to specific knowledge states and misconceptions.
 - [[remediation-strategy]]: Pedagogical approach for addressing a detected misconception (feedback, re-teaching, POE, Socratic dialogue, analogy).
+
+## Adaptive Learning
+
+- [[adaptive-learning]]: Educational approach that modifies content, sequencing, scaffolding, and instructional strategies based on individual learner characteristics and real-time performance.
+- [[adaptive-hypermedia]]: Hypermedia systems that adapt content presentation and link navigation based on learner model, goals, and context.
+- [[adaptive-content]]: Modification of content granularity, format, or medium based on learner state and preference.
+- [[adaptive-sequencing]]: Dynamic selection of the next problem, concept, or activity based on mastery estimates, prerequisites, and learner goals.
+- [[adaptive-scaffolding]]: Provision and fading of temporary support structures (hints, worked examples) based on real-time performance.
+- [[adaptive-strategy-selection]]: Choice among pedagogical strategies (scaffolding, Socratic, direct instruction) based on learner traits and context.
+- [[adaptive-assessment]]: Tailoring of assessment timing, difficulty, and type to maximize information gain while minimizing learner burden.
+- [[macro-adaptation]]: Course-level, module-level, or week-level adjustments to curriculum pacing and content selection.
+- [[micro-adaptation]]: Item-level, step-level, or turn-level adjustments during active tutoring or learning activities.
+- [[mastery-learning]]: Instructional approach where students must reach a high threshold of proficiency before advancing.
+- [[zone-of-proximal-development]]: Vygotskian construct describing the gap between what a learner can do independently and what they can achieve with guidance.
+- [[scaffolding]]: Temporary support provided to learners, systematically faded as competence increases.
+- [[scaffolding-fading]]: Gradual withdrawal of support as learner mastery improves, requiring precise detection of readiness.
+- [[cognitive-load-theory]]: Framework describing the mental effort imposed on working memory; adaptive systems manage intrinsic, extraneous, and germane load.
+- [[exploration-vs-exploitation]]: The adaptive system's trade-off between showing known-effective content and trying novel content.
+- [[contextual-bandit]]: Multi-armed bandit variant where arm rewards depend on observed context (learner state), used for content recommendation.
+- [[adaptive-rule]]: Explicit interpretable rule (if-then) mapping learner states to pedagogical actions, often used for safety constraints.
+
+## Digital Twins
+
+- [[digital-twin]]: Real-time digital representation of a learner that synchronizes state across environments and modalities; comprises physical counterpart, virtual model, and bidirectional data connection.
+- [[digital-model]]: Static, non-synchronized representation of a learner; the lowest maturity level of a digital twin.
+- [[digital-shadow]]: Passively updated representation that mirrors learner state but does not simulate; intermediate maturity level.
+- [[full-digital-twin]]: Actively synchronized with bidirectional data flow and simulation capability; the highest maturity level.
+- [[twin-synchronization]]: Continuous or periodic process of updating the virtual learner model to match the real learner's state.
+- [[twin-simulation]]: Forward projection of learner state to predict future outcomes under different instructional scenarios.
+- [[what-if-analysis]]: Technique using the digital twin to evaluate the likely effects of candidate interventions before deployment.
+- [[twin-fidelity]]: Degree to which the digital twin accurately represents the learner's actual state; limited by data quality and model validity.
+- [[cross-environment-persistence]]: Capability of the digital twin to maintain consistent learner state across LMS, ITS, social platforms, and informal learning contexts.
+- [[multi-modal-twin]]: Digital twin that incorporates cognitive, affective, behavioral, physiological, and environmental data sources.
+- [[twin-governance]]: Framework for data ownership, consent, privacy, and ethical use of learner digital twins.
+- [[right-to-be-forgotten]]: Learner's right to request complete deletion of their digital twin and associated data.
+- [[open-twin]]: Learner-facing view of the digital twin that enables inspection, correction, and contestation.

@@ -363,3 +363,112 @@ Refutation text explicitly confronts and corrects specific misconceptions.
 
 - [[cognitive-architecture]] → informs → [[misconception-detection]]
 Cognitive architectures provide theoretical grounding for how misconceptions form and persist.
+
+## Adaptive Learning Relationships
+
+- [[learner-model]] → drives → [[adaptive-learning]]
+Multi-dimensional learner state (cognitive, affective, motivational, behavioral) determines what content, difficulty, and strategy are selected.
+
+- [[knowledge-graph]] → constrains → [[adaptive-learning]]
+Prerequisite, partonomic, and pedagogical relationships in the EKG define which content sequences are valid and optimal.
+
+- [[knowledge-tracing]] → informs → [[adaptive-learning]]
+Real-time mastery estimates from KT are the primary input for content selection and difficulty calibration.
+
+- [[formative-assessment]] → feeds → [[adaptive-learning]]
+Continuous assessment data drives micro-adaptation decisions during learning sessions.
+
+- [[learning-analytics]] → enables → [[adaptive-learning]]
+Predictive and prescriptive analytics inform macro-adaptation (pacing, curriculum) and trigger proactive interventions.
+
+- [[intelligent-tutoring-system]] → implements → [[adaptive-learning]]
+ITS architectures instantiate adaptive decisions through content delivery, dialogue, and feedback.
+
+- [[educational-agent]] → enacts → [[adaptive-learning]]
+Agents execute adaptive decisions (content presentation, scaffolding, strategy switching) in interaction with the learner.
+
+- [[misconception]] → constrains → [[adaptive-learning]]
+Detected misconceptions may require remediation before new content is introduced, altering the adaptive path.
+
+- [[adaptive-learning]] → optimizes-for → [[mastery]]
+The primary objective of content selection and sequencing is to bring the learner to mastery of target concepts.
+
+- [[adaptive-learning]] → manages → [[exploration-vs-exploitation]]
+Adaptive systems must balance known-effective content with novel content to discover better learning paths.
+
+- [[adaptive-learning]] → triggers → [[adaptive-assessment]]
+When mastery uncertainty is high, the adaptive loop initiates targeted assessment to reduce uncertainty.
+
+- [[adaptive-learning]] → uses → [[reinforcement-learning]]
+RL and bandit methods learn optimal sequencing policies from interaction data.
+
+- [[adaptive-learning]] → requires → [[real-time-inference]]
+Online adaptation depends on sub-second model updates and decision latency.
+
+- [[cognitive-load-theory]] → constrains → [[adaptive-learning]]
+Adaptation must respect working memory limits and avoid overwhelming or under-challenging the learner.
+
+- [[zone-of-proximal-development]] → bounds → [[adaptive-learning]]
+Effective adaptation stays within the learner's ZPD, providing challenge with adequate support.
+
+- [[scaffolding]] → fades-as → [[mastery]]-increases
+Adaptive scaffolding is withdrawn progressively as the learner demonstrates competence.
+
+- [[human-override]] → can-modify → [[adaptive-learning]]
+Teachers and learners may override adaptive decisions; the system must reconcile these with its model.
+
+- [[adaptive-learning]] → audited-by → [[fairness-auditor]]
+Adaptive decisions are continuously evaluated for disparate impact across learner populations.
+
+## Digital Twin Relationships
+
+- [[digital-twin]] subsumes → [[learner-model]] + [[knowledge-graph]] + [[temporal-dynamics]]
+A digital twin integrates learner model, domain knowledge, and time-evolving state into a unified representation.
+
+- [[assessment]] → updates → [[digital-twin]]
+Assessment outcomes are a primary input stream for maintaining twin fidelity.
+
+- [[knowledge-tracing]] → updates → [[digital-twin]]
+KT-derived mastery probabilities continuously refine the cognitive dimension of the twin.
+
+- [[learner-model]] → is-component-of → [[digital-twin]]
+The learner model provides the core multi-dimensional state that the twin persists and synchronizes.
+
+- [[digital-twin]] → informs → [[adaptive-learning]]
+Real-time twin state drives adaptive content selection, sequencing, and scaffolding decisions.
+
+- [[digital-twin]] → enables → [[intelligent-tutoring-system]]
+ITS uses twin state for diagnosis, strategy selection, and personalization.
+
+- [[digital-twin]] → enables → [[what-if-analysis]]
+Simulation over the twin predicts outcomes of hypothetical interventions.
+
+- [[learning-analytics]] → enriches → [[digital-twin]]
+Analytics-derived insights (at-risk scores, engagement metrics) populate non-cognitive twin dimensions.
+
+- [[educational-agent]] → reads/writes → [[digital-twin]]
+Agents access and update twin state during tutoring interactions.
+
+- [[misconception-detection]] → updates → [[digital-twin]]
+Detected misconceptions are written into the twin's misconception profile.
+
+- [[digital-twin]] → requires → [[cross-environment-persistence]]
+A useful twin must maintain state across formal, informal, and multi-platform learning.
+
+- [[digital-twin]] → requires → [[multi-modal-learning]]
+Rich twins fuse cognitive, affective, behavioral, and physiological data.
+
+- [[privacy-preservation]] → constrains → [[digital-twin]]
+Comprehensive data collection for the twin is in tension with learner privacy and agency.
+
+- [[digital-twin]] → must-support → [[right-to-be-forten]]
+Ethical governance requires that learners can request complete twin deletion.
+
+- [[digital-twin]] → benefits-from → [[federated-learning]]
+Federated approaches reduce centralized data exposure while enabling rich twin models.
+
+- [[cognitive-architecture]] → can-ground → [[digital-twin]]
+The structure and processes of cognitive architectures can serve as the simulation substrate for the twin.
+
+- [[digital-twin]] → supports → [[lifelong-learning]]
+Persistent twin state enables seamless learning progression across years, institutions, and domains.

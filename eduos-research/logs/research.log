@@ -1634,3 +1634,172 @@ Sleeping 300 seconds...
 ====================================
 Research Cycle Started Wed Jun 17 12:22:38 UTC 2026
 ====================================
+ ## EduOS Research Iteration — Status Summary
+
+**Completed This Run:**
+- **Topic Processed:** Misconception Detection verified and closed.
+  - All 4 deliverables (`summary.md`, `critique.md`, `architecture_impact.md`, `future_questions.md`) were confirmed present and substantive.
+  - Topic moved from `active.md` to `completed.md`.
+  - Next topic selected: **Adaptive Learning**.
+- **Commits Pushed:** `587b47e` (complete Misconception Detection) and `b22613a` (start Adaptive Learning).
+
+**Active Topic:** **Adaptive Learning**
+- Created `research/adaptive-learning/summary.md` with foundational papers, theoretical foundations (ZPD, mastery learning, scaffolding), types of adaptive learning, algorithmic mechanisms (rules, Bayesian, RL, bandits, LLM-based), and critical open questions.
+- Remaining deliverables for this topic: `critique.md`, `architecture_impact.md`, `future_questions.md`.
+
+**Next Steps (Future Iterations):**
+- Generate `critique.md` for Adaptive Learning (gaps, strengths/weaknesses of the field).
+- Generate `architecture_impact.md` mapping adaptive learning onto EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS).
+- Generate `future_questions.md` with open research questions.
+- Update knowledge graph (`concepts.md`, `relationships.md`, `open-problems.md`) with adaptive learning concepts.
+- Once all 4 deliverables + graph updates are complete, move to backlog and select the next topic.
+Wed Jun 17 12:33:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 12:38:25 UTC 2026
+====================================
+API Error: API returned an empty or malformed response (HTTP 200) — check for a proxy or gateway intercepting the request
+Wed Jun 17 12:48:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 12:53:02 UTC 2026
+====================================
+API Error: The operation timed out.
+Wed Jun 17 13:03:39 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 13:08:39 UTC 2026
+====================================
+API Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()
+Wed Jun 17 14:08:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:13:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:13:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:18:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:18:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:23:03 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:23:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:28:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:28:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:33:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:33:06 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:38:06 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:38:07 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:43:07 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:43:08 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:48:08 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:48:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:53:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Wed Jun 17 14:53:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 14:58:10 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_6e190657e437
+Wed Jun 17 15:19:25 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 15:29:25 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_1d73c39b40ee
+Wed Jun 17 15:30:24 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 15:40:24 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_507314e219cb
+Wed Jun 17 15:41:24 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 15:51:24 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_1b14f612e65d
+Wed Jun 17 15:52:22 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 16:02:22 UTC 2026
+====================================
+API Error: The operation timed out.
+Wed Jun 17 16:12:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 16:17:33 UTC 2026
+====================================
+API Error: API returned an empty or malformed response (HTTP 200) — check for a proxy or gateway intercepting the request
+Wed Jun 17 16:22:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 16:27:49 UTC 2026
+====================================
