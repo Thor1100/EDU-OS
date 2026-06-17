@@ -228,3 +228,20 @@
 - [[twin-governance]]: Framework for data ownership, consent, privacy, and ethical use of learner digital twins.
 - [[right-to-be-forgotten]]: Learner's right to request complete deletion of their digital twin and associated data.
 - [[open-twin]]: Learner-facing view of the digital twin that enables inspection, correction, and contestation.
+
+## Educational AGI
+
+- [[educational-agi]]: Hypothetical fully autonomous, general-purpose educational system capable of teaching any subject to any learner across contexts, with persistent memory, reasoning, planning, and social intelligence.
+- [[artificial-general-intelligence]] (AGI): Autonomous systems that can understand, learn, and perform any intellectual task that a human being can; distinct from narrow AI specialized to single domains or tasks.
+- [[artificial-superintelligence]] (ASI): Systems that surpass human intelligence in virtually every domain, including scientific creativity, general wisdom, and social skills.
+- [[narrow-ai-in-education]]: Current generation of domain-specific educational AI systems (adaptive learning, knowledge tracing, ITS, LLM tutors) that lack generalization.
+- [[llm-tutor]]: Large language model deployed in a tutoring context; powerful in open-domain dialogue but lacks persistent learner models, pedagogical grounding, and reliable truthfulness.
+- [[stochastic-parrot]]: Critique that LLMs are sophisticated pattern matchers without genuine understanding, causal reasoning, or robust generalization.
+- [[values-alignment]]: The problem of ensuring an AI system's goals and behaviors align with human (or pedagogical) values; critical for safe educational AGI.
+- [[pedagogical-alignment]]: Ensuring an educational AI's objectives align with genuine learning, long-term retention, and learner well-being rather than surface-level metrics.
+- [[theory-of-mind]]: The ability to model other agents' beliefs, knowledge, and intentions; essential for a tutoring AGI to reason about what a learner knows and does not know.
+- [[multi-agent-agi]]: Architectures in which general intelligence emerges from the coordination of multiple specialized agents rather than a monolithic model.
+- [[neuro-symbolic-agi]]: Hybrid architectures combining neural network perception and learning with symbolic reasoning, planning, and constraint satisfaction.
+- [[open-ended-learning]]: Capability of an AI system to autonomously explore, set its own goals, and learn from novel experiences without explicit human programming.
+- [[human-in-the-loop]]: Design principle requiring meaningful human oversight, review, or override capability for high-stakes AI decisions, including education.
+- [[augmentation-vs-replacement]]: Debate over whether AI in education should enhance human teachers (augmentation) or substitute for them (replacement).

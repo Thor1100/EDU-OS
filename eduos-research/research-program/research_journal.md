@@ -628,3 +628,54 @@ Proceed to **Educational AGI** — the next topic in the backlog. Educational AG
 
 ---
 
+
+## 2026-06-17: Educational AGI Research Iteration (In Progress)
+
+### Topic
+Educational AGI
+
+### Findings
+Partially completed comprehensive research on Educational AGI for EduOS. Completed the foundational summary, which covers:
+
+1. **Definitions and Distinctions**: Mapped the spectrum from narrow AI in education through AGI to ASI, establishing four levels (L1 Narrow AI, L2 Cross-Domain AI, L3 Educational AGI, L4 Educational ASI).
+
+2. **LLMs as Precursors**: Analyzed capabilities (open-domain knowledge, dialogue, personalization) and limitations (no persistent learner model, hallucination, no grounded pedagogical reasoning) of LLM tutors as stepping stones toward educational AGI.
+
+3. **Architecture Requirements**: Outlined five pillars for educational AGI — memory systems (episodic, semantic, procedural, working, prospective), reasoning and planning (pedagogical, counterfactual, causal, long-horizon, theory of mind), learning and self-improvement (meta-learning, curriculum learning, transfer, self-reflection), social intelligence and embodiment (affective computing, social reasoning, cultural adaptation), and values alignment and safety.
+
+4. **Pedagogical and Ethical Implications**: Examined autonomy vs. control, values imposition, learner dependency, teacher displacement, surveillance risks, and the alignment problem in education. DiscussCollect es equity (democratization vs. exacerbation of inequality).
+
+5. **Human Teachers**: Documented the augmentation vs. replacement debate and the human-in-the-loop imperative.
+
+6. **Evaluation Frameworks**: Proposed multi-dimensional effectiveness, safety and robustness, human-centric metrics, and benchmark components (cross-domain mastery, lifelong learning, adversarial teaching, Socratic dialogue).
+
+7. **Current Research Frontiers**: Surveyed multi-agent AGI architectures, neuro-symbolic AGI, lifelong learning, and open-ended learning / curiosity.
+
+### Architectural Impact
+Educational AGI is a long-term horizon that shapes EduOS design principles rather than a near-term subsystem. Key architectural implications include:
+- **Modularity**: Subsystems must support incremental capability growth and not lock in narrow-AI assumptions
+- **Memory architecture (MAS)**: Must eventually support rich, multi-scale memory (episodic, semantic, procedural)
+- **Values alignment**: Safety, fairness, and transparency must be built into the architecture from the ground up
+- **Human oversight**: Every subsystem should preserve meaningful human control as autonomy increases
+- **Standards and interoperability**: Open standards enable future AGI components to integrate
+- **Ethical governance**: Ethical constraints should be encoded at the infrastructure level
+
+### Remaining Uncertainty
+- What is the minimum viable architecture that would allow EduOS to incrementally evolve toward AGI capabilities?
+- How do we design values alignment that generalizes across cultures, pedagogical traditions, and learner neurotypes?
+- What is the realistic timeline for educational AGI, and how should EduOS prioritize near-term vs. long-term investments?
+- Can multi-agent coordination or neuro-symbolic approaches realistically bridge the gap from narrow AI to AGI?
+- What are the specific open research problems that, if solved, would most accelerate progress toward educational AGI?
+
+### Next Research Direction
+Continue with the Educational AGI research iteration by producing the remaining deliverables: critique.md, architecture_impact.md, and future_questions.md. After completion, move to the next backlog topic.
+
+### Deliverables Completed
+- [x] summary.md
+- [ ] critique.md (pending)
+- [ ] architecture_impact.md (pending)
+- [x] Knowledge graph updated (concepts, relationships)
+- [ ] open-problems.md update (pending)
+
+---
+

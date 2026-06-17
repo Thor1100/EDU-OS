@@ -472,3 +472,41 @@ The structure and processes of cognitive architectures can serve as the simulati
 
 - [[digital-twin]] → supports → [[lifelong-learning]]
 Persistent twin state enables seamless learning progression across years, institutions, and domains.
+
+## Educational AGI Relationships
+
+- [[narrow-ai-in-education]] → evolves-toward → [[educational-agi]]
+Current narrow systems (KT, ITS, adaptive learning, LLM tutors) are precursors that may eventually compose into general educational intelligence.
+
+- [[llm-tutor]] → is-a-component-of-but-not-sufficient-for → [[educational-agi]]
+LLMs provide open-domain dialogue capability but lack persistent memory, pedagogical grounding, and reliable truthfulness required for AGI.
+
+- [[cognitive-architecture]] → informs → [[educational-agi]]
+Cognitive architectures (ACT-R, SOAR, CLARION) provide theoretical models of memory, reasoning, and learning that an educational AGI must instantiate.
+
+- [[digital-twin]] → provides-canonical-learner-model-for → [[educational-agi]]
+A comprehensive digital twin supplies the persistent, multi-dimensional learner representation an AGI tutor needs for coherent, long-term pedagogy.
+
+- [[knowledge-graph]] → grounds-domain-knowledge-for → [[educational-agi]]
+Educational knowledge graphs constrain and inform what an AGI can teach, ensuring alignment with curriculum and prerequisite structures.
+
+- [[educational-agi]] → requires → [[theory-of-mind]]
+Pedagogical reasoning at AGI scale requires modeling the learner's beliefs, misconceptions, and intentions.
+
+- [[educational-agi]] → requires → [[values-alignment]]
+Without alignment, an AGI optimized for test scores might teach test-taking rather than genuine understanding.
+
+- [[educational-agi]] → requires → [[neuro-symbolic-agi]]
+Hybrid neural-symbolic architectures may be necessary to combine the flexibility of neural models with the interpretability and planning capacity of symbolic systems.
+
+- [[educational-agi]] → raises → [[augmentation-vs-replacement]] debate
+The question of whether AGI should augment human teachers or replace them is unresolved and deeply consequential.
+
+- [[human-in-the-loop]] → constrains → [[educational-agi]]
+Ethical and practical frameworks require that even fully capable AGI systems preserve meaningful human oversight.
+
+- [[open-ended-learning]] → enables → [[educational-agi]]
+An AGI must autonomously explore teaching strategies, learn from novel learner behaviors, and improve its own pedagogical models over time.
+
+- [[multi-agent-agi]] → is-an-alternative-to → [[monolithic-agi]]
+Educational AGI could emerge from coordinated specialist agents rather than a single omniscient model.
