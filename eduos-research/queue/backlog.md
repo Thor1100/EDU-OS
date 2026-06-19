@@ -25,7 +25,7 @@
 - [x] Fairness and Bias Mitigation in EduOS
 - [x] LLM Safety and Pedagogical Guardrails
 - [x] Affective Computing and Engagement Modeling
-- [ ] Explainable AI and Open Learner Models
+- [x] Explainable AI and Open Learner Models
 - [ ] Neuro-Symbolic Architectures for Education
 - [ ] Federated Learning and Privacy in EduOS
 - [ ] Multimodal Learning and Embodied Interaction

@@ -726,3 +726,41 @@ Continuous emotional monitoring creates surveillance risks; privacy mechanisms l
 
 - [[cultural-context-node]] → calibrates → [[affective-intervention]]
 Cultural norms for emotional expression and response shape how affective interventions should be tailored.
+
+## Explainable AI and Open Learner Model Relationships
+
+- [[explainable-ai]] → explains → [[adaptive-learning]]
+XAI techniques provide reasons for adaptive content selection, difficulty calibration, and scaffolding decisions.
+
+- [[explainable-ai]] → explains → [[knowledge-tracing]]
+Post-hoc methods (LIME, SHAP) and interpretable architectures explain why KT infers a particular mastery probability.
+
+- [[open-learner-model]] → promotes → [[metacognition]]
+Visible learner models improve self-assessment accuracy, self-regulation, and learner agency.
+
+- [[open-learner-model]] → requires → [[scrutability]]
+Scrutability — the learner's ability to inspect the system's model of them — is a prerequisite for meaningful open learner model interaction.
+
+- [[scrutability]] → enables → [[contestability]]
+Learners must first understand the system's model before they can effectively dispute or correct it.
+
+- [[contestability]] → feeds → [[learner-model]]
+Accepted learner contestations update and refine the learner model, improving its accuracy and fairness.
+
+- [[explainable-ai]] → supports → [[fairness]]
+Transparent model decisions enable detection of bias, disparate impact, and discriminatory patterns.
+
+- [[open-learner-model]] → supports → [[procedural-fairness]]
+Learner visibility into model inferences and the ability to contest them supports procedural fairness.
+
+- [[trust-calibration]] → depends-on → [[explainable-ai]]
+Appropriate trust in adaptive systems depends on accurate, intelligible explanations of system behavior.
+
+- [[model-card]] → documents → [[educational-agent]]
+Model cards standardize documentation of agent capabilities, limitations, and safety properties.
+
+- [[counterfactual-explanation]] → enables → [[learner-agency]]
+Counterfactual explanations show learners what actions would change their trajectory, supporting goal-setting.
+
+- [[compositional-explanation]] → aggregates → [[subsystem-explanations]]
+Compositional explanations merge component-level rationales into coherent narrative or visual explanations for complex adaptive decisions.

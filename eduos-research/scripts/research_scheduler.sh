@@ -5,7 +5,7 @@ cd ~/EDU-OS/eduos-research
 mkdir -p logs
 
 SUCCESS_COOLDOWN=300
-RATE_LIMIT_COOLDOWN=600
+RATE_LIMIT_COOLDOWN=1000
 
 while true
 do

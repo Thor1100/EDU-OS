@@ -988,3 +988,64 @@ Proceed to **Explainable AI and Open Learner Models** — the next topic in the 
 - [x] future_questions.md
 - [x] Knowledge graph updated (concepts, relationships, open-problems)
 
+---
+
+## 2026-06-19: Explainable AI and Open Learner Models Research Iteration
+
+### Topic
+Explainable AI and Open Learner Models
+
+### Findings
+Completed comprehensive research on Explainable AI and Open Learner Models for EduOS, covering:
+
+1. **Explainability Techniques:** Surveyed post-hoc methods (LIME, SHAP, counterfactuals, attention visualization, LRP) and interpretable-by-design approaches (decision trees, GAMs, BKT, concept bottleneck models). Evaluated hybrid approaches including model distillation and compositional explanations.
+
+2. **Open Learner Model Architectures:** Analyzed skill meters, knowledge maps, textual summaries, editable models, and comparative views. Identified design dimensions: granularity, recency weighting, uncertainty display, actionability, and comparability.
+
+3. **Empirical Evidence:** OLMs show modest but positive effects on metacognition and self-regulated learning (d ≈ 0.2–0.4). Effects are context-dependent and not universal — some learners find OLMs demotivating or intrusive.
+
+4. **Presentation Methods:** Reviewed mastery heatmaps, progress rings, graph/network views, timeline visualizations, and comparative dashboards. Emphasized goal-relevance, cognitive load management, and multi-stakeholder adaptation.
+
+5. **Complexity vs. Explainability Tension:** Mapped the accuracy-interpretability trade-off across educational decision domains. Documented stakeholder-specific needs (learners need actionable simplicity; educators need diagnostic detail; regulators need audit trails).
+
+6. **Ethical Implications:** Analyzed the right to explanation (GDPR Article 22), risks of transparency (gaming, stereotype threat, privacy), risks of opacity (loss of agency, bias, trust erosion), and contestability as a requirement for learner agency.
+
+### Critical Gaps for EduOS
+- Post-hoc explanations (LIME, SHAP, attention) can be misleading or unfaithful to the model.
+- Compositional explanations across 8+ subsystems are unsolved.
+- OLM effects are modest and context-dependent; design consensus is lacking.
+- Contestability is theoretically valued but rarely implemented.
+- Explanation latency in real-time tutoring is unstudied.
+- Privacy tensions with open learner models are unresolved.
+- Adaptive explanations by learner characteristics are embryonic.
+- Temporal explanations (why did my model change?) are underexplored.
+- Explanation equity across demographic and linguistic groups is unverified.
+
+### Architectural Impact
+- **ADS:** New agents (Explanation, Contestability, Model Card) with explanation-generation and contestation-handling events and permissions.
+- **AOS:** Explanation workflows, compositional explanation aggregation, conflict resolution with explicit justifications, explanation context in orchestration.
+- **KGS:** New nodes/edges for learner model views, model inferences, explanations, contest records, and model cards; what-if reasoning support.
+- **KIS:** Provenance-tagged fusion, introspectable combination rules, contradiction surfacing in explanations.
+- **MAS:** Episodic explanation logs, semantic explanation template knowledge, procedural explanation heuristics, working memory for explanation context.
+- **RCS:** XAI integration, counterfactual generation, compositional and temporal explanations, belief revision for contestations.
+- **TAS:** Real-time explanation infrastructure, pre-computation and caching, model card registry, audit logging.
+- **LMS:** Open learner model representation with visibility policies, editable fields with audit, contestation handling, new dimensions (explanation preference, engagement, trust).
+
+### Remaining Uncertainty
+- Should EduOS prioritize interpretable-by-design models for safety-critical decisions, or accept post-hoc explanations for complex models?
+- How do we evaluate whether an explanation is pedagogically useful, not just technically faithful?
+- What is the minimum viable contestability workflow for Phase 1?
+- How much of the adaptive loop can tolerate explanation-generation latency?
+- What learner model dimensions should remain optionally suppressible?
+- Can we generate adaptive explanations that match learner characteristics without introducing new biases?
+
+### Next Research Direction
+Proceed to **Neuro-Symbolic Architectures for Education** — the next topic in the backlog. Neuro-symbolic approaches promise to combine the flexibility of neural models with the interpretability of symbolic reasoning, directly addressing the explainability-accuracy tension identified in this research. Investigating this topic will inform whether EduOS can achieve high predictive performance without sacrificing scrutability.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+

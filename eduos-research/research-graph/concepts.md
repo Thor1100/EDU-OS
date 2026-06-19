@@ -332,3 +332,24 @@
 - [[safety-pipeline]]: Multi-stage production architecture (prompt assembly, generation, retrieval, moderation, logging) for secure LLM deployment.
 - [[red-teaming]]: Systematic adversarial testing of LLMs to discover safety, bias, and pedagogical weaknesses before deployment.
 - [[guardrail-agent]]: Specialized EduOS agent that validates LLM outputs against curriculum, knowledge graph, and safety constraints before learner delivery.
+
+## Explainable AI and Open Learner Models
+
+- [[explainable-ai]] (XAI): Methods and techniques that make AI-driven educational decisions understandable to humans; encompasses post-hoc, inherent, and hybrid explainability approaches.
+- [[interpretability]]: The inherent transparency of a model's internal structure and reasoning process; contrasted with post-hoc explainability.
+- [[open-learner-model]] (OLM): Learner model made visible and, in some designs, editable by the learner to promote metacognition, trust, and learner agency.
+- [[post-hoc-explanation]]: Explanation technique applied after a model makes a decision (e.g., LIME, SHAP, counterfactuals, attention visualization).
+- [[lime]]: Local Interpretable Model-agnostic Explanations; fits interpretable surrogate models to approximate complex model behavior locally.
+- [[shap]]: SHapley Additive exPlanations; game-theoretic feature attribution providing theoretically grounded importance scores.
+- [[counterfactual-explanation]]: Explanation format showing what input changes would alter the model's decision (e.g., "If you had studied X, your score would have improved by Y").
+- [[attention-visualization]]: Visualizing attention weights in transformer models; note that attention does not reliably indicate causal feature importance.
+- [[model-card]]: Standardized documentation of a model's intended use, limitations, safety properties, and performance characteristics.
+- [[scrutability]]: The learner's ability to inspect and understand the system's model of themselves (Kay, 2000); a precursor to contestability.
+- [[contestability]]: The learner's ability to dispute or correct system inferences and model representations (Bunt et al., 2001).
+- [[trust-calibration]]: Matching a user's confidence in the system to the system's actual reliability; appropriate trust is the goal, not maximum trust.
+- [[compositional-explanation]]: Aggregation of subsystem-level explanations into coherent, user-facing explanations for multi-component adaptive decisions.
+- [[adaptive-explanation]]: Dynamically adjusting explanation format, complexity, and content based on learner characteristics, context, and preferences.
+- [[model-distillation]]: Training an interpretable surrogate model to mimic the behavior of a complex model, trading fidelity for understandability.
+- [[layer-wise-relevance-propagation]] (LRP): Technique that propagates relevance scores backward through a neural network to assign feature importance.
+- [[concept-bottleneck-model]]: Neural model forced to first predict human-interpretable concepts before making downstream decisions.
+- [[what-if-analysis]]: Simulation of hypothetical scenarios (e.g., future studying patterns) to project learner model trajectories and their explanations.

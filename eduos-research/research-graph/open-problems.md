@@ -1179,3 +1179,85 @@
 - Which intervention library (motivational, scaffolding, pacing, social, content) works best per affective state and concept type?
 - Can RL discover novel affect-aware tutoring policies faster than manual design?
 
+## Explainable AI and Open Learner Models
+
+### P144: Faithfulness of Post-Hoc Explanations
+**Status:** LIME and SHAP can be unstable and unfaithful to the underlying model. In education, a plausible-but-wrong explanation can reinforce misconceptions.
+**Impact:** Very High — misleading explanations can be worse than no explanations.
+**Questions:**
+- How can we verify that an explanation accurately reflects the model's reasoning, not just a locally consistent approximation?
+- What fidelity thresholds are acceptable for pedagogical safety?
+- Can we develop education-specific explanation quality benchmarks?
+
+### P145: Compositional Explanations for Multi-Subsystem Decisions
+**Status:** EduOS decisions involve 8+ subsystems. Explaining a single decision that spans KT, learner model, affect, engagement, and content selection is unsolved.
+**Impact:** High — users need coherent explanations, not a concatenation of subsystem-level rationales.
+**Questions:**
+- What algorithms aggregate and simplify multi-component explanations without losing critical information?
+- How do we prevent compositional explanations from becoming overwhelming?
+- Can hierarchical explanation architectures map naturally to the subsystem hierarchy?
+
+### P146: Optimal Open Learner Model Design
+**Status:** Despite decades of OLM research, consensus on the most effective format, granularity, and interactivity is lacking.
+**Impact:** Medium-High — OLM design directly affects metacognition, motivation, and learning outcomes.
+**Questions:**
+- Which OLM formats (skill meters, knowledge maps, text summaries, comparative views) produce the largest metacognitive and learning gains?
+- What is the optimal granularity for OLM visibility without overwhelming learners?
+- Do the benefits of OLMs sustain over long-term use, or do they habituate?
+
+### P147: Contestability Infrastructure
+**Status:** The ability to dispute and correct model inferences (contestability) is theoretically valued but rarely implemented in adaptive systems.
+**Impact:** High — learner agency and model accuracy both depend on effective contestation.
+**Questions:**
+- What formal framework handles belief revision when learners contest inferences?
+- How do we prevent malicious or mistaken contestations from corrupting the learner model?
+- What is the minimum viable contestability architecture for an early-stage system?
+
+### P148: Adaptive Explanations by Learner Characteristics
+**Status:** XAI systems often produce identical explanations for all users. Adapting explanations to learner cognitive development, domain expertise, or cultural background is largely unexplored.
+**Impact:** Medium — one-size-fits-all explanations may be ineffective or alienating for diverse learners.
+**Questions:**
+- Can we automatically determine the right explanation format and complexity for a given learner?
+- Do culturally or developmentally adapted explanations improve trust and learning outcomes?
+- What is the cost of generating personalized explanations at scale?
+
+### P149: Explanation Latency and Real-Time Tutoring
+**Status:** Generating high-quality explanations (especially post-hoc) adds latency. Whether this latency affects tutoring quality is unstudied in educational contexts.
+**Impact:** Medium — real-time tutoring demands sub-second responses, including explanation delivery.
+**Questions:**
+- What is the pedagogical cost of deferred or asynchronous explanations vs. synchronous explanation generation?
+- Can pre-computation, caching, or approximation make explanation generation sufficiently fast?
+- Which decisions even require real-time explanation, and which can be deferred?
+
+### P150: Right to Not Know and Data Sensitivity
+**Status:** Open learner models may reveal sensitive inferences (e.g., predicted dropout risk, IQ proxies, affective states). Learners may not always want full transparency.
+**Impact:** Medium-High — privacy, autonomy, and well-being may conflict with transparency goals.
+**Questions:**
+- What learner model dimensions should be optionally suppressible?
+- How do we balance institutional transparency requirements with learner autonomy over their own data?
+- What are the psychological effects of viewing probabilistic predictions about oneself?
+
+### P151: Model Card Standardization for Education
+**Status:** Model cards (Mitchell et al., 2019) are gaining traction, but education-specific model card schemas and automated generation are underdeveloped.
+**Impact:** Medium — model cards support regulatory compliance, trust, and responsible deployment.
+**Questions:**
+- What fields (e.g., pedagogical alignment, fairness metrics, learner population) are essential in an educational model card?
+- Can model card generation be automated for continuously updated adaptive models?
+- What is the minimal viable model card for an early-stage educational AI system?
+
+### P152: Temporal Explanations
+**Status:** Most XAI provides static explanations for single decisions. Explaining how and why the learner model has changed over time is unsolved.
+**Impact:** Medium — longitudinal learner model evolution is central to adaptive education but hard to explain.
+**Questions:**
+- How can we generate intelligible explanations of longitudinal model drift?
+- What visual or narrative techniques best convey temporal learner model changes?
+- How do we distinguish genuine learning from noise or model drift in temporal explanations?
+
+### P153: Explanation and Equity
+**Status:** XAI techniques may produce explanations that are less useful or less accessible for certain demographic or linguistic groups.
+**Impact:** Medium-High — explanation accessibility could become a new dimension of educational inequity.
+**Questions:**
+- Do current XAI techniques generate equally useful explanations across cultural and linguistic groups?
+- Can explanation generation itself introduce bias (e.g., simpler explanations for certain learner groups)?
+- How do026 we measure explanation equity?
+
