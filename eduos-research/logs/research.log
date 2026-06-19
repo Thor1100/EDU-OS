@@ -2260,3 +2260,3362 @@ Sleeping 600 seconds...
 ====================================
 Research Cycle Started Wed Jun 17 22:30:07 UTC 2026
 ====================================
+ **Research Iteration Completed: Fairness and Bias Mitigation in EduOS**
+
+**What was done**
+- Verified all four deliverables for the active topic were already complete:
+  - `summary.md` — sources of bias, fairness definitions, propagation pipeline, auditing/mitigation, stakeholders
+  - `critique.md` — strengths, 8 critical gaps, what works/doesn’t
+  - `architecture_impact.md` — fairness mapping across all 8 subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+  - `future_questions.md` — 20 open research questions plus Phase 1 investigation items
+- Updated queue and records:
+  - Moved topic to `completed.md`
+  - Set `active.md` to **LLM Safety and Pedagogical Guardrails**
+  - Updated `backlog.md` to reflect completion
+  - Appended entry to `research-program/research_journal.md`
+- Git: committed and pushed to `research-server` branch
+
+**Next up**
+- **Active topic:** LLM Safety and Pedagogical Guardrails
+- **Backlog remaining:** LLM Safety and Pedagogical Guardrails (last Future Research topic)
+
+**Status:** Iteration complete. All research artifacts saved and repository sync’ed.
+Wed Jun 17 22:39:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Wed Jun 17 22:44:03 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_28c90f460403
+Wed Jun 17 22:47:20 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 22:57:20 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_b7f5b7fa035d
+Wed Jun 17 22:58:32 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 23:08:32 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_8f454ffe0e34
+Wed Jun 17 23:09:44 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 23:19:44 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_05bc7f491fa8
+Wed Jun 17 23:20:48 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 23:30:48 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_a0e1b8f6ccf8
+Wed Jun 17 23:44:19 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Wed Jun 17 23:54:19 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_8f6e29ed3e00
+Wed Jun 17 23:55:30 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 00:05:30 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_aab50a2ebf51
+Thu Jun 18 00:06:40 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 00:16:40 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_81886972400c
+Thu Jun 18 00:17:55 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 00:27:55 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_4a4330528564
+Thu Jun 18 00:29:08 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 00:39:08 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_f0b152cd7b29
+Thu Jun 18 00:40:30 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 00:50:30 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_17c10211df4e
+Thu Jun 18 00:51:40 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 01:01:40 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_b666ba6bd051
+Thu Jun 18 01:02:50 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 01:12:50 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_0b511e89bad9
+Thu Jun 18 01:13:59 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 01:23:59 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_5fb0ab2540fe
+Thu Jun 18 01:25:06 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 01:35:06 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_3f0642d677d6
+Thu Jun 18 01:36:15 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 01:46:15 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_eb98dc5d2a13
+Thu Jun 18 01:47:22 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 01:57:22 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_4267e8d94a60
+Thu Jun 18 01:58:32 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 02:08:32 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_852f1cf598a9
+Thu Jun 18 02:09:44 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 02:19:44 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_2373f3a2c1bf
+Thu Jun 18 02:20:54 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 02:30:54 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_cf5d3eb3e23f
+Thu Jun 18 02:32:03 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 02:42:03 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_8579733bd701
+Thu Jun 18 02:43:12 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 02:53:12 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_92cb1de686ff
+Thu Jun 18 02:54:23 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 03:04:23 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_21da5d88b23d
+Thu Jun 18 03:05:31 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 03:15:31 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_4487efbfbf0d
+Thu Jun 18 03:16:41 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 03:26:41 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_f85f29aa7019
+Thu Jun 18 03:27:52 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 03:37:52 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_11fd5411510c
+Thu Jun 18 03:39:02 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 03:49:02 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_ab33453d5cd2
+Thu Jun 18 03:50:14 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 04:00:14 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_1cfa7f3d9338
+Thu Jun 18 04:01:26 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 04:11:26 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_3a8749fcc412
+Thu Jun 18 04:12:35 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 04:22:35 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_18dc61110a24
+Thu Jun 18 04:23:47 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 04:33:47 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_840dbf57fd89
+Thu Jun 18 04:34:58 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 04:44:58 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_30f2fe14f1fe
+Thu Jun 18 04:46:08 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 04:56:08 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_354a4d1a0cb8
+Thu Jun 18 04:57:16 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 05:07:16 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_bbe5612e7d0e
+Thu Jun 18 05:08:27 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 05:18:27 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_fbe718c6f625
+Thu Jun 18 05:19:35 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 05:29:35 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_ed44d538d1a8
+Thu Jun 18 05:30:46 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 05:40:46 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_754db4863ed3
+Thu Jun 18 05:41:55 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 05:51:55 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_dc6d5184acd4
+Thu Jun 18 05:53:09 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 06:03:09 UTC 2026
+====================================
+Upstream provider NIM returned HTTP 429.
+Category: rate_limit_error
+Mapped message: Provider rate limit reached. Please retry shortly.
+
+Upstream error:
+{"status":429,"title":"Too Many Requests"}
+
+Request ID: req_d48bf223bc2c
+Thu Jun 18 06:04:24 UTC 2026 RATE LIMIT DETECTED
+Sleeping 600 seconds...
+====================================
+Research Cycle Started Thu Jun 18 06:14:24 UTC 2026
+====================================
+API Error: Unable to connect to API (ConnectionRefused)
+Thu Jun 18 06:37:17 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 06:42:17 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 06:42:19 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 06:47:19 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 06:47:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 06:52:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 06:52:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 06:57:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 06:57:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:02:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:02:23 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:07:23 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:07:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:12:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:12:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:17:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:17:26 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:22:26 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:22:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:27:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:27:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:32:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:32:30 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:37:30 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:37:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:42:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:42:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:47:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:47:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:52:33 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:52:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 07:57:34 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 07:57:35 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:02:35 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:02:36 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:07:36 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:07:37 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:12:37 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:12:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:17:38 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:17:39 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:22:39 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:22:40 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:27:40 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:27:42 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:32:42 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:32:43 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:37:43 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:37:44 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:42:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:42:45 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:47:45 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:47:46 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:52:46 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:52:47 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 08:57:47 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 08:57:48 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:02:48 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:02:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:07:49 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:07:50 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:12:50 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:12:51 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:17:51 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:17:52 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:22:52 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:22:53 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:27:53 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:27:54 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:32:54 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:32:55 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:37:55 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:37:56 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:42:56 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:42:58 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:47:58 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:47:59 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:52:59 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:53:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 09:58:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 09:58:01 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:03:01 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:03:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:08:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:08:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:13:03 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:13:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:18:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:18:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:23:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:23:06 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:28:06 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:28:07 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:33:07 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:33:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:38:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:38:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:43:10 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:43:11 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:48:11 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:48:12 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:53:12 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:53:13 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 10:58:13 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 10:58:14 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:03:14 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:03:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:08:15 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:08:16 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:13:16 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:13:17 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:18:17 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:18:19 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:23:19 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:23:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:28:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:28:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:33:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:33:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:38:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:38:23 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:43:23 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:43:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:48:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:48:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:53:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:53:26 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 11:58:26 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 11:58:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:03:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:03:28 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:08:28 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:08:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:13:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:13:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:18:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:18:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:23:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:23:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:28:33 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:28:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:33:34 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:33:35 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:38:35 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:38:36 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:43:36 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:43:37 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:48:37 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:48:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:53:38 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:53:39 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 12:58:39 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 12:58:40 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:03:40 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:03:41 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:08:41 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:08:43 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:13:43 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:13:44 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:18:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:18:45 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:23:45 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:23:46 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:28:46 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:28:47 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:33:47 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:33:48 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:38:48 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:38:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:43:49 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:43:50 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:48:50 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:48:52 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:53:52 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:53:53 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 13:58:53 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 13:58:54 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:03:54 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:03:55 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:08:55 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:08:56 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:13:56 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:13:57 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:18:57 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:18:58 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:23:58 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:23:59 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:28:59 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:29:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:34:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:34:01 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:39:01 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:39:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:44:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:44:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:49:03 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:49:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:54:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:54:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 14:59:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 14:59:07 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:04:07 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:04:08 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:09:08 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:09:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:14:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:14:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:19:10 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:19:11 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:24:11 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:24:12 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:29:12 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:29:13 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:34:13 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:34:14 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:39:14 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:39:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:44:15 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:44:16 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:49:16 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:49:17 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:54:17 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:54:18 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 15:59:18 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 15:59:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:04:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:04:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:09:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:09:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:14:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:14:23 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:19:23 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:19:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:24:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:24:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:29:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:29:26 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:34:26 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:34:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:39:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:39:28 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:44:28 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:44:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:49:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:49:30 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:54:30 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:54:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 16:59:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 16:59:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:04:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:04:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:09:34 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:09:35 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:14:35 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:14:36 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:19:36 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:19:37 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:24:37 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:24:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:29:38 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:29:39 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:34:39 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:34:40 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:39:40 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:39:41 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:44:41 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:44:42 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:49:42 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:49:43 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:54:43 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:54:44 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 17:59:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 17:59:45 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:04:45 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:04:46 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:09:46 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:09:47 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:14:47 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:14:48 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:19:48 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:19:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:24:49 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:24:51 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:29:51 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:29:52 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:34:52 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:34:53 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:39:53 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:39:54 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:44:54 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:44:55 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:49:55 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:49:56 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:54:56 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:54:57 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 18:59:57 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 18:59:58 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:04:58 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:04:59 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:09:59 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:10:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:15:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:15:01 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:20:01 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:20:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:25:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:25:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:30:03 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:30:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:35:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:35:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:40:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:40:06 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:45:06 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:45:08 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:50:08 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:50:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 19:55:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 19:55:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:00:10 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:00:11 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:05:11 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:05:12 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:10:12 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:10:13 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:15:13 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:15:14 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:20:14 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:20:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:25:15 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:25:16 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:30:16 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:30:17 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:35:17 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:35:19 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:40:19 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:40:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:45:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:45:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:50:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:50:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 20:55:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 20:55:23 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:00:23 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:00:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:05:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:05:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:10:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:10:26 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:15:26 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:15:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:20:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:20:28 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:25:28 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:25:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:30:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:30:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:35:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:35:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:40:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:40:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:45:33 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:45:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:50:34 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:50:35 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 21:55:35 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 21:55:36 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:00:36 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:00:37 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:05:37 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:05:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:10:38 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:10:39 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:15:39 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:15:40 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:20:40 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:20:41 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:25:42 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:25:43 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:30:43 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:30:44 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:35:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:35:45 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:40:45 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:40:46 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:45:46 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:45:47 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:50:47 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:50:48 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 22:55:48 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 22:55:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:00:49 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:00:50 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:05:50 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:05:51 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:10:51 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:10:52 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:15:52 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:15:54 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:20:54 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:20:55 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:25:55 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:25:56 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:30:56 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:30:57 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:35:57 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:35:58 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:40:58 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:40:59 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:45:59 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:46:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:51:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:51:01 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Thu Jun 18 23:56:01 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Thu Jun 18 23:56:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:01:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:01:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:06:03 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:06:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:11:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:11:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:16:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:16:07 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:21:07 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:21:08 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:26:08 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:26:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:31:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:31:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:36:10 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:36:11 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:41:11 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:41:12 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:46:12 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:46:13 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:51:13 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:51:14 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 00:56:14 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 00:56:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:01:15 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:01:17 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:06:17 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:06:18 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:11:18 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:11:19 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:16:19 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:16:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:21:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:21:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:26:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:26:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:31:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:31:23 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:36:23 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:36:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:41:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:41:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:46:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:46:26 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:51:26 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:51:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 01:56:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 01:56:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:01:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:01:30 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:06:30 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:06:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:11:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:11:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:16:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:16:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:21:33 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:21:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:26:34 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:26:35 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:31:35 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:31:36 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:36:36 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:36:37 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:41:37 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:41:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:46:38 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:46:39 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:51:39 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:51:40 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 02:56:40 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 02:56:42 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:01:42 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:01:43 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:06:43 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:06:44 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:11:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:11:45 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:16:45 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:16:46 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:21:46 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:21:47 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:26:47 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:26:48 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:31:48 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:31:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:36:49 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:36:50 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:41:50 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:41:51 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:46:51 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:46:52 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:51:52 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:51:53 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 03:56:53 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 03:56:54 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:01:54 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:01:56 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:06:56 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:06:57 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:11:57 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:11:58 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:16:58 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:16:59 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:21:59 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:22:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:27:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:27:01 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:32:01 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:32:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:37:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:37:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:42:03 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:42:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:47:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:47:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:52:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:52:06 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 04:57:06 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 04:57:08 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:02:08 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:02:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:07:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:07:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:12:10 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:12:11 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:17:11 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:17:12 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:22:12 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:22:13 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:27:13 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:27:14 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:32:14 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:32:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:37:15 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:37:16 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:42:16 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:42:18 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:47:18 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:47:19 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:52:19 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:52:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 05:57:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 05:57:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:02:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:02:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:07:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:07:23 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:12:23 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:12:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:17:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:17:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:22:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:22:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:27:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:27:28 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:32:28 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:32:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:37:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:37:30 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:42:30 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:42:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:47:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:47:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:52:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:52:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 06:57:33 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 06:57:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:02:34 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:02:36 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:07:36 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:07:37 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:12:37 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:12:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:17:38 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:17:39 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:22:39 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:22:40 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:27:40 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:27:41 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:32:41 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:32:42 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:37:42 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:37:43 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:42:43 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:42:44 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:47:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:47:46 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:52:46 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:52:47 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 07:57:47 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 07:57:48 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:02:48 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:02:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:07:49 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:07:50 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:12:50 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:12:52 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:17:52 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:17:53 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:22:53 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:22:54 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:27:54 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:27:55 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:32:55 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:32:56 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:37:56 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:37:57 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:42:57 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:42:58 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:47:58 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:47:59 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:52:59 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:53:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 08:58:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 08:58:01 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:03:01 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:03:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:08:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:08:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:13:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:13:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:18:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:18:06 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:23:06 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:23:07 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:28:07 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:28:08 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:33:08 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:33:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:38:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:38:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:43:10 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:43:11 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:48:11 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:48:12 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:53:12 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:53:13 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 09:58:13 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 09:58:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:03:15 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:03:16 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:08:16 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:08:17 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:13:17 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:13:18 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:18:18 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:18:19 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:23:19 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:23:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:28:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:28:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:33:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:33:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:38:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:38:23 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:43:23 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:43:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:48:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:48:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:53:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:53:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 10:58:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 10:58:28 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:03:28 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:03:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:08:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:08:30 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:13:30 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:13:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:18:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:18:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:23:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:23:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:28:33 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:28:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:33:34 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:33:35 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:38:35 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:38:36 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:43:36 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:43:37 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:48:37 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:48:38 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:53:38 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:53:40 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 11:58:40 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 11:58:41 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:03:41 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:03:42 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:08:42 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:08:43 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:13:43 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:13:44 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:18:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:18:45 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:23:45 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:23:46 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:28:46 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:28:47 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:33:47 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:33:48 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:38:48 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:38:49 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:43:49 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:43:50 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:48:50 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:48:51 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:53:51 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:53:53 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 12:58:53 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 12:58:54 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:03:54 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:03:55 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:08:55 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:08:56 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:13:56 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:13:57 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:18:57 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:18:58 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:23:58 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:23:59 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:28:59 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:29:00 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:34:00 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:34:01 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:39:01 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:39:02 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:44:02 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:44:03 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:49:03 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:49:04 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:54:04 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:54:05 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 13:59:05 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 13:59:06 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:04:06 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:04:07 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:09:07 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:09:09 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:14:09 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:14:10 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:19:10 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:19:11 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:24:11 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:24:12 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:29:12 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:29:13 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:34:13 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:34:14 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:39:14 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:39:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:44:15 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:44:16 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:49:16 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:49:17 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:54:17 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:54:18 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 14:59:18 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 14:59:19 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:04:19 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:04:20 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:09:20 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:09:21 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:14:21 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:14:22 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:19:22 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:19:24 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:24:24 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:24:25 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:29:25 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:29:26 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:34:26 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:34:27 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:39:27 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:39:28 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:44:28 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:44:29 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:49:29 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:49:30 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:54:30 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:54:31 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 15:59:31 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 15:59:32 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 16:04:32 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 16:04:33 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 16:09:33 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 16:09:34 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 16:14:14 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 16:14:15 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 16:15:44 UTC 2026
+====================================
+Free Claude Code proxy is not reachable at http://127.0.0.1:8082: [Errno 111] Connection refused
+Start it in another terminal with: fcc-server
+Fri Jun 19 16:15:45 UTC 2026 Iteration completed successfully
+Sleeping 300 seconds...
+====================================
+Research Cycle Started Fri Jun 19 16:20:45 UTC 2026
+====================================

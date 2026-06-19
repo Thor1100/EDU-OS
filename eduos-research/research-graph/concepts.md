@@ -55,7 +55,15 @@
 - [[fairness]]: Ensuring AI models do not systematically disadvantage particular learner groups.
 - [[interpretability]]: Making model-driven learner model decisions understandable to users; trade-off with predictive accuracy.
 - [[ensemble-methods]]: Combining multiple models to improve robustness and generalization.
-- [[affective-computing]]: Detection and response to learner emotions and engagement states.
+- [[affective-computing]]: Detection and response to learner emotions and engagement states; encompasses multimodal affect detection, engagement modeling, and affective tutoring.
+- [[engagement-modeling]]: Computational representation and prediction of learner engagement across behavioral, emotional, and cognitive dimensions.
+- [[multimodal-affect-detection]]: Fusion of behavioral, physiological, linguistic, and contextual signals to infer learner affective state.
+- [[behavioral-proxy]]: Observable interaction pattern (keystrokes, pauses, help-seeking, navigation) used as an indirect indicator of internal affective or motivational state.
+- [[psychophysiological-sensing]]: Use of physiological sensors (EEG, EDA, heart rate, facial EMG, eye tracking) to measure autonomic and central nervous system correlates of emotion.
+- [[flow-state]]: Optimal experience characterized by deep absorption, challenge-skill balance, clear goals, and immediate feedback (Csikszentmihalyi).
+- [[disengagement-detection]]: Automated identification of waning learner behavioral, emotional, or cognitive engagement before dropout or task abandonment.
+- [[affective-intervention]]: Pedagogical response (e.g., motivational message, scaffolding change, break suggestion) triggered by detected affective state.
+- [[control-value-theory]]: Achievement emotion framework positing that emotions arise from appraisals of control over outcomes and the subjective value of those outcomes (Pekrun).
 
 ## Learner Model Dimensions
 
@@ -308,3 +316,19 @@
 - [[open-learner-model]]: Learner model made visible to the learner with contestation affordances; supports procedural fairness and learner agency.
 - [[cultural-context-node]]: Knowledge graph annotation capturing cultural framing of a concept, enabling culturally responsive adaptive content selection.
 - [[fairness-audit-agent]]: Specialized EduOS agent responsible for continuous monitoring, flagging, and reporting of fairness metric violations across all subsystems.
+
+## LLM Safety and Pedagogical Guardrails
+
+- [[llm-safety]]: Technical and policy measures to prevent large language models from generating harmful, incorrect, or pedagogically unsound educational content.
+- [[pedagogical-guardrails]]: Constraints (curriculum alignment, knowledge graph grounding, scaffolding rules) that restrict LLM outputs to educationally sound utterances.
+- [[hallucination]]: LLM generation of plausible but factually incorrect or fabricated content; in education, this risks creating misconceptions at scale.
+- [[retrieval-augmented-generation]] (RAG): Technique grounding LLM outputs in retrieved documents or knowledge graphs to improve factual accuracy.
+- [[constitutional-ai]]: Training approach using a set of principles (constitution) and RLHF to align model behavior with safety and ethical guidelines.
+- [[content-moderation]]: Automated filtering of LLM outputs for toxicity, self-harm, inappropriate content, and age-inappropriateness.
+- [[prompt-injection]]: Adversarial technique where hidden instructions in user input maliciously override system prompts or safety constraints.
+- [[jailbreak]]: Adversarial prompting intended to bypass LLM safety training and elicit disallowed outputs.
+- [[human-in-the-loop]]: Design pattern requiring human review or approval for high-stakes LLM decisions, especially in tutoring and assessment.
+- [[model-card]]: Standardized documentation of an LLM's intended use, limitations, safety properties, and performance characteristics.
+- [[safety-pipeline]]: Multi-stage production architecture (prompt assembly, generation, retrieval, moderation, logging) for secure LLM deployment.
+- [[red-teaming]]: Systematic adversarial testing of LLMs to discover safety, bias, and pedagogical weaknesses before deployment.
+- [[guardrail-agent]]: Specialized EduOS agent that validates LLM outputs against curriculum, knowledge graph, and safety constraints before learner delivery.

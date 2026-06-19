@@ -647,3 +647,82 @@ Cultural annotations enable adaptive systems to select culturally relevant examp
 
 - [[constrained-optimization]] → enables → [[fairness-aware-learning]]
 Embedding fairness constraints into adaptive algorithm objectives produces decisions that trade off learning gain and equity explicitly.
+
+## LLM Safety and Pedagogical Guardrails Relationships
+
+- [[llm-safety]] → constrains → [[educational-agent]]
+Safety guardrails restrict the space of permissible LLM-generated tutoring utterances.
+
+- [[pedagogical-guardrails]] → enforce → [[curriculum]] alignment
+Guardrails ensure LLM outputs map to approved learning objectives and prerequisite sequences.
+
+- [[retrieval-augmented-generation]] → grounds → [[llm-tutor]]
+RAG anchors tutoring LLM outputs in verified knowledge graph or textbook sources.
+
+- [[knowledge-graph]] → constrains → [[llm-tutor]]
+EKG structure limits what concepts and examples an LLM tutor may introduce.
+
+- [[learner-model]] → informs → [[pedagogical-guardrails]]
+Learner state (misconceptions, affect, mastery) customizes guardrail strictness per session.
+
+- [[guardrail-agent]] → audits → [[llm-tutor]]
+The guardrail agent validates, modifies, or blocks LLM outputs before learner exposure.
+
+- [[human-in-the-loop]] → escalates → [[guardrail-agent]]
+When automated checks are insufficient, human reviewers are engaged via the guardrail agent.
+
+- [[content-moderation]] → filters → [[llm-tutor]] outputs
+Moderation layers block toxic, unsafe, or age-inappropriate content before delivery.
+
+- [[red-teaming]] → discovers → [[llm-safety]] gaps
+Adversarial testing surface weaknesses in guardrails and safety policies.
+
+- [[constitutional-ai]] → aligns → [[llm-tutor]] behavior
+RLHF and constitutional training steer LLM tutors toward pedagogically preferred responses.
+
+- [[misconception-graph]] → prevents → [[hallucination]] in tutoring
+By injecting antidotes into prompts, the misconception graph mitigates misconception-reinforcing LLM outputs.
+
+## Affective Computing and Engagement Modeling Relationships
+
+- [[affective-computing]] → enriches → [[learner-model]]
+Affective computing enriches the learner model beyond cognitive performance to include emotional and engagement states.
+
+- [[engagement-modeling]] → informs → [[adaptive-learning]]
+Engagement levels and trajectories guide macro and micro adaptation decisions such as pacing, difficulty, and strategy selection.
+
+- [[affective-state]] → triggers → [[affective-intervention]]
+Detected affective states (frustration, boredom, confusion, flow) drive pedagogical interventions.
+
+- [[behavioral-proxy]] → estimates → [[affective-state]]
+Behavioral traces serve as scalable, low-cost proxies for underlying emotional and motivational states.
+
+- [[psychophysiological-sensing]] → measures → [[affective-state]]
+Sensors provide direct (but intrusive) measurement of autonomic and central nervous system correlates of emotion.
+
+- [[flow-state]] → optimizes → [[adaptive-learning]]
+Maintaining flow requires calibrating challenge, scaffolding, and feedback in real time.
+
+- [[disengagement-detection]] → triggers → [[early-warning-system]]
+Early detection of disengagement enables proactive interventions before dropout.
+
+- [[affective-tutoring]] → responds-to → [[affective-state]]
+Affective tutoring systems adapt dialogue, content, and scaffolding based on inferred emotions.
+
+- [[multimodal-affect-detection]] → improves → [[learner-model]]
+Fusing behavioral, linguistic, and physiological signals yields more robust affective state estimates than any single signal.
+
+- [[engagement-analytics]] → enriches → [[learning-analytics]]
+Engagement modeling provides critical non-cognitive dimensions for comprehensive learning analytics.
+
+- [[control-value-theory]] → grounds → [[affective-intervention]]
+Appraisals of control and value guide which interventions are likely to produce positive achievement emotions.
+
+- [[affective-state]] → moderates → [[cognitive-load]]
+Negative affect (anxiety, frustration) can increase extraneous cognitive load and impair working memory performance.
+
+- [[privacy-preservation]] → constrains → [[affective-computing]]
+Continuous emotional monitoring creates surveillance risks; privacy mechanisms limit what can be collected and retained.
+
+- [[cultural-context-node]] → calibrates → [[affective-intervention]]
+Cultural norms for emotional expression and response shape how affective interventions should be tailored.

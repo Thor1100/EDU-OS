@@ -871,3 +871,120 @@ Proceed to **LLM Safety and Pedagogical Guardrails** — the next topic in the b
 - [x] future_questions.md
 - [x] Knowledge graph updated (concepts, relationships, open-problems)
 
+---
+
+## 2026-06-17: LLM Safety and Pedagogical Guardrails Research Iteration
+
+### Topic
+LLM Safety and Pedagogical Guardrails
+
+### Findings
+Completed comprehensive research on LLM Safety and Pedagogical Guardrails for the EduOS architecture, covering:
+
+1. **Risk Catalog:** Analyzed hallucination, pedagogical misalignment, bias, safety/content risks, and epistemic/motivational risks of LLM-based tutoring.
+
+2. **Guardrail Techniques:** Surveyed RAG, constraint enforcement, verification chains, output filtering, and persistent learner model integration as mitigation approaches.
+
+3. **Safety Frameworks:** Examined technical (content moderation, sandboxing, canary), pedagogical (curriculum anchoring, misconception awareness, scaffolding gates), and regulatory/ethical (COPPA/GDPR, algorithmic accountability, HITL) frameworks.
+
+4. **Evaluation & Red-Teaming:** Cataloged benchmarks and red-teaming strategies including adversarial injection, misconception traps, multi-turn jailbreaks, and bias audits.
+
+5. **Critical Gaps:**
+   - Pedagogical harm remains undefined and unmeasured
+   - Hallucination is reduced but not solved by RAG
+   - Guardrails often trade safety for utility
+   - Deep structural bias is not addressed by surface-level filters
+   - Human-in-the-loop does not scale to real-time tutoring
+   - Long-term effects of sustained LLM tutoring are unstudied
+
+### Architectural Impact
+- **ADS:** Guardrail Agent, Moderation Agent, Curriculum Conformance Agent, Learner Model Safety Gate
+- **AOS:** Guardrail-aware workflow branching, human-in-the-loop escalation, fallback orchestration
+- **KGS:** Curriculum-aware generation constraints, Misconception Antidote Repository, provenance and versioning
+- **KIS:** Multi-source verification fusion, contradiction detection, provenance tagging
+- **MAS:** Episodic safety log, semantic guardrail memory, procedural safety heuristics
+- **RCS:** Pedagogical constraint satisfaction, counterfactual safety reasoning, bias and fairness auditing
+- **TAS:** LLM gateway/proxy, real-time safety pipeline, sandboxed execution, audit infrastructure, canary deployments
+- **LMS:** Misconception risk profile, trust and agency calibration, affective safety override, longitudinal safety tracking
+
+### Remaining Uncertainty
+- What is the operational definition of pedagogical harm?
+- Can RAG and verification chains drive pedagogical hallucination to an acceptable level?
+- How do we scale human oversight without prohibitive latency or cost?
+- What are the long-term effects of sustained LLM tutoring on self-regulation and critical thinking?
+- Which fairness definitions apply to culturally responsive guardrails?
+
+### Next Research Direction
+Proceed to **Affective Computing and Engagement Modeling** — the next topic in the backlog. Affective state and engagement are critical dimensions of the learner model that directly influence adaptive tutoring decisions.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+
+---
+
+## 2026-06-19: Affective Computing and Engagement Modeling Research Iteration
+
+### Topic
+Affective Computing and Engagement Modeling
+
+### Findings
+Completed comprehensive research on Affective Computing and Engagement Modeling for EduOS, covering:
+
+1. **Foundational Papers:** Analyzed Picard (1997), Csikszentmihalyi (1990), Scherer (2000), Craig et al. (2004), D'Mello & Graesser (2012), Pekrun et al. (2007), Baker et al. (2010), Conati & Maclaren (2009), and recent multimodal/LLM advances.
+
+2. **Affective Detection Methods:**
+   - Physiological sensors (EEG, EDA, heart rate, eye tracking, facial EMG)
+   - Behavioral proxies (keystrokes, navigation, pauses, help-seeking, time-on-task)
+   - Linguistic/text-based detection (sentiment analysis, LLM-based inference)
+   - Multimodal fusion approaches for robust affect estimation
+
+3. **Engagement Modeling:** Multi-dimensional construct (behavioral, emotional, cognitive) operationalized via self-reports, behavioral trace models, and deep learning. Integration into learner models with temporal dynamics and uncertainty.
+
+4. **Theoretical Foundations:** Control-value theory, flow theory, broaden-and-build theory, and affective-cognitive interaction frameworks.
+
+5. **Ethical/Privacy Concerns:** Surveillance risk, consent, data minimization, cultural validity, emotional manipulation, and emotional data ownership.
+
+6. **Critical Gaps for EduOS:**
+   - Sensor intrusiveness and impracticality at scale
+   - Reliability and generalizability issues across populations
+   - Ambiguity of behavioral proxy signals
+   - Self-report unreliability
+   - Lack of standardized benchmarks
+   - Ethical/privacy risks undermitigated
+   - Limited causal understanding of affect-aware interventions
+   - Scalability and real-time integration immature
+   - Deep cultural and demographic bias
+   - Overemphasis on detection vs. response
+
+### Architectural Impact
+- **ADS:** New agents (Affective State Detection, Engagement Monitoring, Affective Intervention, Flow Calibration, Cultural Affect Calibration, Emotional Privacy) with associated events and permissions
+- **AOS:** Affective branch in orchestration workflows (detect → infer → evaluate → intervene); enriched context assembly with real-time affective state and engagement profiles
+- **KGS:** New nodes (AffectiveState, EngagementProfile, AffectiveIntervention, FlowCondition) and edges (currently_feels, engaged_with, responds_to, triggers, supports_flow)
+- **KIS:** Multi-source fusion of behavioral, linguistic, and optional physiological signals; uncertainty propagation and temporal consistency
+- **MAS:** Episodic affect traces, semantic affect-concept relationships, procedural intervention heuristics, working memory for live affective context
+- **RCS:** Affective-aware adaptive reasoning (diagnosis, strategy selection, scaffolding calibration); multi-objective trade-offs; conflict resolution between affective and mastery-driven goals
+- **TAS:** Real-time affect inference pipeline; multimodal data ingestion; edge processing for privacy-sensitive analysis; scalable behavioral log processing
+- **LMS:** New dimensions (affective trajectory, engagement profile, affective baseline, intervention response history, flow state indicators, privacy/consent flags); open learner model with affective visibility and correction
+
+### Remaining Uncertainty
+- Which small set of behavioral proxies is sufficient for reliable affect detection at scale?
+- Do affect models generalize across cultures, or do we need culturally calibrated models?
+- Does affect-aware tutoring causally improve learning, or is it merely correlated?
+- Can we build privacy-preserving affect inference that learners will trust and adopt?
+- What is the optimal delay and type of affective intervention per state and domain?
+- How do we prevent continuous affect monitoring from becoming surveillance or manipulation?
+
+### Next Research Direction
+Proceed to **Explainable AI and Open Learner Models** — the next topic in the backlog. Understanding how to make EduOS's adaptive decisions and learner representations transparent, interpretable, and contestable is essential for learner trust, teacher collaboration, and regulatory compliance.
+
+### Deliverables Completed
+- [x] summary.md
+- [x] critique.md
+- [x] architecture_impact.md
+- [x] future_questions.md
+- [x] Knowledge graph updated (concepts, relationships, open-problems)
+

@@ -1,17 +1,16 @@
 Current Topic:
 
-LLM Safety and Pedagogical Guardrails
+Explainable AI and Open Learner Models
 
 Goals:
 
-- Catalog risks of LLM-based tutoring (hallucination, bias, misinformation, off-topic drift)
-- Survey pedagogical guardrail techniques (retrieval augmentation, constraint enforcement, verification chains)
-- Analyze safety frameworks for educational AI (content filtering, harm prevention, age-appropriateness)
-- Identify methods for aligning LLM-generated content with curriculum objectives and knowledge graph constraints
-- Examine human-in-the-loop and oversight mechanisms for high-stakes LLM interactions
-- Map LLM safety concerns across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
-- Identify evaluation benchmarks and red-teaming strategies for educational LLMs
-- Document regulatory and ethical requirements for deploying LLM tutors in educational settings
+- Survey explainability and interpretability techniques for AI in education
+- Analyze open learner model architectures, feedback loops, and learner agency
+- Examine the relationship between transparency, trust, and learning outcomes
+- Evaluate methods for presenting learner model data (dashboards, visualizations, interventions)
+- Assess the tension between model complexity and explainability in adaptive systems
+- Map explainability concerns across all eight EduOS subsystems (ADS, AOS, KGS, KIS, MAS, RCS, TAS, LMS)
+- Identify ethical implications of learner model transparency and opacity
 
 Deliverables:
 

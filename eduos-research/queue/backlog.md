@@ -23,4 +23,9 @@
 - [x] Cross-Domain Transfer and Lifelong Learning
 - [x] Real-Time Scalable Adaptive Systems
 - [x] Fairness and Bias Mitigation in EduOS
-- [ ] LLM Safety and Pedagogical Guardrails
+- [x] LLM Safety and Pedagogical Guardrails
+- [x] Affective Computing and Engagement Modeling
+- [ ] Explainable AI and Open Learner Models
+- [ ] Neuro-Symbolic Architectures for Education
+- [ ] Federated Learning and Privacy in EduOS
+- [ ] Multimodal Learning and Embodied Interaction

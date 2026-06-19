@@ -1061,3 +1061,121 @@
 - How do we reconcile divergent edge-local and cloud-central learner models when connectivity resumes?
 - What is the minimum viable model size (for KT, learner model, and recommendation) that can run on low-end devices?
 
+## LLM Safety and Pedagogical Guardrails
+
+### P130: Defining and Measuring Pedagogical Harm
+**Status:** No operational definition exists; safety research treats generic harmful output, not education-specific harm.
+**Impact:** Very High — without a metric, we cannot optimize or even verify safety.
+**Questions:**
+- What constitutes "pedagogical harm" (misconception reinforcement, demotivation, epistemic complacency) and how can it be measured?
+- Can we define a ground-truth dataset of pedagogically harmful LLM outputs?
+- How does pedagogical harm correlate with long-term learning outcomes?
+
+### P131: Hallucination in Educational Domains
+**Status:** General hallucination reduction is active but education-specific hallucinations (e.g., plausible but wrong explanations) are understudied.
+**Impact:** Very High — every hallucination risks embedding a misconception.
+**Questions:**
+- How do hallucination rates vary across educational subjects and learner proficiency levels?
+- What retrieval or verification architectures drive hallucination rates below an acceptable threshold for autonomous tutoring?
+- Can symbolic reasoning or theorem provers be practically integrated to verify LLM mathematical/scientific claims?
+
+### P132: Scalable Human-in-the-Loop for Real-Time Tutoring
+**Status:** Human review of every LLM tutoring utterance is infeasible at scale; selective oversight is immature.
+**Impact:** High — fully autonomous LLM tutoring is not yet safe.
+**Questions:**
+- What anomaly-detection or risk-scoring mechanisms best triage interactions for human review?
+- How much latency does human-in-the-loop review add, and what pedagogical strategies maintain continuity during delays?
+- Can a secondary "safety LLM" reliably act as a first-line triage without introducing its own errors?
+
+### P133: Culturally Responsive Guardrails
+**Status:** Safety filters and content policies often embed dominant-culture assumptions, leading to disparate cultural impact.
+**Impact:** High — EduOS must serve diverse global learners equitably.
+**Questions:**
+- Do content safety or factual correctness standards generalize across cultures, languages, and pedagogical traditions?
+- How can guardrails be parameterized to respect culturally specific values without fragmenting into unmanageable policy variants?
+- What is the risk of cultural erasure when LLMs are constrained by a single set of safety principles?
+
+### P134: Long-Term Psychological and Epistemic Effects of LLM Tutoring
+**Status:** Short-term learning gains from LLM tutors are documented; multi-year effects are unknown.
+**Impact:** Medium-High — EduOS targets lifelong learning.
+**Questions:**
+- Does sustained exposure to LLM tutors reduce self-regulation, critical thinking, or intellectual resilience?
+- Can we measure "epistemic complacency" (over-trusting AI-generated information) in learners?
+- What guardrail or pedagogical design choices mitigate long-term dependency or over-reliance?
+
+### P135: Standardized Benchmarks for Educational LLM Safety
+**Status:** No standardized benchmark combines factuality, pedagogical alignment, bias, safety, and long-term outcome evaluation.
+**Impact:** Medium — lack of benchmarks hinders comparison and progress.
+**Questions:**
+- What tasks, datasets, and metrics should an "Educational LLM Safety Benchmark" include?
+- How should red-teaming be formalized and automated for educational settings?
+- What is the role of independent third-party audit in standard-setting?
+
+### P136: Regulatory and Ethical Governance of Educational LLMs
+**Status:** High-level AI ethics principles exist but lack technical implementation guidance specific to education.
+**Impact:** Medium-High — compliance and trust depend on clear governance.
+**Questions:**
+- What decision logging, model versioning, and prompt archival are required for algorithmic accountability in education?
+- How do cross-border data regulations (GDPR, COPPA, FERPA) constrain cloud-hosted LLM deployment?
+- What is the ethical boundary between protective guardrails and surveillance of learner inquiry?
+
+---
+
+## Affective Computing and Engagement Modeling
+
+### P137: Minimum Viable Behavioral Proxy Set for Affect Detection
+**Status:** No consensus on which behavioral proxies reliably indicate affective state; most systems either over-collect or rely on unvalidated signals.
+**Impact:** High — determines whether affective computing can scale without expensive sensors.
+**Questions:**
+- Which small set of behavioral proxies best approximates affective state across diverse learners and domains?
+- How do we validate that proxies capture meaningful variance in emotional and motivational states?
+- Can LLM-based inference of affect from learner text surpass or complement traditional behavioral proxies?
+
+### P138: Cultural Validity and Bias in Affect Detection
+**Status:** Affect detection models are predominantly trained on Western, actor-based, or convenience samples; generalization to global populations is unverified.
+**Impact:** High — misclassification can trigger inappropriate interventions and exacerbate inequity.
+**Questions:**
+- Do facial affect and behavioral affect models perform equitably across ethnic, cultural, and neurodivergent learner populations?
+- How do display rules and cultural norms alter the mapping from observed signals to internal affective states?
+- Can a single universal model ever be accurate, or do we need culturally calibrated detection and intervention modules?
+
+### P139: Causality of Affect-Aware Interventions
+**Status:** Almost all research is correlational; we know affect and learning are related, but whether detected-affect → intervention causally improves outcomes is underexplored.
+**Impact:** Very High — without causal evidence, affect-aware tutoring risks being expensive surveillance.
+**Questions:**
+- Does responding to detected frustration with scaffolding produce better long-term learning than performance-based scaffolding alone?
+- What are the pedagogical side effects of affective interventions (e.g., learned helplessness, emotional dependency)?
+- Which experimental designs can isolate the causal contribution of affect-aware adaptation?
+
+### P140: Real-Time Multimodal Affect Detection at Scale
+**Status:** Multimodal fusion in controlled labs is maturing, but real-world scalable deployment (latency, cost, noise) is immature.
+**Impact:** Medium-High — EduOS needs sub-second, cost-effective affect inference for millions of learners.
+**Questions:**
+- Which fusion architectures (early/late/deep/edge) scale best for real-time educational affect detection?
+- How much accuracy is lost by moving from lab-grade sensors to low-cost, software-only behavioral proxies?
+- What is the per-learner compute and storage cost of continuous affect inference?
+
+### P141: Longitudinal Engagement Trajectory Prediction
+**Status:** Most engagement modeling operates at session level; prediction of chronic disengagement and dropout across months or years is underresearched.
+**Impact:** High — early warning and intervention require long-horizon foresight.
+**Questions:**
+- What are the reliable early warning signals for chronic disengagement or dropout?
+- Can engagement trajectories be predicted using only historical behavioral data, and with what lead time?
+- How do engagement trajectories interact with life events, seasonality, and domain transitions?
+
+### P142: Privacy-Preserving Affect Sensing
+**Status:** Affective computing inherently risks surveillance; privacy-preserving architectures for affect data are nascent.
+**Impact:** High — learner trust is essential for adoption of affective features.
+**Questions:**
+- Can differential privacy, federated inference, or on-device processing enable useful affective modeling without exposing raw behavioral or sensor data?
+- What is the minimum granularity of affective data that still enables pedagogically useful interventions?
+- How do we implement verifiable deletion of inferred emotional profiles?
+
+### P143: Affective Intervention Timing pseudo-Science
+**Status:** Detection receives far more attention than response. There is little consensus on which interventions to trigger for which affective states, or when.
+**Impact:** Medium-High — detection without effective response is valueless.
+**Questions:**
+- What is the optimal delay between affect detection and intervention delivery to maximize effectiveness without interrupting productive struggle?
+- Which intervention library (motivational, scaffolding, pacing, social, content) works best per affective state and concept type?
+- Can RL discover novel affect-aware tutoring policies faster than manual design?
+
